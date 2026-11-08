@@ -1,0 +1,1422 @@
+{
+ "id": "p3",
+ "mp3": "/home/user/teach-pip/voice/raw/p3.mp3",
+ "clips": [
+  {
+   "who": "pip",
+   "text": "Or Y?",
+   "start": 0,
+   "end": 0.979
+  },
+  {
+   "who": "pip",
+   "text": "Or Z?",
+   "start": 1.209,
+   "end": 2.466
+  },
+  {
+   "who": "pip",
+   "text": "Or blue?",
+   "start": 2.662,
+   "end": 3.783
+  },
+  {
+   "who": "pip",
+   "text": "Or brown?",
+   "start": 3.763,
+   "end": 4.912
+  },
+  {
+   "who": "pip",
+   "text": "Or burrow?",
+   "start": 5.038,
+   "end": 6.169
+  },
+  {
+   "who": "pip",
+   "text": "Or calf?",
+   "start": 6.159,
+   "end": 7.21
+  },
+  {
+   "who": "pip",
+   "text": "Or caterpillar?",
+   "start": 7.242,
+   "end": 8.364
+  },
+  {
+   "who": "pip",
+   "text": "Or chick?",
+   "start": 8.588,
+   "end": 9.49
+  },
+  {
+   "who": "pip",
+   "text": "Or circle?",
+   "start": 9.585,
+   "end": 10.677
+  },
+  {
+   "who": "pip",
+   "text": "Or day?",
+   "start": 10.716,
+   "end": 11.738
+  },
+  {
+   "who": "pip",
+   "text": "Or desert?",
+   "start": 11.751,
+   "end": 12.83
+  },
+  {
+   "who": "pip",
+   "text": "Or foal?",
+   "start": 12.889,
+   "end": 13.909
+  },
+  {
+   "who": "pip",
+   "text": "Or green?",
+   "start": 13.917,
+   "end": 14.988
+  },
+  {
+   "who": "pip",
+   "text": "Or hexagon?",
+   "start": 15.049,
+   "end": 16.272
+  },
+  {
+   "who": "pip",
+   "text": "Or hive?",
+   "start": 16.328,
+   "end": 17.46
+  },
+  {
+   "who": "pip",
+   "text": "Or ice?",
+   "start": 17.445,
+   "end": 18.415
+  },
+  {
+   "who": "pip",
+   "text": "Or joey?",
+   "start": 18.49,
+   "end": 19.477
+  },
+  {
+   "who": "pip",
+   "text": "Or jungle?",
+   "start": 19.531,
+   "end": 20.571
+  },
+  {
+   "who": "pip",
+   "text": "Or kitten?",
+   "start": 20.647,
+   "end": 21.617
+  },
+  {
+   "who": "pip",
+   "text": "Or lamb?",
+   "start": 21.599,
+   "end": 22.619
+  },
+  {
+   "who": "pip",
+   "text": "Or night?",
+   "start": 22.668,
+   "end": 23.54
+  },
+  {
+   "who": "pip",
+   "text": "Or ocean?",
+   "start": 23.69,
+   "end": 24.735
+  },
+  {
+   "who": "pip",
+   "text": "Or orange?",
+   "start": 24.775,
+   "end": 25.839
+  },
+  {
+   "who": "pip",
+   "text": "Or oval?",
+   "start": 25.819,
+   "end": 26.931
+  },
+  {
+   "who": "pip",
+   "text": "Or pentagon?",
+   "start": 26.92,
+   "end": 28.092
+  },
+  {
+   "who": "pip",
+   "text": "Or pink?",
+   "start": 28.072,
+   "end": 29.014
+  },
+  {
+   "who": "pip",
+   "text": "Or puppy?",
+   "start": 29.07,
+   "end": 30.107
+  },
+  {
+   "who": "pip",
+   "text": "Or purple?",
+   "start": 30.138,
+   "end": 31.132
+  },
+  {
+   "who": "pip",
+   "text": "Or rectangle?",
+   "start": 31.207,
+   "end": 32.481
+  },
+  {
+   "who": "pip",
+   "text": "Or red?",
+   "start": 32.482,
+   "end": 33.442
+  },
+  {
+   "who": "pip",
+   "text": "Or square?",
+   "start": 33.441,
+   "end": 34.512
+  },
+  {
+   "who": "pip",
+   "text": "Or star?",
+   "start": 34.546,
+   "end": 35.643
+  },
+  {
+   "who": "pip",
+   "text": "Or tadpole?",
+   "start": 35.664,
+   "end": 36.796
+  },
+  {
+   "who": "pip",
+   "text": "Or tree?",
+   "start": 36.81,
+   "end": 37.841
+  },
+  {
+   "who": "pip",
+   "text": "Or triangle?",
+   "start": 37.85,
+   "end": 39.047
+  },
+  {
+   "who": "pip",
+   "text": "Or yellow?",
+   "start": 39.122,
+   "end": 40.183
+  },
+  {
+   "who": "pip",
+   "text": "P is for Pig.",
+   "start": 40.348,
+   "end": 41.963
+  },
+  {
+   "who": "pip",
+   "text": "Pick something to teach me!",
+   "start": 42.252,
+   "end": 43.663
+  },
+  {
+   "who": "pip",
+   "text": "Pig starts with P!",
+   "start": 43.643,
+   "end": 44.989
+  },
+  {
+   "who": "pip",
+   "text": "Plus 2 brain sparks!",
+   "start": 44.969,
+   "end": 47.127
+  },
+  {
+   "who": "pip",
+   "text": "Psst, teacher!",
+   "start": 47.278,
+   "end": 48.694
+  },
+  {
+   "who": "pip",
+   "text": "Q is for Queen.",
+   "start": 48.796,
+   "end": 50.635
+  },
+  {
+   "who": "pip",
+   "text": "Queen starts with Q!",
+   "start": 50.615,
+   "end": 52.324
+  },
+  {
+   "who": "pip",
+   "text": "R is for Rainbow.",
+   "start": 52.505,
+   "end": 54.212
+  },
+  {
+   "who": "pip",
+   "text": "Rainbow starts with R!",
+   "start": 54.332,
+   "end": 55.667
+  },
+  {
+   "who": "pip",
+   "text": "S is for Sun.",
+   "start": 55.864,
+   "end": 57.59
+  },
+  {
+   "who": "pip",
+   "text": "See you tomorrow, teacher!",
+   "start": 57.621,
+   "end": 59.185
+  },
+  {
+   "who": "pip",
+   "text": "Show a grown-up!",
+   "start": 59.285,
+   "end": 60.389
+  },
+  {
+   "who": "pip",
+   "text": "Something is happening...",
+   "start": 60.369,
+   "end": 62.077
+  },
+  {
+   "who": "pip",
+   "text": "Spot the color is still locked.",
+   "start": 62.057,
+   "end": 63.984
+  },
+  {
+   "who": "pip",
+   "text": "Spot the color!",
+   "start": 64.104,
+   "end": 65.358
+  },
+  {
+   "who": "pip",
+   "text": "Spot the color.",
+   "start": 65.487,
+   "end": 66.905
+  },
+  {
+   "who": "pip",
+   "text": "Spot the color...",
+   "start": 66.917,
+   "end": 68.426
+  },
+  {
+   "who": "pip",
+   "text": "Sun starts with S!",
+   "start": 68.536,
+   "end": 70.293
+  },
+  {
+   "who": "pip",
+   "text": "Super shapes is still locked.",
+   "start": 70.279,
+   "end": 72.209
+  },
+  {
+   "who": "pip",
+   "text": "Super shapes!",
+   "start": 72.189,
+   "end": 73.399
+  },
+  {
+   "who": "pip",
+   "text": "Super shapes.",
+   "start": 73.421,
+   "end": 74.685
+  },
+  {
+   "who": "pip",
+   "text": "Super shapes...",
+   "start": 74.689,
+   "end": 76.06
+  },
+  {
+   "who": "pip",
+   "text": "T is for Tiger.",
+   "start": 76.222,
+   "end": 77.933
+  },
+  {
+   "who": "pip",
+   "text": "Taking away is still locked.",
+   "start": 77.913,
+   "end": 79.952
+  },
+  {
+   "who": "pip",
+   "text": "Taking away!",
+   "start": 79.932,
+   "end": 81.12
+  },
+  {
+   "who": "pip",
+   "text": "Taking away.",
+   "start": 81.1,
+   "end": 82.305
+  },
+  {
+   "who": "pip",
+   "text": "Taking away...",
+   "start": 82.316,
+   "end": 83.759
+  },
+  {
+   "who": "pip",
+   "text": "Tap each one and I'll count with you!",
+   "start": 83.849,
+   "end": 86.001
+  },
+  {
+   "who": "pip",
+   "text": "Tap the big button when you come back!",
+   "start": 86.042,
+   "end": 88.266
+  },
+  {
+   "who": "pip",
+   "text": "Teach me something and watch it light up!",
+   "start": 88.362,
+   "end": 90.743
+  },
+  {
+   "who": "pip",
+   "text": "Teach me something!",
+   "start": 90.763,
+   "end": 92.014
+  },
+  {
+   "who": "pip",
+   "text": "Teach me the one before it first.",
+   "start": 92.043,
+   "end": 94.352
+  },
+  {
+   "who": "pip",
+   "text": "Teacher!",
+   "start": 94.46,
+   "end": 95.448
+  },
+  {
+   "who": "pip",
+   "text": "Thank you for fixing my mistake, teacher!",
+   "start": 95.446,
+   "end": 97.85
+  },
+  {
+   "who": "pip",
+   "text": "Thank you, teacher!",
+   "start": 97.934,
+   "end": 99.211
+  },
+  {
+   "who": "pip",
+   "text": "That means hello in Alien!",
+   "start": 99.282,
+   "end": 101.497
+  },
+  {
+   "who": "pip",
+   "text": "That one is locked!",
+   "start": 101.572,
+   "end": 102.936
+  },
+  {
+   "who": "pip",
+   "text": "That one went away!",
+   "start": 102.969,
+   "end": 104.452
+  },
+  {
+   "who": "pip",
+   "text": "That tickles!",
+   "start": 104.494,
+   "end": 105.702
+  },
+  {
+   "who": "pip",
+   "text": "That's a circle!",
+   "start": 105.753,
+   "end": 106.954
+  },
+  {
+   "who": "pip",
+   "text": "That's a hexagon!",
+   "start": 106.959,
+   "end": 108.489
+  },
+  {
+   "who": "pip",
+   "text": "That's a pentagon!",
+   "start": 108.508,
+   "end": 109.935
+  },
+  {
+   "who": "pip",
+   "text": "That's a rectangle!",
+   "start": 109.918,
+   "end": 111.425
+  },
+  {
+   "who": "pip",
+   "text": "That's a square!",
+   "start": 111.443,
+   "end": 112.621
+  },
+  {
+   "who": "pip",
+   "text": "That's a star!",
+   "start": 112.652,
+   "end": 114.089
+  },
+  {
+   "who": "pip",
+   "text": "That's a triangle!",
+   "start": 114.073,
+   "end": 115.388
+  },
+  {
+   "who": "pip",
+   "text": "That's an oval!",
+   "start": 115.414,
+   "end": 116.866
+  },
+  {
+   "who": "pip",
+   "text": "There are 10 apples.",
+   "start": 116.977,
+   "end": 118.637
+  },
+  {
+   "who": "pip",
+   "text": "There are 10 balloons.",
+   "start": 118.667,
+   "end": 120.181
+  },
+  {
+   "who": "pip",
+   "text": "There are 10 chicks.",
+   "start": 120.28,
+   "end": 121.794
+  },
+  {
+   "who": "pip",
+   "text": "There are 10 cookies.",
+   "start": 121.904,
+   "end": 123.528
+  },
+  {
+   "who": "pip",
+   "text": "There are 10 fish.",
+   "start": 123.625,
+   "end": 125.096
+  },
+  {
+   "who": "pip",
+   "text": "There are 10 flowers.",
+   "start": 125.197,
+   "end": 126.969
+  },
+  {
+   "who": "pip",
+   "text": "There are 10 ladybugs.",
+   "start": 127.074,
+   "end": 128.867
+  },
+  {
+   "who": "pip",
+   "text": "There are 10 rockets.",
+   "start": 128.938,
+   "end": 130.633
+  },
+  {
+   "who": "pip",
+   "text": "There are 10 stars.",
+   "start": 130.713,
+   "end": 132.462
+  },
+  {
+   "who": "pip",
+   "text": "There are 2 apples.",
+   "start": 132.582,
+   "end": 134.117
+  },
+  {
+   "who": "pip",
+   "text": "There are 2 balloons.",
+   "start": 134.14,
+   "end": 135.715
+  },
+  {
+   "who": "pip",
+   "text": "There are 2 chicks.",
+   "start": 135.781,
+   "end": 137.292
+  },
+  {
+   "who": "pip",
+   "text": "There are 2 cookies.",
+   "start": 137.415,
+   "end": 138.917
+  },
+  {
+   "who": "pip",
+   "text": "There are 2 fish.",
+   "start": 138.984,
+   "end": 140.395
+  },
+  {
+   "who": "pip",
+   "text": "There are 2 flowers.",
+   "start": 140.527,
+   "end": 142.219
+  },
+  {
+   "who": "pip",
+   "text": "There are 2 ladybugs.",
+   "start": 142.291,
+   "end": 144.148
+  },
+  {
+   "who": "pip",
+   "text": "There are 2 rockets.",
+   "start": 144.215,
+   "end": 145.891
+  },
+  {
+   "who": "pip",
+   "text": "There are 2 stars.",
+   "start": 145.941,
+   "end": 147.663
+  },
+  {
+   "who": "pip",
+   "text": "There are 3 apples.",
+   "start": 147.748,
+   "end": 149.372
+  },
+  {
+   "who": "pip",
+   "text": "There are 3 balloons.",
+   "start": 149.41,
+   "end": 151.043
+  },
+  {
+   "who": "pip",
+   "text": "There are 3 chicks.",
+   "start": 151.116,
+   "end": 152.706
+  },
+  {
+   "who": "pip",
+   "text": "There are 3 cookies.",
+   "start": 152.805,
+   "end": 154.411
+  },
+  {
+   "who": "pip",
+   "text": "There are 3 fish.",
+   "start": 154.485,
+   "end": 155.983
+  },
+  {
+   "who": "pip",
+   "text": "There are 3 flowers.",
+   "start": 156.126,
+   "end": 157.781
+  },
+  {
+   "who": "pip",
+   "text": "There are 3 ladybugs.",
+   "start": 157.848,
+   "end": 159.66
+  },
+  {
+   "who": "pip",
+   "text": "There are 3 rockets.",
+   "start": 159.734,
+   "end": 161.439
+  },
+  {
+   "who": "pip",
+   "text": "There are 3 stars.",
+   "start": 161.479,
+   "end": 163.223
+  },
+  {
+   "who": "pip",
+   "text": "There are 4 apples.",
+   "start": 163.304,
+   "end": 164.962
+  },
+  {
+   "who": "pip",
+   "text": "There are 4 balloons.",
+   "start": 164.942,
+   "end": 166.639
+  },
+  {
+   "who": "pip",
+   "text": "There are 4 chicks.",
+   "start": 166.686,
+   "end": 168.263
+  },
+  {
+   "who": "pip",
+   "text": "There are 4 cookies.",
+   "start": 168.328,
+   "end": 169.88
+  },
+  {
+   "who": "pip",
+   "text": "There are 4 fish.",
+   "start": 169.932,
+   "end": 171.394
+  },
+  {
+   "who": "pip",
+   "text": "There are 4 flowers.",
+   "start": 171.522,
+   "end": 173.361
+  },
+  {
+   "who": "pip",
+   "text": "There are 4 ladybugs.",
+   "start": 173.382,
+   "end": 175.288
+  },
+  {
+   "who": "pip",
+   "text": "There are 4 rockets.",
+   "start": 175.328,
+   "end": 177.056
+  },
+  {
+   "who": "pip",
+   "text": "There are 4 stars.",
+   "start": 177.095,
+   "end": 178.823
+  },
+  {
+   "who": "pip",
+   "text": "There are 5 apples.",
+   "start": 178.87,
+   "end": 180.443
+  },
+  {
+   "who": "pip",
+   "text": "There are 5 balloons.",
+   "start": 180.423,
+   "end": 182.086
+  },
+  {
+   "who": "pip",
+   "text": "There are 5 chicks.",
+   "start": 182.137,
+   "end": 183.756
+  },
+  {
+   "who": "pip",
+   "text": "There are 5 cookies.",
+   "start": 183.805,
+   "end": 185.463
+  },
+  {
+   "who": "pip",
+   "text": "There are 5 fish.",
+   "start": 185.531,
+   "end": 187.08
+  },
+  {
+   "who": "pip",
+   "text": "There are 5 flowers.",
+   "start": 187.132,
+   "end": 188.857
+  },
+  {
+   "who": "pip",
+   "text": "There are 5 ladybugs.",
+   "start": 188.901,
+   "end": 190.805
+  },
+  {
+   "who": "pip",
+   "text": "There are 5 rockets.",
+   "start": 190.835,
+   "end": 192.631
+  },
+  {
+   "who": "pip",
+   "text": "There are 5 stars.",
+   "start": 192.657,
+   "end": 194.322
+  },
+  {
+   "who": "pip",
+   "text": "There are 6 apples.",
+   "start": 194.378,
+   "end": 196.01
+  },
+  {
+   "who": "pip",
+   "text": "There are 6 balloons.",
+   "start": 195.99,
+   "end": 197.633
+  },
+  {
+   "who": "pip",
+   "text": "There are 6 chicks.",
+   "start": 197.699,
+   "end": 199.312
+  },
+  {
+   "who": "pip",
+   "text": "There are 6 cookies.",
+   "start": 199.412,
+   "end": 200.983
+  },
+  {
+   "who": "pip",
+   "text": "There are 6 fish.",
+   "start": 201.056,
+   "end": 202.511
+  },
+  {
+   "who": "pip",
+   "text": "There are 6 flowers.",
+   "start": 202.659,
+   "end": 204.379
+  },
+  {
+   "who": "pip",
+   "text": "There are 6 ladybugs.",
+   "start": 204.412,
+   "end": 206.216
+  },
+  {
+   "who": "pip",
+   "text": "There are 6 rockets.",
+   "start": 206.257,
+   "end": 207.941
+  },
+  {
+   "who": "pip",
+   "text": "There are 6 stars.",
+   "start": 207.938,
+   "end": 209.577
+  },
+  {
+   "who": "pip",
+   "text": "There are 7 apples.",
+   "start": 209.615,
+   "end": 211.282
+  },
+  {
+   "who": "pip",
+   "text": "There are 7 balloons.",
+   "start": 211.262,
+   "end": 212.962
+  },
+  {
+   "who": "pip",
+   "text": "There are 7 chicks.",
+   "start": 213.017,
+   "end": 214.608
+  },
+  {
+   "who": "pip",
+   "text": "There are 7 cookies.",
+   "start": 214.643,
+   "end": 216.311
+  },
+  {
+   "who": "pip",
+   "text": "There are 7 fish.",
+   "start": 216.323,
+   "end": 217.872
+  },
+  {
+   "who": "pip",
+   "text": "There are 7 flowers.",
+   "start": 217.935,
+   "end": 219.708
+  },
+  {
+   "who": "pip",
+   "text": "There are 7 ladybugs.",
+   "start": 219.737,
+   "end": 221.592
+  },
+  {
+   "who": "pip",
+   "text": "There are 7 rockets.",
+   "start": 221.603,
+   "end": 223.29
+  },
+  {
+   "who": "pip",
+   "text": "There are 7 stars.",
+   "start": 223.337,
+   "end": 225.133
+  },
+  {
+   "who": "pip",
+   "text": "There are 8 apples.",
+   "start": 225.179,
+   "end": 226.706
+  },
+  {
+   "who": "pip",
+   "text": "There are 8 balloons.",
+   "start": 226.686,
+   "end": 228.245
+  },
+  {
+   "who": "pip",
+   "text": "There are 8 chicks.",
+   "start": 228.295,
+   "end": 229.756
+  },
+  {
+   "who": "pip",
+   "text": "There are 8 cookies.",
+   "start": 229.786,
+   "end": 231.298
+  },
+  {
+   "who": "pip",
+   "text": "There are 8 fish.",
+   "start": 231.361,
+   "end": 232.759
+  },
+  {
+   "who": "pip",
+   "text": "There are 8 flowers.",
+   "start": 232.852,
+   "end": 234.473
+  },
+  {
+   "who": "pip",
+   "text": "There are 8 ladybugs.",
+   "start": 234.504,
+   "end": 236.232
+  },
+  {
+   "who": "pip",
+   "text": "There are 8 rockets.",
+   "start": 236.259,
+   "end": 237.87
+  },
+  {
+   "who": "pip",
+   "text": "There are 8 stars.",
+   "start": 237.85,
+   "end": 239.496
+  },
+  {
+   "who": "pip",
+   "text": "There are 9 apples.",
+   "start": 239.527,
+   "end": 241.198
+  },
+  {
+   "who": "pip",
+   "text": "There are 9 balloons.",
+   "start": 241.178,
+   "end": 242.883
+  },
+  {
+   "who": "pip",
+   "text": "There are 9 chicks.",
+   "start": 242.932,
+   "end": 244.488
+  },
+  {
+   "who": "pip",
+   "text": "There are 9 cookies.",
+   "start": 244.525,
+   "end": 246.168
+  },
+  {
+   "who": "pip",
+   "text": "There are 9 fish.",
+   "start": 246.179,
+   "end": 247.675
+  },
+  {
+   "who": "pip",
+   "text": "There are 9 flowers.",
+   "start": 247.723,
+   "end": 249.463
+  },
+  {
+   "who": "pip",
+   "text": "There are 9 ladybugs.",
+   "start": 249.463,
+   "end": 251.297
+  },
+  {
+   "who": "pip",
+   "text": "There are 9 rockets.",
+   "start": 251.338,
+   "end": 253.064
+  },
+  {
+   "who": "pip",
+   "text": "There are 9 stars.",
+   "start": 253.047,
+   "end": 254.739
+  },
+  {
+   "who": "pip",
+   "text": "There is 1 apple.",
+   "start": 254.719,
+   "end": 256.212
+  },
+  {
+   "who": "pip",
+   "text": "There is 1 balloon.",
+   "start": 256.192,
+   "end": 257.677
+  },
+  {
+   "who": "pip",
+   "text": "There is 1 chick.",
+   "start": 257.705,
+   "end": 259.066
+  },
+  {
+   "who": "pip",
+   "text": "There is 1 cookie.",
+   "start": 259.116,
+   "end": 260.531
+  },
+  {
+   "who": "pip",
+   "text": "There is 1 fish.",
+   "start": 260.59,
+   "end": 262.081
+  },
+  {
+   "who": "pip",
+   "text": "There is 1 flower.",
+   "start": 262.122,
+   "end": 263.614
+  },
+  {
+   "who": "pip",
+   "text": "There is 1 ladybug.",
+   "start": 263.617,
+   "end": 265.282
+  },
+  {
+   "who": "pip",
+   "text": "There is 1 rocket.",
+   "start": 265.322,
+   "end": 266.811
+  },
+  {
+   "who": "pip",
+   "text": "There is 1 star.",
+   "start": 266.875,
+   "end": 268.447
+  },
+  {
+   "who": "pip",
+   "text": "This is my brain!",
+   "start": 268.518,
+   "end": 270.246
+  },
+  {
+   "who": "pip",
+   "text": "This one is blue!",
+   "start": 270.236,
+   "end": 271.494
+  },
+  {
+   "who": "pip",
+   "text": "This one is green!",
+   "start": 271.504,
+   "end": 272.855
+  },
+  {
+   "who": "pip",
+   "text": "This one is orange!",
+   "start": 272.906,
+   "end": 274.345
+  },
+  {
+   "who": "pip",
+   "text": "This one is purple!",
+   "start": 274.382,
+   "end": 275.801
+  },
+  {
+   "who": "pip",
+   "text": "This one is red!",
+   "start": 275.849,
+   "end": 277.206
+  },
+  {
+   "who": "pip",
+   "text": "This one is yellow!",
+   "start": 277.255,
+   "end": 278.716
+  },
+  {
+   "who": "pip",
+   "text": "Tiger starts with T!",
+   "start": 278.763,
+   "end": 280.562
+  },
+  {
+   "who": "pip",
+   "text": "Tricky!",
+   "start": 280.602,
+   "end": 281.525
+  },
+  {
+   "who": "pip",
+   "text": "Try another one?",
+   "start": 281.505,
+   "end": 282.679
+  },
+  {
+   "who": "pip",
+   "text": "U is for Umbrella.",
+   "start": 282.783,
+   "end": 284.68
+  },
+  {
+   "who": "pip",
+   "text": "Uh oh, teacher...",
+   "start": 284.762,
+   "end": 285.998
+  },
+  {
+   "who": "pip",
+   "text": "Umbrella starts with U!",
+   "start": 285.978,
+   "end": 287.724
+  },
+  {
+   "who": "pip",
+   "text": "V is for Violin.",
+   "start": 287.791,
+   "end": 289.594
+  },
+  {
+   "who": "pip",
+   "text": "Violin starts with V!",
+   "start": 289.574,
+   "end": 291.465
+  },
+  {
+   "who": "pip",
+   "text": "W is for Whale.",
+   "start": 291.564,
+   "end": 293.399
+  },
+  {
+   "who": "pip",
+   "text": "Wait, I'm forgetting this one...",
+   "start": 293.459,
+   "end": 295.122
+  },
+  {
+   "who": "pip",
+   "text": "Whale starts with W!",
+   "start": 295.102,
+   "end": 297.04
+  },
+  {
+   "who": "pip",
+   "text": "What a lovely blue.",
+   "start": 297.048,
+   "end": 298.615
+  },
+  {
+   "who": "pip",
+   "text": "What a lovely green.",
+   "start": 298.611,
+   "end": 300.148
+  },
+  {
+   "who": "pip",
+   "text": "What a lovely orange.",
+   "start": 300.158,
+   "end": 301.846
+  },
+  {
+   "who": "pip",
+   "text": "What a lovely purple.",
+   "start": 301.844,
+   "end": 303.364
+  },
+  {
+   "who": "pip",
+   "text": "What a lovely red.",
+   "start": 303.399,
+   "end": 304.916
+  },
+  {
+   "who": "pip",
+   "text": "What a lovely yellow.",
+   "start": 304.918,
+   "end": 306.508
+  },
+  {
+   "who": "pip",
+   "text": "What color do blue and yellow make together?",
+   "start": 306.571,
+   "end": 309.301
+  },
+  {
+   "who": "pip",
+   "text": "What color do red and blue make together?",
+   "start": 309.31,
+   "end": 311.772
+  },
+  {
+   "who": "pip",
+   "text": "What color do red and white make together?",
+   "start": 311.8,
+   "end": 314.329
+  },
+  {
+   "who": "pip",
+   "text": "What color do red and yellow make together?",
+   "start": 314.353,
+   "end": 316.825
+  },
+  {
+   "who": "pip",
+   "text": "What color is a banana?",
+   "start": 316.881,
+   "end": 318.518
+  },
+  {
+   "who": "pip",
+   "text": "What color is a blueberry?",
+   "start": 318.594,
+   "end": 320.273
+  },
+  {
+   "who": "pip",
+   "text": "What color is a broccoli?",
+   "start": 320.334,
+   "end": 322.094
+  },
+  {
+   "who": "pip",
+   "text": "What color is a carrot?",
+   "start": 322.144,
+   "end": 323.666
+  },
+  {
+   "who": "pip",
+   "text": "What color is a chocolate bar?",
+   "start": 323.761,
+   "end": 325.825
+  },
+  {
+   "who": "pip",
+   "text": "What color is a frog?",
+   "start": 325.805,
+   "end": 327.369
+  },
+  {
+   "who": "pip",
+   "text": "What color is a lemon?",
+   "start": 327.432,
+   "end": 329.087
+  },
+  {
+   "who": "pip",
+   "text": "What color is a pig?",
+   "start": 329.169,
+   "end": 330.767
+  },
+  {
+   "who": "pip",
+   "text": "What color is a strawberry?",
+   "start": 330.844,
+   "end": 332.687
+  },
+  {
+   "who": "pip",
+   "text": "What color is an eggplant?",
+   "start": 332.736,
+   "end": 334.484
+  },
+  {
+   "who": "pip",
+   "text": "What is a baby butterfly called?",
+   "start": 334.536,
+   "end": 336.569
+  },
+  {
+   "who": "pip",
+   "text": "What is a baby cat called?",
+   "start": 336.635,
+   "end": 338.441
+  },
+  {
+   "who": "pip",
+   "text": "What is a baby cow called?",
+   "start": 338.485,
+   "end": 340.238
+  },
+  {
+   "who": "pip",
+   "text": "What is a baby dog called?",
+   "start": 340.324,
+   "end": 342.124
+  },
+  {
+   "who": "pip",
+   "text": "What is a baby frog called?",
+   "start": 342.168,
+   "end": 343.981
+  },
+  {
+   "who": "pip",
+   "text": "What is a baby hen called?",
+   "start": 344.06,
+   "end": 345.854
+  },
+  {
+   "who": "pip",
+   "text": "What is a baby horse called?",
+   "start": 345.941,
+   "end": 347.85
+  },
+  {
+   "who": "pip",
+   "text": "What is a baby kangaroo called?",
+   "start": 347.911,
+   "end": 350.025
+  },
+  {
+   "who": "pip",
+   "text": "What is a baby sheep called?",
+   "start": 350.082,
+   "end": 351.879
+  },
+  {
+   "who": "pip",
+   "text": "What letter does Apple start with?",
+   "start": 351.933,
+   "end": 353.904
+  },
+  {
+   "who": "pip",
+   "text": "What letter does Bear start with?",
+   "start": 353.956,
+   "end": 355.785
+  },
+  {
+   "who": "pip",
+   "text": "What letter does Cat start with?",
+   "start": 355.879,
+   "end": 357.985
+  },
+  {
+   "who": "pip",
+   "text": "What letter does Dog start with?",
+   "start": 358.047,
+   "end": 359.999
+  },
+  {
+   "who": "pip",
+   "text": "What letter does Egg start with?",
+   "start": 360.074,
+   "end": 362.068
+  },
+  {
+   "who": "pip",
+   "text": "What letter does Fish start with?",
+   "start": 362.123,
+   "end": 364.068
+  },
+  {
+   "who": "pip",
+   "text": "What letter does Grapes start with?",
+   "start": 364.112,
+   "end": 366.135
+  },
+  {
+   "who": "pip",
+   "text": "What letter does Hat start with?",
+   "start": 366.173,
+   "end": 368.109
+  },
+  {
+   "who": "pip",
+   "text": "What letter does Ice cream start with?",
+   "start": 368.179,
+   "end": 370.303
+  },
+  {
+   "who": "pip",
+   "text": "What letter does Juice start with?",
+   "start": 370.429,
+   "end": 372.525
+  },
+  {
+   "who": "pip",
+   "text": "What letter does Kite start with?",
+   "start": 372.562,
+   "end": 374.55
+  },
+  {
+   "who": "pip",
+   "text": "What letter does Lion start with?",
+   "start": 374.595,
+   "end": 376.626
+  },
+  {
+   "who": "pip",
+   "text": "What letter does Moon start with?",
+   "start": 376.678,
+   "end": 378.624
+  },
+  {
+   "who": "pip",
+   "text": "What letter does Nose start with?",
+   "start": 378.652,
+   "end": 380.706
+  },
+  {
+   "who": "pip",
+   "text": "What letter does Octopus start with?",
+   "start": 380.773,
+   "end": 382.98
+  },
+  {
+   "who": "pip",
+   "text": "What letter does Pig start with?",
+   "start": 383.05,
+   "end": 384.64
+  }
+ ]
+}

@@ -6,36 +6,36 @@
    "who": "pinky",
    "text": "Can I play too?",
    "start": 0,
-   "end": 1.07
+   "end": 1.031
   },
   {
    "who": "pinky",
    "text": "Hello!",
-   "start": 1.34,
+   "start": 1.377,
    "end": 2.22
   },
   {
    "who": "pinky",
    "text": "I feel happy today!",
    "start": 2.22,
-   "end": 3.49
+   "end": 3.653
   },
   {
    "who": "pinky",
    "text": "Let's build a fort!",
-   "start": 3.71,
-   "end": 5.0
+   "start": 3.733,
+   "end": 4.966
   },
   {
    "who": "pinky",
    "text": "Let's have a party!",
-   "start": 4.94,
-   "end": 6.07
+   "start": 4.965,
+   "end": 6.041
   },
   {
    "who": "pinky",
    "text": "Oink oink!",
-   "start": 6.27,
+   "start": 6.286,
    "end": 7.22
   },
   {
@@ -48,13 +48,13 @@
    "who": "pinky",
    "text": "Ready, set, go!",
    "start": 8.23,
-   "end": 10.21
+   "end": 10.217
   },
   {
    "who": "pinky",
    "text": "Shh, I am hiding!",
-   "start": 10.4,
-   "end": 12.21
+   "start": 10.438,
+   "end": 12.193
   },
   {
    "who": "pinky",
@@ -66,7 +66,7 @@
    "who": "pinky",
    "text": "Will you be my friend?",
    "start": 13.98,
-   "end": 15.15
+   "end": 15.2
   }
  ]
 }

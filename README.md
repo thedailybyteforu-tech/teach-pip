@@ -14,7 +14,7 @@ One app for **iOS and Android** (Expo / React Native).
 | 🏠 **Playhouse** | Roarbow | Open-ended pretend play: pick a room, bring in any ZoomikoKids friends and toys, move them anywhere, and tap a friend to hear them talk. No goals, no score. |
 | 🍳 **Kitchen** | Peely & Grumbo | Open-ended cooking: bowl, blender, pot or pizza, any ingredients, stir, then serve to a friend who reacts. |
 | 🎵 **Song Time** | The Woogles | A sing-along where each Woogle opens its big mouth on its line, and a **Copy Me** sound-memory game that gets longer as kids succeed. |
-| 🌿 **Calm Room** | Snoozle | A Montessori-inspired, low-stimulation room: free drawing with natural colours and wooden shapes to arrange. No voice, no sounds, no rewards, no timers. |
+| 🌿 **Playroom** | Snoozle & friends | A Montessori-inspired, low-stimulation playroom of open-ended toys: **Marble Run** (drag ramps and bumpers, gentle physics), **Music Maker** (a pentatonic step grid, so nothing sounds wrong), **Busy Board** (light switch, door, zipper, spinner, bolt, bubbles, abacus), **Day and Night Garden**, **Tiny Town**, **Draw** and **Wooden Shapes**. Soft colours, slow animation, quiet sounds made for the app, no voice-over, no scores, no timers. |
 | 👽 **Teach Pip** | Pip | The child teaches a baby alien, catches its mistakes, re-teaches what it forgets, goes on Earth Missions and reads Pip's letters home. |
 
 Safe by design: no ads, no in-app purchases, no accounts, no network. Progress stays on the device.
@@ -26,6 +26,38 @@ frameworks (literacy, maths, science, creative arts, social-emotional, self-regu
 well-studied techniques (spaced repetition, learning by teaching, error detection). The app has
 **not** been reviewed or endorsed by an education body. Get that review before claiming academic
 backing in a store listing.
+
+## Character voices
+
+Every character has their own recorded voice (ElevenLabs voices, generated through vidIQ), stored
+**inside the app** so it works offline and sounds the same on every phone:
+
+| Voice | Characters |
+|---|---|
+| Jessica (playful, bright) | Zoomi, Nibbles |
+| Laura (quirky, excited) | Pip, Puddle |
+| Lily (warm, gentle) | Mona |
+| Alice (clear, curious) | Kiki, Rio |
+| Liam (energetic) | Roarbow |
+| Charlie (bouncy) | Peely |
+| Brian (deep) | Grumbo |
+| Bella (bright) | Bobble, Bloop, Fuzzle |
+| Will (relaxed) | Snoozle |
+| Chris (cool) | Brocco |
+| Sarah | Pinky |
+
+Lines are recorded in batches and split into clips automatically (PocketSphinx alignment, checked
+against the pauses in each recording). A line plays from a recording when every sentence in it has
+one; otherwise the phone's own voice reads it. To re-record after changing lines:
+
+```bash
+npx tsx scripts/voice-lines.ts > voice/lines.json   # every sentence each character says
+python3 scripts/voice_missing.py --write m          # batches of lines without a clip yet
+# record each voice/chunks/mN.txt with its voice, save as voice/raw/mN.mp3, then:
+python3 scripts/voice_tools.py align mN voice/raw/mN.mp3
+python3 scripts/voice_check.py mN
+python3 scripts/voice_tools.py build                # rebuild assets/voice + src/voice/manifest.ts
+```
 
 ## Characters
 
@@ -118,7 +150,10 @@ src/state/store.tsx     persisted app state (AsyncStorage)
 src/components/Pip.tsx  Pip itself: SVG, 7 moods, 4 evolution stages, blinking, floating
 src/content/missions.ts real-world Earth Missions for each planet
 src/screens/            Teach Pip screens: Onboarding, Home, Planets, Teach, Brain, Mission, Letters; Grownups, Sleep
-src/zk/                 ZoomikoKids hub: characters, tracing letters, curriculum, screens/
+src/zk/                 ZoomikoKids hub: characters, tracing letters, curriculum, screens/, playroom/
+src/lib/voice.ts        plays recorded character clips, falls back to device speech
+src/lib/sfx.ts          the Playroom's soft sound effects (assets/sfx)
+scripts/voice*          voice recording pipeline (see Character voices)
 ```
 
 ### Add a new concept

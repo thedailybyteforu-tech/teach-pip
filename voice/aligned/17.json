@@ -6,36 +6,36 @@
    "who": "snoozle",
    "text": "A big yawn: Ahhh, hummm.",
    "start": 0,
-   "end": 4.24
+   "end": 4.432
   },
   {
    "who": "snoozle",
    "text": "Ahhh, hummm.",
-   "start": 5.75,
-   "end": 7.03
+   "start": 5.13,
+   "end": 7.226
   },
   {
    "who": "snoozle",
    "text": "Ahhh...",
-   "start": 9.69,
-   "end": 9.93
+   "start": 8.284,
+   "end": 9.689
   },
   {
    "who": "snoozle",
    "text": "Night night, slow.",
-   "start": 10.47,
-   "end": 12.61
+   "start": 10.459,
+   "end": 12.778
   },
   {
    "who": "snoozle",
    "text": "Snoozle is sleepy, eyes so low.",
-   "start": 13.38,
-   "end": 16.88
+   "start": 13.386,
+   "end": 17.023
   },
   {
    "who": "snoozle",
    "text": "hummm.",
-   "start": 17.53,
+   "start": 17.565,
    "end": 18.56
   }
  ]

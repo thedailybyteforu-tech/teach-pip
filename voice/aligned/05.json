@@ -1,0 +1,810 @@
+{
+ "id": "05",
+ "mp3": "/home/user/teach-pip/voice/raw/05.mp3",
+ "clips": [
+  {
+   "who": "nibbles",
+   "text": "Can I play too?",
+   "start": 0,
+   "end": 1.3
+  },
+  {
+   "who": "nibbles",
+   "text": "I feel happy today!",
+   "start": 1.612,
+   "end": 3.338
+  },
+  {
+   "who": "nibbles",
+   "text": "I'll save some in my cheeks!",
+   "start": 3.485,
+   "end": 5.095
+  },
+  {
+   "who": "nibbles",
+   "text": "Let's build a fort!",
+   "start": 5.513,
+   "end": 6.79
+  },
+  {
+   "who": "nibbles",
+   "text": "Let's have a party!",
+   "start": 6.931,
+   "end": 8.198
+  },
+  {
+   "who": "nibbles",
+   "text": "Nibble nibble!",
+   "start": 8.412,
+   "end": 9.477
+  },
+  {
+   "who": "nibbles",
+   "text": "Nibble nibble...",
+   "start": 9.706,
+   "end": 10.975
+  },
+  {
+   "who": "nibbles",
+   "text": "Nibbles is here!",
+   "start": 11.265,
+   "end": 13.247
+  },
+  {
+   "who": "nibbles",
+   "text": "Ready, set, go!",
+   "start": 13.432,
+   "end": 16.252
+  },
+  {
+   "who": "nibbles",
+   "text": "Shh, I am hiding!",
+   "start": 16.599,
+   "end": 18.835
+  },
+  {
+   "who": "nibbles",
+   "text": "Squeak!",
+   "start": 19.101,
+   "end": 20.107
+  },
+  {
+   "who": "nibbles",
+   "text": "Time for a snack!",
+   "start": 20.235,
+   "end": 21.968
+  },
+  {
+   "who": "nibbles",
+   "text": "Will you be my friend?",
+   "start": 22.614,
+   "end": 24.052
+  },
+  {
+   "who": "nibbles",
+   "text": "apple!",
+   "start": 24.503,
+   "end": 25.216
+  },
+  {
+   "who": "nibbles",
+   "text": "banana!",
+   "start": 25.464,
+   "end": 26.231
+  },
+  {
+   "who": "nibbles",
+   "text": "blueberries!",
+   "start": 26.603,
+   "end": 27.675
+  },
+  {
+   "who": "nibbles",
+   "text": "broccoli!",
+   "start": 27.87,
+   "end": 28.744
+  },
+  {
+   "who": "nibbles",
+   "text": "carrot!",
+   "start": 29.051,
+   "end": 29.886
+  },
+  {
+   "who": "nibbles",
+   "text": "cheese!",
+   "start": 30.212,
+   "end": 31.086
+  },
+  {
+   "who": "nibbles",
+   "text": "corn!",
+   "start": 31.39,
+   "end": 32.234
+  },
+  {
+   "who": "nibbles",
+   "text": "egg!",
+   "start": 32.555,
+   "end": 33.297
+  },
+  {
+   "who": "nibbles",
+   "text": "honey!",
+   "start": 33.702,
+   "end": 34.462
+  },
+  {
+   "who": "nibbles",
+   "text": "kiwi!",
+   "start": 34.877,
+   "end": 35.725
+  },
+  {
+   "who": "nibbles",
+   "text": "milk!",
+   "start": 36.009,
+   "end": 36.783
+  },
+  {
+   "who": "nibbles",
+   "text": "mushroom!",
+   "start": 37.128,
+   "end": 38.148
+  },
+  {
+   "who": "nibbles",
+   "text": "orange!",
+   "start": 38.48,
+   "end": 39.354
+  },
+  {
+   "who": "nibbles",
+   "text": "pepper!",
+   "start": 39.71,
+   "end": 40.449
+  },
+  {
+   "who": "nibbles",
+   "text": "strawberry!",
+   "start": 40.67,
+   "end": 41.784
+  },
+  {
+   "who": "nibbles",
+   "text": "tomato!",
+   "start": 41.984,
+   "end": 42.957
+  },
+  {
+   "who": "nibbles",
+   "text": "yummy things!",
+   "start": 43.25,
+   "end": 45.034
+  },
+  {
+   "who": "zoomi",
+   "text": "Can I play too?",
+   "start": 45.014,
+   "end": 46.614
+  },
+  {
+   "who": "zoomi",
+   "text": "Hee hee!",
+   "start": 46.81,
+   "end": 47.587
+  },
+  {
+   "who": "zoomi",
+   "text": "Hello, explorer!",
+   "start": 48.411,
+   "end": 49.906
+  },
+  {
+   "who": "zoomi",
+   "text": "Hi friend!",
+   "start": 50.189,
+   "end": 51.175
+  },
+  {
+   "who": "zoomi",
+   "text": "I feel happy today!",
+   "start": 51.58,
+   "end": 53.559
+  },
+  {
+   "who": "zoomi",
+   "text": "I love exploring with you!",
+   "start": 53.549,
+   "end": 55.697
+  },
+  {
+   "who": "zoomi",
+   "text": "I missed you!",
+   "start": 56.24,
+   "end": 57.549
+  },
+  {
+   "who": "zoomi",
+   "text": "It's me, Zoomi!",
+   "start": 57.774,
+   "end": 59.436
+  },
+  {
+   "who": "zoomi",
+   "text": "Let's build a fort!",
+   "start": 60.066,
+   "end": 61.808
+  },
+  {
+   "who": "zoomi",
+   "text": "Let's have a party!",
+   "start": 61.821,
+   "end": 63.191
+  },
+  {
+   "who": "zoomi",
+   "text": "Let's play!",
+   "start": 63.355,
+   "end": 64.532
+  },
+  {
+   "who": "zoomi",
+   "text": "Let's walk the path together!",
+   "start": 64.782,
+   "end": 66.657
+  },
+  {
+   "who": "zoomi",
+   "text": "Let\u2019s play!",
+   "start": 66.829,
+   "end": 67.837
+  },
+  {
+   "who": "zoomi",
+   "text": "Next stop: Calm Room!",
+   "start": 68.572,
+   "end": 70.904
+  },
+  {
+   "who": "zoomi",
+   "text": "Next stop: Cook with Peely!",
+   "start": 71.491,
+   "end": 74.182
+  },
+  {
+   "who": "zoomi",
+   "text": "Next stop: Pattern Party!",
+   "start": 74.782,
+   "end": 77.254
+  },
+  {
+   "who": "zoomi",
+   "text": "Next stop: Pretend play!",
+   "start": 77.799,
+   "end": 80.24
+  },
+  {
+   "who": "zoomi",
+   "text": "Next stop: Science experiment!",
+   "start": 80.949,
+   "end": 83.754
+  },
+  {
+   "who": "zoomi",
+   "text": "Next stop: Song Time!",
+   "start": 84.279,
+   "end": 86.633
+  },
+  {
+   "who": "zoomi",
+   "text": "Next stop: Teach Pip!",
+   "start": 87.123,
+   "end": 89.388
+  },
+  {
+   "who": "zoomi",
+   "text": "Next stop: Trace a letter!",
+   "start": 90.001,
+   "end": 92.605
+  },
+  {
+   "who": "zoomi",
+   "text": "Pick a place to play!",
+   "start": 93.232,
+   "end": 95.925
+  },
+  {
+   "who": "zoomi",
+   "text": "Ready, set, go!",
+   "start": 95.967,
+   "end": 97.686
+  },
+  {
+   "who": "zoomi",
+   "text": "Shh, I am hiding!",
+   "start": 98.668,
+   "end": 101.018
+  },
+  {
+   "who": "zoomi",
+   "text": "That's the best pizza ever!",
+   "start": 101.247,
+   "end": 103.863
+  },
+  {
+   "who": "zoomi",
+   "text": "That's the best salad ever!",
+   "start": 104.359,
+   "end": 106.462
+  },
+  {
+   "who": "zoomi",
+   "text": "That's the best smoothie ever!",
+   "start": 106.687,
+   "end": 109.518
+  },
+  {
+   "who": "zoomi",
+   "text": "That's the best soup ever!",
+   "start": 110.062,
+   "end": 112.537
+  },
+  {
+   "who": "zoomi",
+   "text": "Time for a snack!",
+   "start": 112.517,
+   "end": 114.211
+  },
+  {
+   "who": "zoomi",
+   "text": "What shall we play today?",
+   "start": 114.811,
+   "end": 116.31
+  },
+  {
+   "who": "zoomi",
+   "text": "Will you be my friend?",
+   "start": 116.751,
+   "end": 118.128
+  },
+  {
+   "who": "zoomi",
+   "text": "Wow, pizza with apple!",
+   "start": 118.736,
+   "end": 121.02
+  },
+  {
+   "who": "zoomi",
+   "text": "Wow, pizza with banana!",
+   "start": 121.548,
+   "end": 123.727
+  },
+  {
+   "who": "zoomi",
+   "text": "Wow, pizza with blueberries!",
+   "start": 124.203,
+   "end": 127.066
+  },
+  {
+   "who": "zoomi",
+   "text": "Wow, pizza with broccoli!",
+   "start": 127.48,
+   "end": 130.352
+  },
+  {
+   "who": "zoomi",
+   "text": "Wow, pizza with carrot!",
+   "start": 130.332,
+   "end": 133.018
+  },
+  {
+   "who": "zoomi",
+   "text": "Wow, pizza with cheese!",
+   "start": 133.61,
+   "end": 136.163
+  },
+  {
+   "who": "zoomi",
+   "text": "Wow, pizza with corn!",
+   "start": 136.628,
+   "end": 139.204
+  },
+  {
+   "who": "zoomi",
+   "text": "Wow, pizza with egg!",
+   "start": 139.184,
+   "end": 141.801
+  },
+  {
+   "who": "zoomi",
+   "text": "Wow, pizza with honey!",
+   "start": 142.391,
+   "end": 144.498
+  },
+  {
+   "who": "zoomi",
+   "text": "Wow, pizza with kiwi!",
+   "start": 145.289,
+   "end": 147.767
+  },
+  {
+   "who": "zoomi",
+   "text": "Wow, pizza with milk!",
+   "start": 148.295,
+   "end": 150.336
+  },
+  {
+   "who": "zoomi",
+   "text": "Wow, pizza with mushroom!",
+   "start": 151.006,
+   "end": 153.325
+  },
+  {
+   "who": "zoomi",
+   "text": "Wow, pizza with orange!",
+   "start": 153.822,
+   "end": 156.248
+  },
+  {
+   "who": "zoomi",
+   "text": "Wow, pizza with pepper!",
+   "start": 156.735,
+   "end": 158.883
+  },
+  {
+   "who": "zoomi",
+   "text": "Wow, pizza with strawberry!",
+   "start": 159.478,
+   "end": 162.025
+  },
+  {
+   "who": "zoomi",
+   "text": "Wow, pizza with tomato!",
+   "start": 162.656,
+   "end": 164.998
+  },
+  {
+   "who": "zoomi",
+   "text": "Wow, pizza with yummy things!",
+   "start": 165.689,
+   "end": 168.623
+  },
+  {
+   "who": "zoomi",
+   "text": "Wow, salad with apple!",
+   "start": 169.527,
+   "end": 171.77
+  },
+  {
+   "who": "zoomi",
+   "text": "Wow, salad with banana!",
+   "start": 172.486,
+   "end": 174.709
+  },
+  {
+   "who": "zoomi",
+   "text": "Wow, salad with blueberries!",
+   "start": 175.316,
+   "end": 177.952
+  },
+  {
+   "who": "zoomi",
+   "text": "Wow, salad with broccoli!",
+   "start": 178.513,
+   "end": 181.133
+  },
+  {
+   "who": "zoomi",
+   "text": "Wow, salad with carrot!",
+   "start": 181.366,
+   "end": 183.975
+  },
+  {
+   "who": "zoomi",
+   "text": "Wow, salad with cheese!",
+   "start": 184.79,
+   "end": 187.2
+  },
+  {
+   "who": "zoomi",
+   "text": "Wow, salad with corn!",
+   "start": 187.771,
+   "end": 189.947
+  },
+  {
+   "who": "zoomi",
+   "text": "Wow, salad with egg!",
+   "start": 190.477,
+   "end": 193.015
+  },
+  {
+   "who": "zoomi",
+   "text": "Wow, salad with honey!",
+   "start": 193.573,
+   "end": 196.137
+  },
+  {
+   "who": "zoomi",
+   "text": "Wow, salad with kiwi!",
+   "start": 196.117,
+   "end": 198.696
+  },
+  {
+   "who": "zoomi",
+   "text": "Wow, salad with milk!",
+   "start": 199.407,
+   "end": 201.601
+  },
+  {
+   "who": "zoomi",
+   "text": "Wow, salad with mushroom!",
+   "start": 202.276,
+   "end": 205.384
+  },
+  {
+   "who": "zoomi",
+   "text": "Wow, salad with orange!",
+   "start": 205.364,
+   "end": 207.812
+  },
+  {
+   "who": "zoomi",
+   "text": "Wow, salad with pepper!",
+   "start": 208.445,
+   "end": 211.072
+  },
+  {
+   "who": "zoomi",
+   "text": "Wow, salad with strawberry!",
+   "start": 211.052,
+   "end": 214.022
+  },
+  {
+   "who": "zoomi",
+   "text": "Wow, salad with tomato!",
+   "start": 214.848,
+   "end": 217.398
+  },
+  {
+   "who": "zoomi",
+   "text": "Wow, salad with yummy things!",
+   "start": 218.003,
+   "end": 220.949
+  },
+  {
+   "who": "zoomi",
+   "text": "Wow, smoothie with apple!",
+   "start": 221.753,
+   "end": 224.068
+  },
+  {
+   "who": "zoomi",
+   "text": "Wow, smoothie with banana!",
+   "start": 224.803,
+   "end": 227.677
+  },
+  {
+   "who": "zoomi",
+   "text": "Wow, smoothie with blueberries!",
+   "start": 227.657,
+   "end": 230.741
+  },
+  {
+   "who": "zoomi",
+   "text": "Wow, smoothie with broccoli!",
+   "start": 231.288,
+   "end": 233.625
+  },
+  {
+   "who": "zoomi",
+   "text": "Wow, smoothie with carrot!",
+   "start": 234.057,
+   "end": 236.853
+  },
+  {
+   "who": "zoomi",
+   "text": "Wow, smoothie with cheese!",
+   "start": 237.516,
+   "end": 240.053
+  },
+  {
+   "who": "zoomi",
+   "text": "Wow, smoothie with corn!",
+   "start": 240.688,
+   "end": 243.128
+  },
+  {
+   "who": "zoomi",
+   "text": "Wow, smoothie with egg!",
+   "start": 243.776,
+   "end": 246.025
+  },
+  {
+   "who": "zoomi",
+   "text": "Wow, smoothie with honey!",
+   "start": 246.85,
+   "end": 249.187
+  },
+  {
+   "who": "zoomi",
+   "text": "Wow, smoothie with kiwi!",
+   "start": 249.897,
+   "end": 252.462
+  },
+  {
+   "who": "zoomi",
+   "text": "Wow, smoothie with milk!",
+   "start": 253.237,
+   "end": 255.952
+  },
+  {
+   "who": "zoomi",
+   "text": "Wow, smoothie with mushroom!",
+   "start": 255.932,
+   "end": 258.656
+  },
+  {
+   "who": "zoomi",
+   "text": "Wow, smoothie with orange!",
+   "start": 259.241,
+   "end": 261.818
+  },
+  {
+   "who": "zoomi",
+   "text": "Wow, smoothie with pepper!",
+   "start": 262.499,
+   "end": 264.833
+  },
+  {
+   "who": "zoomi",
+   "text": "Wow, smoothie with strawberry!",
+   "start": 265.554,
+   "end": 268.184
+  },
+  {
+   "who": "zoomi",
+   "text": "Wow, smoothie with tomato!",
+   "start": 268.919,
+   "end": 271.499
+  },
+  {
+   "who": "zoomi",
+   "text": "Wow, smoothie with yummy things!",
+   "start": 272.145,
+   "end": 275.152
+  },
+  {
+   "who": "zoomi",
+   "text": "Wow, soup with apple!",
+   "start": 275.904,
+   "end": 278.213
+  },
+  {
+   "who": "zoomi",
+   "text": "Wow, soup with banana!",
+   "start": 278.85,
+   "end": 281.125
+  },
+  {
+   "who": "zoomi",
+   "text": "Wow, soup with blueberries!",
+   "start": 281.775,
+   "end": 284.474
+  },
+  {
+   "who": "zoomi",
+   "text": "Wow, soup with broccoli!",
+   "start": 285.119,
+   "end": 287.587
+  },
+  {
+   "who": "zoomi",
+   "text": "Wow, soup with carrot!",
+   "start": 288.358,
+   "end": 290.531
+  },
+  {
+   "who": "zoomi",
+   "text": "Wow, soup with cheese!",
+   "start": 291.261,
+   "end": 293.819
+  },
+  {
+   "who": "zoomi",
+   "text": "Wow, soup with corn!",
+   "start": 294.462,
+   "end": 296.849
+  },
+  {
+   "who": "zoomi",
+   "text": "Wow, soup with egg!",
+   "start": 297.649,
+   "end": 300.08
+  },
+  {
+   "who": "zoomi",
+   "text": "Wow, soup with honey!",
+   "start": 300.805,
+   "end": 303.523
+  },
+  {
+   "who": "zoomi",
+   "text": "Wow, soup with kiwi!",
+   "start": 303.503,
+   "end": 305.861
+  },
+  {
+   "who": "zoomi",
+   "text": "Wow, soup with milk!",
+   "start": 306.591,
+   "end": 308.848
+  },
+  {
+   "who": "zoomi",
+   "text": "Wow, soup with mushroom!",
+   "start": 309.628,
+   "end": 312.789
+  },
+  {
+   "who": "zoomi",
+   "text": "Wow, soup with orange!",
+   "start": 312.769,
+   "end": 315.382
+  },
+  {
+   "who": "zoomi",
+   "text": "Wow, soup with pepper!",
+   "start": 316.164,
+   "end": 318.279
+  },
+  {
+   "who": "zoomi",
+   "text": "Wow, soup with strawberry!",
+   "start": 319.098,
+   "end": 321.727
+  },
+  {
+   "who": "zoomi",
+   "text": "Wow, soup with tomato!",
+   "start": 322.462,
+   "end": 324.973
+  },
+  {
+   "who": "zoomi",
+   "text": "Wow, soup with yummy things!",
+   "start": 325.61,
+   "end": 328.613
+  },
+  {
+   "who": "zoomi",
+   "text": "You are a super learner!",
+   "start": 329.306,
+   "end": 331.357
+  },
+  {
+   "who": "zoomi",
+   "text": "You finished the whole path today!",
+   "start": 331.337,
+   "end": 333.597
+  },
+  {
+   "who": "zoomi",
+   "text": "Your learning path is ready!",
+   "start": 333.577,
+   "end": 335.999
+  },
+  {
+   "who": "zoomi",
+   "text": "Zoom zoom!",
+   "start": 336.397,
+   "end": 337.634
+  },
+  {
+   "who": "zoomi",
+   "text": "Zoomi is here!",
+   "start": 337.614,
+   "end": 339.04
+  }
+ ]
+}

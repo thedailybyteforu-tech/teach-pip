@@ -1,0 +1,1206 @@
+{
+ "id": "p0",
+ "mp3": "/home/user/teach-pip/voice/raw/p0.mp3",
+ "clips": [
+  {
+   "who": "pip",
+   "text": "2 flowers and 6 more.",
+   "start": 0,
+   "end": 2.228
+  },
+  {
+   "who": "pip",
+   "text": "7 is bigger than 3!",
+   "start": 2.261,
+   "end": 4.042
+  },
+  {
+   "who": "pip",
+   "text": "7 is bigger than 4!",
+   "start": 4.141,
+   "end": 6.052
+  },
+  {
+   "who": "pip",
+   "text": "7 is bigger than 5!",
+   "start": 6.209,
+   "end": 8.067
+  },
+  {
+   "who": "pip",
+   "text": "7 is bigger than 6!",
+   "start": 8.205,
+   "end": 10.343
+  },
+  {
+   "who": "pip",
+   "text": "7 ladybugs and 1 more.",
+   "start": 10.457,
+   "end": 12.797
+  },
+  {
+   "who": "pip",
+   "text": "7 ladybugs and 2 more.",
+   "start": 12.87,
+   "end": 15.075
+  },
+  {
+   "who": "pip",
+   "text": "7 ladybugs and 3 more.",
+   "start": 15.187,
+   "end": 17.582
+  },
+  {
+   "who": "pip",
+   "text": "7 plus 1 makes 8!",
+   "start": 17.669,
+   "end": 19.761
+  },
+  {
+   "who": "pip",
+   "text": "7 plus 2 makes 9!",
+   "start": 19.991,
+   "end": 22.332
+  },
+  {
+   "who": "pip",
+   "text": "7 plus 3 makes 10!",
+   "start": 22.436,
+   "end": 24.899
+  },
+  {
+   "who": "pip",
+   "text": "7 rockets and 1 more.",
+   "start": 25.101,
+   "end": 27.243
+  },
+  {
+   "who": "pip",
+   "text": "7 rockets and 2 more.",
+   "start": 27.343,
+   "end": 29.359
+  },
+  {
+   "who": "pip",
+   "text": "7 rockets and 3 more.",
+   "start": 29.433,
+   "end": 31.66
+  },
+  {
+   "who": "pip",
+   "text": "7 stars and 1 more.",
+   "start": 31.828,
+   "end": 34.069
+  },
+  {
+   "who": "pip",
+   "text": "7 stars and 2 more.",
+   "start": 34.143,
+   "end": 36.19
+  },
+  {
+   "who": "pip",
+   "text": "7 stars and 3 more.",
+   "start": 36.271,
+   "end": 38.479
+  },
+  {
+   "who": "pip",
+   "text": "7!",
+   "start": 38.594,
+   "end": 39.646
+  },
+  {
+   "who": "pip",
+   "text": "8",
+   "start": 39.626,
+   "end": 40.32
+  },
+  {
+   "who": "pip",
+   "text": "8 apples and 1 more.",
+   "start": 40.458,
+   "end": 42.528
+  },
+  {
+   "who": "pip",
+   "text": "8 apples and 2 more.",
+   "start": 42.648,
+   "end": 44.497
+  },
+  {
+   "who": "pip",
+   "text": "8 balloons and 1 more.",
+   "start": 44.618,
+   "end": 46.735
+  },
+  {
+   "who": "pip",
+   "text": "8 balloons and 2 more.",
+   "start": 46.797,
+   "end": 48.722
+  },
+  {
+   "who": "pip",
+   "text": "8 chicks and 1 more.",
+   "start": 48.861,
+   "end": 50.869
+  },
+  {
+   "who": "pip",
+   "text": "8 chicks and 2 more.",
+   "start": 50.953,
+   "end": 52.788
+  },
+  {
+   "who": "pip",
+   "text": "8 cookies and 1 more.",
+   "start": 52.923,
+   "end": 54.909
+  },
+  {
+   "who": "pip",
+   "text": "8 cookies and 2 more.",
+   "start": 54.953,
+   "end": 56.999
+  },
+  {
+   "who": "pip",
+   "text": "8 fish and 1 more.",
+   "start": 57.114,
+   "end": 59.105
+  },
+  {
+   "who": "pip",
+   "text": "8 fish and 2 more.",
+   "start": 59.179,
+   "end": 60.998
+  },
+  {
+   "who": "pip",
+   "text": "8 flowers and 1 more.",
+   "start": 61.177,
+   "end": 63.294
+  },
+  {
+   "who": "pip",
+   "text": "8 flowers and 2 more.",
+   "start": 63.432,
+   "end": 65.383
+  },
+  {
+   "who": "pip",
+   "text": "8 is bigger than 1!",
+   "start": 65.513,
+   "end": 67.297
+  },
+  {
+   "who": "pip",
+   "text": "8 is bigger than 2!",
+   "start": 67.402,
+   "end": 69.141
+  },
+  {
+   "who": "pip",
+   "text": "8 is bigger than 3!",
+   "start": 69.308,
+   "end": 71.081
+  },
+  {
+   "who": "pip",
+   "text": "8 is bigger than 4!",
+   "start": 71.183,
+   "end": 73.033
+  },
+  {
+   "who": "pip",
+   "text": "8 is bigger than 5!",
+   "start": 73.139,
+   "end": 75.011
+  },
+  {
+   "who": "pip",
+   "text": "8 is bigger than 6!",
+   "start": 75.034,
+   "end": 76.937
+  },
+  {
+   "who": "pip",
+   "text": "8 is bigger than 7!",
+   "start": 77.033,
+   "end": 78.982
+  },
+  {
+   "who": "pip",
+   "text": "8 ladybugs and 1 more.",
+   "start": 79.064,
+   "end": 81.271
+  },
+  {
+   "who": "pip",
+   "text": "8 ladybugs and 2 more.",
+   "start": 81.351,
+   "end": 83.379
+  },
+  {
+   "who": "pip",
+   "text": "8 plus 1 makes 9!",
+   "start": 83.496,
+   "end": 85.559
+  },
+  {
+   "who": "pip",
+   "text": "8 plus 2 makes 10!",
+   "start": 85.704,
+   "end": 87.905
+  },
+  {
+   "who": "pip",
+   "text": "8 rockets and 1 more.",
+   "start": 88.009,
+   "end": 90.125
+  },
+  {
+   "who": "pip",
+   "text": "8 rockets and 2 more.",
+   "start": 90.232,
+   "end": 92.159
+  },
+  {
+   "who": "pip",
+   "text": "8 stars and 1 more.",
+   "start": 92.283,
+   "end": 94.36
+  },
+  {
+   "who": "pip",
+   "text": "8 stars and 2 more.",
+   "start": 94.441,
+   "end": 96.383
+  },
+  {
+   "who": "pip",
+   "text": "8!",
+   "start": 96.505,
+   "end": 97.257
+  },
+  {
+   "who": "pip",
+   "text": "9",
+   "start": 97.341,
+   "end": 98.255
+  },
+  {
+   "who": "pip",
+   "text": "9 apples and 1 more.",
+   "start": 98.342,
+   "end": 100.515
+  },
+  {
+   "who": "pip",
+   "text": "9 balloons and 1 more.",
+   "start": 100.613,
+   "end": 102.667
+  },
+  {
+   "who": "pip",
+   "text": "9 chicks and 1 more.",
+   "start": 102.775,
+   "end": 104.806
+  },
+  {
+   "who": "pip",
+   "text": "9 cookies and 1 more.",
+   "start": 104.955,
+   "end": 107.061
+  },
+  {
+   "who": "pip",
+   "text": "9 fish and 1 more.",
+   "start": 107.197,
+   "end": 109.288
+  },
+  {
+   "who": "pip",
+   "text": "9 flowers and 1 more.",
+   "start": 109.388,
+   "end": 111.624
+  },
+  {
+   "who": "pip",
+   "text": "9 is bigger than 1!",
+   "start": 111.765,
+   "end": 113.746
+  },
+  {
+   "who": "pip",
+   "text": "9 is bigger than 2!",
+   "start": 113.851,
+   "end": 115.848
+  },
+  {
+   "who": "pip",
+   "text": "9 is bigger than 3!",
+   "start": 115.969,
+   "end": 117.861
+  },
+  {
+   "who": "pip",
+   "text": "9 is bigger than 4!",
+   "start": 117.983,
+   "end": 119.971
+  },
+  {
+   "who": "pip",
+   "text": "9 is bigger than 5!",
+   "start": 120.088,
+   "end": 122.019
+  },
+  {
+   "who": "pip",
+   "text": "9 is bigger than 6!",
+   "start": 122.136,
+   "end": 124.217
+  },
+  {
+   "who": "pip",
+   "text": "9 is bigger than 7!",
+   "start": 124.325,
+   "end": 126.302
+  },
+  {
+   "who": "pip",
+   "text": "9 is bigger than 8!",
+   "start": 126.398,
+   "end": 128.342
+  },
+  {
+   "who": "pip",
+   "text": "9 ladybugs and 1 more.",
+   "start": 128.452,
+   "end": 130.805
+  },
+  {
+   "who": "pip",
+   "text": "9 plus 1 makes 10!",
+   "start": 130.884,
+   "end": 133.01
+  },
+  {
+   "who": "pip",
+   "text": "9 rockets and 1 more.",
+   "start": 133.141,
+   "end": 135.351
+  },
+  {
+   "who": "pip",
+   "text": "9 stars and 1 more.",
+   "start": 135.439,
+   "end": 137.626
+  },
+  {
+   "who": "pip",
+   "text": "9!",
+   "start": 137.743,
+   "end": 138.653
+  },
+  {
+   "who": "pip",
+   "text": "A baby butterfly is called a caterpillar!",
+   "start": 138.635,
+   "end": 141.526
+  },
+  {
+   "who": "pip",
+   "text": "A baby cat is called a kitten!",
+   "start": 141.595,
+   "end": 143.909
+  },
+  {
+   "who": "pip",
+   "text": "A baby cow is called a calf!",
+   "start": 143.994,
+   "end": 146.427
+  },
+  {
+   "who": "pip",
+   "text": "A baby dog is called a puppy!",
+   "start": 146.521,
+   "end": 148.849
+  },
+  {
+   "who": "pip",
+   "text": "A baby frog is called a tadpole!",
+   "start": 149.009,
+   "end": 151.686
+  },
+  {
+   "who": "pip",
+   "text": "A baby hen is called a chick!",
+   "start": 151.788,
+   "end": 154.084
+  },
+  {
+   "who": "pip",
+   "text": "A baby horse is called a foal!",
+   "start": 154.193,
+   "end": 156.726
+  },
+  {
+   "who": "pip",
+   "text": "A baby kangaroo is called a joey!",
+   "start": 156.841,
+   "end": 159.661
+  },
+  {
+   "who": "pip",
+   "text": "A baby sheep is called a lamb!",
+   "start": 159.754,
+   "end": 162.308
+  },
+  {
+   "who": "pip",
+   "text": "A banana is yellow!",
+   "start": 162.359,
+   "end": 164.112
+  },
+  {
+   "who": "pip",
+   "text": "A bat is awake at night and sleeps in the day!",
+   "start": 164.225,
+   "end": 167.609
+  },
+  {
+   "who": "pip",
+   "text": "A bee is busy in the day and sleeps at night!",
+   "start": 167.746,
+   "end": 171.024
+  },
+  {
+   "who": "pip",
+   "text": "A bee lives in the hive!",
+   "start": 171.121,
+   "end": 173.248
+  },
+  {
+   "who": "pip",
+   "text": "A bird lives in the tree!",
+   "start": 173.354,
+   "end": 175.256
+  },
+  {
+   "who": "pip",
+   "text": "A blueberry is blue!",
+   "start": 175.354,
+   "end": 177.236
+  },
+  {
+   "who": "pip",
+   "text": "A broccoli is green!",
+   "start": 177.337,
+   "end": 179.212
+  },
+  {
+   "who": "pip",
+   "text": "A butterfly is busy in the day and sleeps at night!",
+   "start": 179.278,
+   "end": 182.666
+  },
+  {
+   "who": "pip",
+   "text": "A camel lives in the desert!",
+   "start": 182.76,
+   "end": 184.841
+  },
+  {
+   "who": "pip",
+   "text": "A carrot is orange!",
+   "start": 184.937,
+   "end": 186.744
+  },
+  {
+   "who": "pip",
+   "text": "A chocolate bar is brown!",
+   "start": 186.84,
+   "end": 188.894
+  },
+  {
+   "who": "pip",
+   "text": "A fish lives in the ocean!",
+   "start": 189.009,
+   "end": 191.13
+  },
+  {
+   "who": "pip",
+   "text": "A frog is green!",
+   "start": 191.193,
+   "end": 193.012
+  },
+  {
+   "who": "pip",
+   "text": "A hedgehog is awake at night and sleeps in the day!",
+   "start": 193.083,
+   "end": 196.378
+  },
+  {
+   "who": "pip",
+   "text": "A hexagon has 6 sides!",
+   "start": 196.505,
+   "end": 199.154
+  },
+  {
+   "who": "pip",
+   "text": "A is for Apple.",
+   "start": 199.258,
+   "end": 200.919
+  },
+  {
+   "who": "pip",
+   "text": "A lemon is yellow!",
+   "start": 201.02,
+   "end": 202.692
+  },
+  {
+   "who": "pip",
+   "text": "A monkey lives in the jungle!",
+   "start": 202.777,
+   "end": 204.702
+  },
+  {
+   "who": "pip",
+   "text": "A penguin lives in the ice!",
+   "start": 204.82,
+   "end": 206.863
+  },
+  {
+   "who": "pip",
+   "text": "A pentagon has 5 sides!",
+   "start": 206.954,
+   "end": 209.401
+  },
+  {
+   "who": "pip",
+   "text": "A pig is pink!",
+   "start": 209.496,
+   "end": 211.132
+  },
+  {
+   "who": "pip",
+   "text": "A rabbit lives in the burrow!",
+   "start": 211.225,
+   "end": 213.181
+  },
+  {
+   "who": "pip",
+   "text": "A raccoon is awake at night and sleeps in the day!",
+   "start": 213.276,
+   "end": 216.567
+  },
+  {
+   "who": "pip",
+   "text": "A rectangle has 4 sides!",
+   "start": 216.67,
+   "end": 219.196
+  },
+  {
+   "who": "pip",
+   "text": "A rooster is busy in the day and sleeps at night!",
+   "start": 219.273,
+   "end": 222.442
+  },
+  {
+   "who": "pip",
+   "text": "A square has 4 sides!",
+   "start": 222.551,
+   "end": 224.903
+  },
+  {
+   "who": "pip",
+   "text": "A squirrel is busy in the day and sleeps at night!",
+   "start": 224.953,
+   "end": 228.072
+  },
+  {
+   "who": "pip",
+   "text": "A strawberry is red!",
+   "start": 228.153,
+   "end": 230.049
+  },
+  {
+   "who": "pip",
+   "text": "A triangle has 3 sides!",
+   "start": 230.137,
+   "end": 232.514
+  },
+  {
+   "who": "pip",
+   "text": "Adding to 10 is still locked.",
+   "start": 232.587,
+   "end": 234.899
+  },
+  {
+   "who": "pip",
+   "text": "Adding to 10!",
+   "start": 234.972,
+   "end": 236.233
+  },
+  {
+   "who": "pip",
+   "text": "Adding to 10.",
+   "start": 236.232,
+   "end": 237.519
+  },
+  {
+   "who": "pip",
+   "text": "Adding to 10...",
+   "start": 237.513,
+   "end": 238.845
+  },
+  {
+   "who": "pip",
+   "text": "Adding to 5 is still locked.",
+   "start": 238.92,
+   "end": 241.212
+  },
+  {
+   "who": "pip",
+   "text": "Adding to 5!",
+   "start": 241.29,
+   "end": 242.633
+  },
+  {
+   "who": "pip",
+   "text": "Adding to 5.",
+   "start": 242.616,
+   "end": 243.953
+  },
+  {
+   "who": "pip",
+   "text": "Adding to 5...",
+   "start": 243.993,
+   "end": 245.394
+  },
+  {
+   "who": "pip",
+   "text": "Am I right?",
+   "start": 245.374,
+   "end": 246.358
+  },
+  {
+   "who": "pip",
+   "text": "An eggplant is purple!",
+   "start": 246.426,
+   "end": 248.26
+  },
+  {
+   "who": "pip",
+   "text": "An owl is awake at night and sleeps in the day!",
+   "start": 248.36,
+   "end": 251.517
+  },
+  {
+   "who": "pip",
+   "text": "Animal homes is still locked.",
+   "start": 251.594,
+   "end": 253.736
+  },
+  {
+   "who": "pip",
+   "text": "Animal homes!",
+   "start": 253.817,
+   "end": 255.108
+  },
+  {
+   "who": "pip",
+   "text": "Animal homes.",
+   "start": 255.178,
+   "end": 256.529
+  },
+  {
+   "who": "pip",
+   "text": "Animal homes...",
+   "start": 256.616,
+   "end": 257.964
+  },
+  {
+   "who": "pip",
+   "text": "Apple starts with A!",
+   "start": 258.047,
+   "end": 259.761
+  },
+  {
+   "who": "pip",
+   "text": "Are there more than 10?",
+   "start": 259.772,
+   "end": 261.262
+  },
+  {
+   "who": "pip",
+   "text": "Are you sure, teacher?",
+   "start": 261.326,
+   "end": 262.818
+  },
+  {
+   "who": "pip",
+   "text": "B is for Bear.",
+   "start": 262.913,
+   "end": 264.674
+  },
+  {
+   "who": "pip",
+   "text": "BUMP!",
+   "start": 264.654,
+   "end": 265.362
+  },
+  {
+   "who": "pip",
+   "text": "Baby animals is still locked.",
+   "start": 265.452,
+   "end": 267.623
+  },
+  {
+   "who": "pip",
+   "text": "Baby animals!",
+   "start": 267.675,
+   "end": 269.026
+  },
+  {
+   "who": "pip",
+   "text": "Baby animals.",
+   "start": 269.114,
+   "end": 270.441
+  },
+  {
+   "who": "pip",
+   "text": "Baby animals...",
+   "start": 270.427,
+   "end": 271.892
+  },
+  {
+   "who": "pip",
+   "text": "Bear starts with B!",
+   "start": 271.966,
+   "end": 273.664
+  },
+  {
+   "who": "pip",
+   "text": "Bigger numbers is still locked.",
+   "start": 273.742,
+   "end": 275.832
+  },
+  {
+   "who": "pip",
+   "text": "Bigger numbers!",
+   "start": 275.916,
+   "end": 277.187
+  },
+  {
+   "who": "pip",
+   "text": "Bigger numbers.",
+   "start": 277.252,
+   "end": 278.533
+  },
+  {
+   "who": "pip",
+   "text": "Bigger numbers...",
+   "start": 278.65,
+   "end": 280.136
+  },
+  {
+   "who": "pip",
+   "text": "Bleep bloop!",
+   "start": 280.22,
+   "end": 281.119
+  },
+  {
+   "who": "pip",
+   "text": "Boop!",
+   "start": 281.099,
+   "end": 281.769
+  },
+  {
+   "who": "pip",
+   "text": "Brain sparkle!",
+   "start": 281.851,
+   "end": 283.188
+  },
+  {
+   "who": "pip",
+   "text": "Bright lights are things I remember.",
+   "start": 283.222,
+   "end": 285.352
+  },
+  {
+   "who": "pip",
+   "text": "C is for Cat.",
+   "start": 285.377,
+   "end": 286.969
+  },
+  {
+   "who": "pip",
+   "text": "Can we learn more?",
+   "start": 287.052,
+   "end": 288.293
+  },
+  {
+   "who": "pip",
+   "text": "Can you look again?",
+   "start": 288.379,
+   "end": 289.64
+  },
+  {
+   "who": "pip",
+   "text": "Can you see a tree, a bird or a cloud?",
+   "start": 289.723,
+   "end": 292.437
+  },
+  {
+   "who": "pip",
+   "text": "Can you show me HOW to count them?",
+   "start": 292.479,
+   "end": 294.459
+  },
+  {
+   "who": "pip",
+   "text": "Can you teach me again?",
+   "start": 294.582,
+   "end": 296.06
+  },
+  {
+   "who": "pip",
+   "text": "Cat starts with C!",
+   "start": 296.14,
+   "end": 297.785
+  },
+  {
+   "who": "pip",
+   "text": "Circle, square, triangle is still locked.",
+   "start": 297.836,
+   "end": 300.931
+  },
+  {
+   "who": "pip",
+   "text": "Circle, square, triangle!",
+   "start": 301.017,
+   "end": 303.13
+  },
+  {
+   "who": "pip",
+   "text": "Circle, square, triangle.",
+   "start": 303.214,
+   "end": 305.33
+  },
+  {
+   "who": "pip",
+   "text": "Circle, square, triangle...",
+   "start": 305.417,
+   "end": 307.416
+  },
+  {
+   "who": "pip",
+   "text": "Colors of things is still locked.",
+   "start": 307.501,
+   "end": 309.704
+  },
+  {
+   "who": "pip",
+   "text": "Colors of things!",
+   "start": 309.756,
+   "end": 311.131
+  },
+  {
+   "who": "pip",
+   "text": "Colors of things.",
+   "start": 311.18,
+   "end": 312.552
+  },
+  {
+   "who": "pip",
+   "text": "Colors of things...",
+   "start": 312.617,
+   "end": 314.023
+  },
+  {
+   "who": "pip",
+   "text": "Counting sides is still locked.",
+   "start": 314.065,
+   "end": 316.246
+  },
+  {
+   "who": "pip",
+   "text": "Counting sides!",
+   "start": 316.271,
+   "end": 317.661
+  },
+  {
+   "who": "pip",
+   "text": "Counting sides.",
+   "start": 317.692,
+   "end": 319.086
+  },
+  {
+   "who": "pip",
+   "text": "Counting sides...",
+   "start": 319.153,
+   "end": 320.616
+  },
+  {
+   "who": "pip",
+   "text": "Counting to 10 is still locked.",
+   "start": 320.688,
+   "end": 322.862
+  },
+  {
+   "who": "pip",
+   "text": "Counting to 10!",
+   "start": 322.866,
+   "end": 324.205
+  },
+  {
+   "who": "pip",
+   "text": "Counting to 10.",
+   "start": 324.246,
+   "end": 325.622
+  },
+  {
+   "who": "pip",
+   "text": "Counting to 10...",
+   "start": 325.657,
+   "end": 327.059
+  },
+  {
+   "who": "pip",
+   "text": "Counting to 5 is still locked.",
+   "start": 327.099,
+   "end": 329.335
+  },
+  {
+   "who": "pip",
+   "text": "Counting to 5!",
+   "start": 329.381,
+   "end": 330.771
+  },
+  {
+   "who": "pip",
+   "text": "Counting to 5.",
+   "start": 330.826,
+   "end": 332.209
+  },
+  {
+   "who": "pip",
+   "text": "Counting to 5...",
+   "start": 332.219,
+   "end": 333.806
+  },
+  {
+   "who": "pip",
+   "text": "D is for Dog.",
+   "start": 333.884,
+   "end": 335.303
+  },
+  {
+   "who": "pip",
+   "text": "Day and night animals is still locked.",
+   "start": 335.369,
+   "end": 337.804
+  },
+  {
+   "who": "pip",
+   "text": "Day and night animals!",
+   "start": 337.857,
+   "end": 339.449
+  },
+  {
+   "who": "pip",
+   "text": "Day and night animals.",
+   "start": 339.452,
+   "end": 340.981
+  },
+  {
+   "who": "pip",
+   "text": "Day and night animals...",
+   "start": 341.034,
+   "end": 342.796
+  },
+  {
+   "who": "pip",
+   "text": "Dim lights are things I'm forgetting!",
+   "start": 342.905,
+   "end": 345.034
+  },
+  {
+   "who": "pip",
+   "text": "Dog starts with D!",
+   "start": 345.113,
+   "end": 346.76
+  },
+  {
+   "who": "pip",
+   "text": "E is for Egg.",
+   "start": 346.841,
+   "end": 348.392
+  },
+  {
+   "who": "pip",
+   "text": "Earth is AMAZING!",
+   "start": 348.426,
+   "end": 350.345
+  },
+  {
+   "who": "pip",
+   "text": "Earth is so interesting.",
+   "start": 350.41,
+   "end": 352.1
+  },
+  {
+   "who": "pip",
+   "text": "Egg starts with E!",
+   "start": 352.168,
+   "end": 353.865
+  },
+  {
+   "who": "pip",
+   "text": "F is for Fish.",
+   "start": 353.917,
+   "end": 355.541
+  },
+  {
+   "who": "pip",
+   "text": "Fish starts with F!",
+   "start": 355.607,
+   "end": 357.416
+  },
+  {
+   "who": "pip",
+   "text": "G is for Grapes.",
+   "start": 357.515,
+   "end": 359.261
+  },
+  {
+   "who": "pip",
+   "text": "Go, go, go!",
+   "start": 359.327,
+   "end": 360.702
+  },
+  {
+   "who": "pip",
+   "text": "Good catch!",
+   "start": 360.682,
+   "end": 361.766
+  },
+  {
+   "who": "pip",
+   "text": "Grapes starts with G!",
+   "start": 361.842,
+   "end": 363.655
+  },
+  {
+   "who": "pip",
+   "text": "H is for Hat.",
+   "start": 363.723,
+   "end": 365.341
+  },
+  {
+   "who": "pip",
+   "text": "Hat starts with H!",
+   "start": 365.388,
+   "end": 367.016
+  },
+  {
+   "who": "pip",
+   "text": "Hee hee!",
+   "start": 367.008,
+   "end": 367.921
+  },
+  {
+   "who": "pip",
+   "text": "Hello!",
+   "start": 367.901,
+   "end": 368.721
+  },
+  {
+   "who": "pip",
+   "text": "Hello, Teacher!",
+   "start": 368.701,
+   "end": 369.946
+  },
+  {
+   "who": "pip",
+   "text": "Here is your mission: Count all your fingers and toes.",
+   "start": 369.932,
+   "end": 373.572
+  },
+  {
+   "who": "pip",
+   "text": "Here is your mission: Count the windows in your room!",
+   "start": 373.566,
+   "end": 376.816
+  },
+  {
+   "who": "pip",
+   "text": "Here is your mission: Draw a big letter in the air with your finger.",
+   "start": 376.821,
+   "end": 381.136
+  },
+  {
+   "who": "pip",
+   "text": "Here is your mission: Find 2 spoons and count them out loud!",
+   "start": 381.171,
+   "end": 385.229
+  },
+  {
+   "who": "pip",
+   "text": "Here is your mission: Find 3 spoons and count them out loud!",
+   "start": 385.322,
+   "end": 389.438
+  },
+  {
+   "who": "pip",
+   "text": "Here is your mission: Find 3 things that are blue!",
+   "start": 389.476,
+   "end": 392.943
+  },
+  {
+   "who": "pip",
+   "text": "Here is your mission: Find 3 things that are green!",
+   "start": 392.923,
+   "end": 396.202
+  },
+  {
+   "who": "pip",
+   "text": "Here is your mission: Find 3 things that are red!",
+   "start": 396.288,
+   "end": 399.581
+  },
+  {
+   "who": "pip",
+   "text": "Here is your mission: Find 3 things that are yellow!",
+   "start": 399.645,
+   "end": 402.985
+  },
+  {
+   "who": "pip",
+   "text": "Here is your mission: Find 4 spoons and count them out loud!",
+   "start": 403.048,
+   "end": 407.346
+  },
+  {
+   "who": "pip",
+   "text": "Here is your mission: Find 5 spoons and count them out loud!",
+   "start": 407.405,
+   "end": 411.669
+  },
+  {
+   "who": "pip",
+   "text": "Here is your mission: Find a toy animal, or a picture of one.",
+   "start": 411.71,
+   "end": 415.826
+  },
+  {
+   "who": "pip",
+   "text": "Here is your mission: Find a triangle hiding somewhere in your home!",
+   "start": 415.88,
+   "end": 419.92
+  }
+ ]
+}

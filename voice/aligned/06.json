@@ -11,20 +11,20 @@
   {
    "who": "peely",
    "text": "A salad!",
-   "start": 0.87,
+   "start": 0.911,
    "end": 1.81
   },
   {
    "who": "peely",
    "text": "A smoothie!",
    "start": 1.81,
-   "end": 2.66
+   "end": 2.69
   },
   {
    "who": "peely",
    "text": "A soup!",
-   "start": 2.63,
-   "end": 3.39
+   "start": 2.662,
+   "end": 3.348
   },
   {
    "who": "peely",
@@ -35,247 +35,247 @@
   {
    "who": "peely",
    "text": "Can I play too?",
-   "start": 4.85,
+   "start": 4.871,
    "end": 6.08
   },
   {
    "who": "peely",
    "text": "Ding!",
-   "start": 6.61,
-   "end": 7.05
+   "start": 6.651,
+   "end": 7.398
   },
   {
    "who": "peely",
    "text": "Good choice!",
    "start": 7.57,
-   "end": 8.72
+   "end": 8.683
   },
   {
    "who": "peely",
    "text": "I feel happy today!",
-   "start": 9.22,
+   "start": 9.239,
    "end": 10.77
   },
   {
    "who": "peely",
    "text": "In goes the apple!",
-   "start": 11.26,
-   "end": 12.46
+   "start": 10.975,
+   "end": 12.413
   },
   {
    "who": "peely",
    "text": "In goes the banana!",
-   "start": 12.97,
+   "start": 12.988,
    "end": 14.48
   },
   {
    "who": "peely",
    "text": "In goes the blueberries!",
-   "start": 14.97,
-   "end": 16.66
+   "start": 14.992,
+   "end": 16.621
   },
   {
    "who": "peely",
    "text": "In goes the broccoli!",
-   "start": 17.22,
+   "start": 17.247,
    "end": 18.77
   },
   {
    "who": "peely",
    "text": "In goes the carrot!",
-   "start": 19.39,
+   "start": 19.371,
    "end": 20.7
   },
   {
    "who": "peely",
    "text": "In goes the cheese!",
-   "start": 21.3,
-   "end": 23.18
+   "start": 21.077,
+   "end": 23.136
   },
   {
    "who": "peely",
    "text": "In goes the corn!",
-   "start": 23.69,
+   "start": 23.724,
    "end": 25.22
   },
   {
    "who": "peely",
    "text": "In goes the egg!",
-   "start": 25.85,
+   "start": 25.875,
    "end": 27.51
   },
   {
    "who": "peely",
    "text": "In goes the honey!",
-   "start": 28.19,
+   "start": 27.885,
    "end": 29.43
   },
   {
    "who": "peely",
    "text": "In goes the kiwi!",
-   "start": 30.01,
+   "start": 30.034,
    "end": 31.77
   },
   {
    "who": "peely",
    "text": "In goes the milk!",
-   "start": 32.38,
-   "end": 33.72
+   "start": 32.365,
+   "end": 33.681
   },
   {
    "who": "peely",
    "text": "In goes the mushroom!",
-   "start": 34.33,
+   "start": 34.356,
    "end": 36.13
   },
   {
    "who": "peely",
    "text": "In goes the orange!",
-   "start": 36.81,
-   "end": 38.36
+   "start": 36.738,
+   "end": 38.32
   },
   {
    "who": "peely",
    "text": "In goes the pepper!",
-   "start": 39.05,
+   "start": 38.78,
    "end": 40.76
   },
   {
    "who": "peely",
    "text": "In goes the strawberry!",
-   "start": 41.55,
+   "start": 41.514,
    "end": 43.32
   },
   {
    "who": "peely",
    "text": "In goes the tomato!",
-   "start": 43.99,
-   "end": 45.69
+   "start": 44.005,
+   "end": 45.643
   },
   {
    "who": "peely",
    "text": "It's full!",
-   "start": 46.26,
+   "start": 46.282,
    "end": 47.19
   },
   {
    "who": "peely",
    "text": "Let's build a fort!",
-   "start": 47.45,
+   "start": 47.461,
    "end": 48.8
   },
   {
    "who": "peely",
    "text": "Let's have a party!",
-   "start": 49.11,
+   "start": 49.139,
    "end": 50.29
   },
   {
    "who": "peely",
    "text": "Let\u2019s cook something new!",
-   "start": 50.74,
+   "start": 50.57,
    "end": 52.36
   },
   {
    "who": "peely",
    "text": "Mmm, apple!",
-   "start": 53.25,
+   "start": 52.932,
    "end": 54.42
   },
   {
    "who": "peely",
    "text": "Mmm, banana!",
-   "start": 55.39,
+   "start": 55.039,
    "end": 56.65
   },
   {
    "who": "peely",
    "text": "Mmm, blueberries!",
-   "start": 57.93,
-   "end": 59.31
+   "start": 57.429,
+   "end": 59.276
   },
   {
    "who": "peely",
    "text": "Mmm, broccoli!",
-   "start": 60.01,
+   "start": 60.028,
    "end": 61.76
   },
   {
    "who": "peely",
    "text": "Mmm, carrot!",
-   "start": 63.18,
+   "start": 62.694,
    "end": 64.37
   },
   {
    "who": "peely",
    "text": "Mmm, cheese!",
-   "start": 65.52,
-   "end": 66.78
+   "start": 65.129,
+   "end": 66.748
   },
   {
    "who": "peely",
    "text": "Mmm, corn!",
-   "start": 67.65,
+   "start": 67.683,
    "end": 69.35
   },
   {
    "who": "peely",
    "text": "Mmm, egg!",
-   "start": 70.61,
+   "start": 70.249,
    "end": 71.81
   },
   {
    "who": "peely",
    "text": "Mmm, honey!",
-   "start": 73.04,
+   "start": 72.692,
    "end": 74.16
   },
   {
    "who": "peely",
    "text": "Mmm, kiwi!",
-   "start": 75.01,
+   "start": 75.051,
    "end": 76.7
   },
   {
    "who": "peely",
    "text": "Mmm, milk!",
-   "start": 78.24,
+   "start": 77.783,
    "end": 79.45
   },
   {
    "who": "peely",
    "text": "Mmm, mushroom!",
-   "start": 80.33,
-   "end": 82.01
+   "start": 80.36,
+   "end": 81.961
   },
   {
    "who": "peely",
    "text": "Mmm, orange!",
-   "start": 83.29,
+   "start": 82.887,
    "end": 84.7
   },
   {
    "who": "peely",
    "text": "Mmm, pepper!",
-   "start": 85.56,
+   "start": 85.595,
    "end": 87.09
   },
   {
    "who": "peely",
    "text": "Mmm, strawberry!",
-   "start": 88.42,
+   "start": 87.987,
    "end": 89.76
   },
   {
    "who": "peely",
    "text": "Mmm, tomato!",
-   "start": 90.89,
+   "start": 90.515,
    "end": 92.16
   },
   {
    "who": "peely",
    "text": "Peel out!",
-   "start": 93.0,
+   "start": 93.05,
    "end": 93.91
   },
   {
@@ -287,44 +287,44 @@
   {
    "who": "peely",
    "text": "Pick a bowl, a blender, a pot or a pizza!",
-   "start": 95.68,
+   "start": 95.502,
    "end": 98.82
   },
   {
    "who": "peely",
    "text": "Ready!",
-   "start": 99.28,
+   "start": 99.297,
    "end": 99.97
   },
   {
    "who": "peely",
    "text": "Ready, set, go!",
-   "start": 100.33,
+   "start": 100.142,
    "end": 101.78
   },
   {
    "who": "peely",
    "text": "Shh, I am hiding!",
-   "start": 102.2,
-   "end": 104.05
+   "start": 102.25,
+   "end": 104.009
   },
   {
    "who": "peely",
    "text": "Swish swish!",
-   "start": 104.44,
-   "end": 105.72
+   "start": 104.293,
+   "end": 105.693
   },
   {
    "who": "peely",
    "text": "Tap the food to put it in.",
-   "start": 106.22,
+   "start": 106.023,
    "end": 107.92
   },
   {
    "who": "peely",
    "text": "Time for a snack!",
-   "start": 108.5,
-   "end": 109.8
+   "start": 108.524,
+   "end": 109.766
   },
   {
    "who": "peely",
@@ -335,122 +335,122 @@
   {
    "who": "peely",
    "text": "Time to blend!",
-   "start": 111.5,
-   "end": 112.79
+   "start": 111.548,
+   "end": 112.744
   },
   {
    "who": "peely",
    "text": "Time to cook!",
-   "start": 113.29,
+   "start": 113.322,
    "end": 114.34
   },
   {
    "who": "peely",
    "text": "Time to dance!",
    "start": 114.84,
-   "end": 116.19
+   "end": 116.148
   },
   {
    "who": "peely",
    "text": "Time to stir!",
-   "start": 116.64,
+   "start": 116.668,
    "end": 117.95
   },
   {
    "who": "peely",
    "text": "Vrrrrr!",
-   "start": 118.58,
-   "end": 119.63
+   "start": 118.476,
+   "end": 119.583
   },
   {
    "who": "peely",
    "text": "Welcome to my kitchen!",
-   "start": 119.75,
+   "start": 119.724,
    "end": 121.14
   },
   {
    "who": "peely",
    "text": "What shall we make?",
-   "start": 121.39,
-   "end": 122.68
+   "start": 121.397,
+   "end": 122.636
   },
   {
    "who": "peely",
    "text": "Who wants to eat it?",
-   "start": 123.0,
+   "start": 123.03,
    "end": 124.21
   },
   {
    "who": "peely",
    "text": "Will you be my friend?",
-   "start": 124.58,
+   "start": 124.542,
    "end": 125.98
   },
   {
    "who": "peely",
    "text": "Your pizza is ready!",
-   "start": 126.58,
+   "start": 126.406,
    "end": 128.0
   },
   {
    "who": "peely",
    "text": "Your salad is ready!",
-   "start": 128.54,
+   "start": 128.558,
    "end": 129.81
   },
   {
    "who": "peely",
    "text": "Your smoothie is ready!",
-   "start": 130.28,
+   "start": 130.075,
    "end": 131.75
   },
   {
    "who": "peely",
    "text": "Your soup is ready!",
-   "start": 132.24,
+   "start": 132.255,
    "end": 133.56
   },
   {
    "who": "peely",
    "text": "Yum!",
-   "start": 134.07,
+   "start": 134.083,
    "end": 134.94
   },
   {
    "who": "peely",
    "text": "apple!",
-   "start": 135.67,
+   "start": 135.701,
    "end": 136.39
   },
   {
    "who": "peely",
    "text": "banana!",
-   "start": 136.45,
-   "end": 137.33
+   "start": 136.498,
+   "end": 137.283
   },
   {
    "who": "peely",
    "text": "blueberries!",
-   "start": 137.59,
-   "end": 138.64
+   "start": 137.597,
+   "end": 138.607
   },
   {
    "who": "peely",
    "text": "broccoli!",
-   "start": 138.89,
+   "start": 138.928,
    "end": 139.84
   },
   {
    "who": "peely",
    "text": "carrot!",
-   "start": 140.17,
-   "end": 140.9
+   "start": 140.204,
+   "end": 140.863
   },
   {
    "who": "peely",
    "text": "cheese!",
    "start": 141.49,
-   "end": 142.41
+   "end": 142.367
   },
   {
    "who": "peely",
@@ -461,37 +461,37 @@
   {
    "who": "peely",
    "text": "egg!",
-   "start": 144.05,
+   "start": 144.063,
    "end": 144.79
   },
   {
    "who": "peely",
    "text": "honey!",
-   "start": 145.39,
+   "start": 145.393,
    "end": 146.07
   },
   {
    "who": "peely",
    "text": "kiwi!",
-   "start": 146.72,
+   "start": 146.747,
    "end": 147.6
   },
   {
    "who": "peely",
    "text": "milk!",
-   "start": 148.15,
-   "end": 148.92
+   "start": 148.14,
+   "end": 148.884
   },
   {
    "who": "peely",
    "text": "mushroom!",
-   "start": 149.56,
+   "start": 149.582,
    "end": 150.49
   },
   {
    "who": "peely",
    "text": "orange!",
-   "start": 151.13,
+   "start": 151.15,
    "end": 152.0
   },
   {
@@ -503,13 +503,13 @@
   {
    "who": "peely",
    "text": "strawberry!",
-   "start": 153.72,
+   "start": 153.728,
    "end": 154.76
   },
   {
    "who": "peely",
    "text": "tomato!",
-   "start": 155.14,
+   "start": 155.173,
    "end": 155.92
   }
  ]

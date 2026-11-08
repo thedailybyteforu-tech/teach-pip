@@ -1,0 +1,244 @@
+0.
+1.
+1 apple and 1 more.
+1 apple and 3 more.
+1 apple and 4 more.
+1 apple and 9 more.
+1 balloon and 4 more.
+1 balloon and 6 more.
+1 chick and 2 more.
+1 chick and 4 more.
+1 chick and 6 more.
+1 chick and 9 more.
+1 cookie and 4 more.
+1 cookie and 5 more.
+1 cookie and 9 more.
+1 fish and 1 more.
+1 fish and 9 more.
+1 ladybug and 2 more.
+1 ladybug and 4 more.
+1 ladybug and 5 more.
+1 plus 1 makes 2!
+1 plus 6 makes 7!
+1 rocket and 1 more.
+1 rocket and 2 more.
+1 rocket and 3 more.
+1 rocket and 4 more.
+1 rocket and 5 more.
+1 rocket and 7 more.
+1 rocket and 9 more.
+2.
+2 balloons and 1 more.
+2 balloons and 2 more.
+2 balloons and 3 more.
+2 balloons and 4 more.
+2 balloons and 5 more.
+2 balloons and 6 more.
+2 balloons and 7 more.
+2 balloons.
+2 chicks and 2 more.
+2 chicks and 4 more.
+2 chicks and 5 more.
+2 chicks and 6 more.
+2 chicks and 7 more.
+2 chicks and 8 more.
+2 chicks.
+2 cookies and 1 more.
+2 cookies and 7 more.
+2 fish and 1 more.
+2 fish and 2 more.
+2 fish and 3 more.
+2 fish and 4 more.
+2 fish and 5 more.
+2 fish and 6 more.
+2 fish and 7 more.
+2 fish and 8 more.
+2 fish.
+2 flowers and 2 more.
+2 ladybugs and 1 more.
+2 ladybugs and 2 more.
+2 ladybugs and 3 more.
+2 ladybugs and 4 more.
+2 ladybugs and 5 more.
+2 ladybugs and 6 more.
+2 ladybugs and 7 more.
+2 ladybugs and 8 more.
+2 ladybugs.
+2 plus 1 makes 3!
+2 plus 2 makes 4!
+2 plus 3 makes 5!
+2 plus 4 makes 6!
+2 plus 6 makes 8!
+2 plus 7 makes 9!
+2 rockets and 2 more.
+2 rockets and 3 more.
+2 rockets and 4 more.
+2 rockets and 5 more.
+2 rockets and 6 more.
+2 rockets and 7 more.
+2 rockets and 8 more.
+2 rockets.
+2 stars and 2 more.
+2 stars and 3 more.
+2 stars and 4 more.
+2 stars and 5 more.
+2 stars and 7 more.
+2 stars.
+2 take away 1 leaves 1!
+3 apples and 3 more.
+3 apples and 4 more.
+3 balloons and 1 more.
+3 balloons and 2 more.
+3 balloons and 3 more.
+3 balloons and 4 more.
+3 balloons and 5 more.
+3 balloons and 6 more.
+3 balloons and 7 more.
+3 balloons.
+3 chicks and 1 more.
+3 chicks and 2 more.
+3 chicks and 3 more.
+3 chicks and 4 more.
+3 chicks and 5 more.
+3 chicks and 6 more.
+3 chicks and 7 more.
+3 chicks.
+3 cookies and 1 more.
+3 cookies and 2 more.
+3 cookies and 3 more.
+3 cookies and 4 more.
+3 cookies and 5 more.
+3 cookies and 6 more.
+3 cookies and 7 more.
+3 cookies.
+3 fish and 1 more.
+3 fish and 2 more.
+3 fish and 3 more.
+3 fish and 4 more.
+3 fish and 7 more.
+3 fish.
+3 flowers and 1 more.
+3 flowers and 2 more.
+3 flowers and 3 more.
+3 flowers and 4 more.
+3 flowers and 5 more.
+3 flowers and 6 more.
+3 flowers and 7 more.
+3 flowers.
+3 go away.
+3 is bigger than 1!
+3 is bigger than 2!
+3 ladybugs and 1 more.
+3 ladybugs and 2 more.
+3 ladybugs and 3 more.
+3 ladybugs and 4 more.
+3 ladybugs and 6 more.
+3 ladybugs and 7 more.
+3 ladybugs.
+3 plus 1 makes 4!
+3 plus 2 makes 5!
+3 rockets and 1 more.
+3 rockets.
+3 take away 1 leaves 2!
+3 take away 2 leaves 1!
+4 apples and 2 more.
+4 balloons and 2 more.
+4 balloons and 3 more.
+4 balloons and 4 more.
+4 balloons and 5 more.
+4 balloons and 6 more.
+4 balloons.
+4 chicks and 1 more.
+4 chicks and 2 more.
+4 chicks and 3 more.
+4 chicks and 4 more.
+4 chicks and 5 more.
+4 chicks and 6 more.
+4 chicks.
+4 cookies and 2 more.
+4 fish and 1 more.
+4 fish and 2 more.
+4 fish and 3 more.
+4 fish and 6 more.
+4 fish.
+4 is bigger than 1!
+4 ladybugs and 2 more.
+4 ladybugs and 3 more.
+4 ladybugs and 4 more.
+4 ladybugs and 5 more.
+4 ladybugs and 6 more.
+4 plus 4 makes 8!
+4 rockets and 1 more.
+4 rockets and 3 more.
+4 rockets and 6 more.
+4 rockets.
+4 stars and 2 more.
+4 stars and 4 more.
+4 take away 1 leaves 3!
+4 take away 2 leaves 2!
+4 take away 3 leaves 1!
+5 apples and 3 more.
+5 balloons and 3 more.
+5 chicks and 2 more.
+5 chicks and 4 more.
+5 chicks.
+5 cookies and 2 more.
+5 cookies and 3 more.
+5 fish and 2 more.
+5 fish and 3 more.
+5 flowers and 2 more.
+5 flowers and 4 more.
+5 flowers.
+5 is bigger than 1!
+5 ladybugs and 2 more.
+5 ladybugs and 3 more.
+5 ladybugs and 4 more.
+5 ladybugs and 5 more.
+5 ladybugs.
+5 rockets and 2 more.
+5 rockets and 3 more.
+5 rockets and 4 more.
+5 rockets.
+5 take away 1 leaves 4!
+5 take away 2 leaves 3!
+5 take away 3 leaves 2!
+6 apples and 2 more.
+6 balloons and 2 more.
+6 balloons and 3 more.
+6 balloons and 4 more.
+6 chicks and 1 more.
+6 chicks and 2 more.
+6 chicks and 3 more.
+6 cookies and 2 more.
+6 cookies and 3 more.
+6 cookies and 4 more.
+6 fish and 1 more.
+6 fish and 2 more.
+6 fish and 3 more.
+6 fish and 4 more.
+6 flowers and 1 more.
+6 flowers and 2 more.
+6 flowers and 3 more.
+6 flowers and 4 more.
+6 is bigger than 1!
+6 is bigger than 2!
+6 is bigger than 3!
+6 is bigger than 4!
+6 is bigger than 5!
+6 ladybugs and 1 more.
+6 ladybugs and 2 more.
+6 ladybugs and 3 more.
+6 ladybugs and 4 more.
+6 plus 1 makes 7!
+6 plus 2 makes 8!
+6 plus 3 makes 9!
+6 plus 4 makes 10!
+6 rockets and 1 more.
+6 rockets and 2 more.
+6 rockets and 3 more.
+6 rockets and 4 more.
+6 stars and 1 more.
+6 stars and 2 more.
+6 stars and 3 more.
+6 stars and 4 more.
+7 apples and 1 more.

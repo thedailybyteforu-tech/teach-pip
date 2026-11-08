@@ -1,0 +1,732 @@
+{
+ "id": "08",
+ "mp3": "/home/user/teach-pip/voice/raw/08.mp3",
+ "clips": [
+  {
+   "who": "pip",
+   "text": "1 apple and 2 more.",
+   "start": 3.758,
+   "end": 5.713
+  },
+  {
+   "who": "pip",
+   "text": "1 apple and 5 more.",
+   "start": 11.414,
+   "end": 13.486
+  },
+  {
+   "who": "pip",
+   "text": "1 apple and 6 more.",
+   "start": 14.024,
+   "end": 16.146
+  },
+  {
+   "who": "pip",
+   "text": "1 apple and 7 more.",
+   "start": 16.676,
+   "end": 18.793
+  },
+  {
+   "who": "pip",
+   "text": "1 apple and 8 more.",
+   "start": 19.356,
+   "end": 21.327
+  },
+  {
+   "who": "pip",
+   "text": "1 balloon and 1 more.",
+   "start": 24.343,
+   "end": 26.376
+  },
+  {
+   "who": "pip",
+   "text": "1 balloon and 2 more.",
+   "start": 26.93,
+   "end": 28.761
+  },
+  {
+   "who": "pip",
+   "text": "1 balloon and 3 more.",
+   "start": 29.333,
+   "end": 31.247
+  },
+  {
+   "who": "pip",
+   "text": "1 balloon and 5 more.",
+   "start": 34.264,
+   "end": 36.224
+  },
+  {
+   "who": "pip",
+   "text": "1 balloon and 7 more.",
+   "start": 39.229,
+   "end": 41.327
+  },
+  {
+   "who": "pip",
+   "text": "1 balloon and 8 more.",
+   "start": 41.866,
+   "end": 43.713
+  },
+  {
+   "who": "pip",
+   "text": "1 balloon and 9 more.",
+   "start": 44.24,
+   "end": 46.195
+  },
+  {
+   "who": "pip",
+   "text": "1 chick and 1 more.",
+   "start": 46.716,
+   "end": 48.736
+  },
+  {
+   "who": "pip",
+   "text": "1 chick and 3 more.",
+   "start": 51.835,
+   "end": 53.672
+  },
+  {
+   "who": "pip",
+   "text": "1 chick and 5 more.",
+   "start": 56.699,
+   "end": 58.616
+  },
+  {
+   "who": "pip",
+   "text": "1 chick and 7 more.",
+   "start": 61.626,
+   "end": 63.612
+  },
+  {
+   "who": "pip",
+   "text": "1 chick and 8 more.",
+   "start": 64.167,
+   "end": 66.037
+  },
+  {
+   "who": "pip",
+   "text": "1 cookie and 1 more.",
+   "start": 69.061,
+   "end": 71.15
+  },
+  {
+   "who": "pip",
+   "text": "1 cookie and 2 more.",
+   "start": 71.706,
+   "end": 73.634
+  },
+  {
+   "who": "pip",
+   "text": "1 cookie and 3 more.",
+   "start": 74.184,
+   "end": 76.108
+  },
+  {
+   "who": "pip",
+   "text": "1 cookie and 6 more.",
+   "start": 81.691,
+   "end": 83.75
+  },
+  {
+   "who": "pip",
+   "text": "1 cookie and 7 more.",
+   "start": 84.258,
+   "end": 86.376
+  },
+  {
+   "who": "pip",
+   "text": "1 cookie and 8 more.",
+   "start": 86.99,
+   "end": 88.843
+  },
+  {
+   "who": "pip",
+   "text": "1 fish and 2 more.",
+   "start": 94.474,
+   "end": 96.286
+  },
+  {
+   "who": "pip",
+   "text": "1 fish and 3 more.",
+   "start": 96.847,
+   "end": 98.75
+  },
+  {
+   "who": "pip",
+   "text": "1 fish and 4 more.",
+   "start": 99.29,
+   "end": 101.282
+  },
+  {
+   "who": "pip",
+   "text": "1 fish and 5 more.",
+   "start": 101.817,
+   "end": 103.892
+  },
+  {
+   "who": "pip",
+   "text": "1 fish and 6 more.",
+   "start": 104.413,
+   "end": 106.431
+  },
+  {
+   "who": "pip",
+   "text": "1 fish and 7 more.",
+   "start": 106.972,
+   "end": 109.09
+  },
+  {
+   "who": "pip",
+   "text": "1 fish and 8 more.",
+   "start": 109.613,
+   "end": 111.455
+  },
+  {
+   "who": "pip",
+   "text": "1 flower and 1 more.",
+   "start": 114.758,
+   "end": 117.054
+  },
+  {
+   "who": "pip",
+   "text": "1 flower and 2 more.",
+   "start": 117.609,
+   "end": 119.658
+  },
+  {
+   "who": "pip",
+   "text": "1 flower and 3 more.",
+   "start": 120.316,
+   "end": 122.354
+  },
+  {
+   "who": "pip",
+   "text": "1 flower and 4 more.",
+   "start": 122.898,
+   "end": 125.037
+  },
+  {
+   "who": "pip",
+   "text": "1 flower and 5 more.",
+   "start": 125.583,
+   "end": 127.736
+  },
+  {
+   "who": "pip",
+   "text": "1 flower and 6 more.",
+   "start": 128.339,
+   "end": 130.375
+  },
+  {
+   "who": "pip",
+   "text": "1 flower and 7 more.",
+   "start": 130.902,
+   "end": 133.201
+  },
+  {
+   "who": "pip",
+   "text": "1 flower and 8 more.",
+   "start": 133.777,
+   "end": 135.73
+  },
+  {
+   "who": "pip",
+   "text": "1 flower and 9 more.",
+   "start": 136.29,
+   "end": 138.455
+  },
+  {
+   "who": "pip",
+   "text": "1 go away.",
+   "start": 139.787,
+   "end": 140.782
+  },
+  {
+   "who": "pip",
+   "text": "1 ladybug and 1 more.",
+   "start": 141.305,
+   "end": 143.615
+  },
+  {
+   "who": "pip",
+   "text": "1 ladybug and 3 more.",
+   "start": 146.802,
+   "end": 149.081
+  },
+  {
+   "who": "pip",
+   "text": "1 ladybug and 6 more.",
+   "start": 155.207,
+   "end": 157.365
+  },
+  {
+   "who": "pip",
+   "text": "1 ladybug and 7 more.",
+   "start": 157.95,
+   "end": 160.291
+  },
+  {
+   "who": "pip",
+   "text": "1 ladybug and 8 more.",
+   "start": 160.878,
+   "end": 163.021
+  },
+  {
+   "who": "pip",
+   "text": "1 ladybug and 9 more.",
+   "start": 163.71,
+   "end": 166.031
+  },
+  {
+   "who": "pip",
+   "text": "1 plus 2 makes 3!",
+   "start": 169.157,
+   "end": 171.531
+  },
+  {
+   "who": "pip",
+   "text": "1 plus 3 makes 4!",
+   "start": 171.922,
+   "end": 174.212
+  },
+  {
+   "who": "pip",
+   "text": "1 plus 4 makes 5!",
+   "start": 174.661,
+   "end": 177.09
+  },
+  {
+   "who": "pip",
+   "text": "1 plus 5 makes 6!",
+   "start": 177.52,
+   "end": 179.913
+  },
+  {
+   "who": "pip",
+   "text": "1 plus 7 makes 8!",
+   "start": 183.037,
+   "end": 185.223
+  },
+  {
+   "who": "pip",
+   "text": "1 plus 8 makes 9!",
+   "start": 185.757,
+   "end": 188.064
+  },
+  {
+   "who": "pip",
+   "text": "1 plus 9 makes 10!",
+   "start": 188.404,
+   "end": 190.766
+  },
+  {
+   "who": "pip",
+   "text": "1 rocket and 6 more.",
+   "start": 204.28,
+   "end": 206.3
+  },
+  {
+   "who": "pip",
+   "text": "1 rocket and 8 more.",
+   "start": 209.576,
+   "end": 211.479
+  },
+  {
+   "who": "pip",
+   "text": "1 star and 1 more.",
+   "start": 214.637,
+   "end": 216.842
+  },
+  {
+   "who": "pip",
+   "text": "1 star and 2 more.",
+   "start": 217.374,
+   "end": 219.263
+  },
+  {
+   "who": "pip",
+   "text": "1 star and 3 more.",
+   "start": 219.857,
+   "end": 221.924
+  },
+  {
+   "who": "pip",
+   "text": "1 star and 4 more.",
+   "start": 222.451,
+   "end": 224.519
+  },
+  {
+   "who": "pip",
+   "text": "1 star and 5 more.",
+   "start": 225.072,
+   "end": 227.249
+  },
+  {
+   "who": "pip",
+   "text": "1 star and 6 more.",
+   "start": 227.78,
+   "end": 229.81
+  },
+  {
+   "who": "pip",
+   "text": "1 star and 7 more.",
+   "start": 230.395,
+   "end": 232.522
+  },
+  {
+   "who": "pip",
+   "text": "1 star and 8 more.",
+   "start": 233.093,
+   "end": 235.143
+  },
+  {
+   "who": "pip",
+   "text": "1 star and 9 more.",
+   "start": 235.702,
+   "end": 237.876
+  },
+  {
+   "who": "pip",
+   "text": "10",
+   "start": 239.194,
+   "end": 240.044
+  },
+  {
+   "who": "pip",
+   "text": "10 is bigger than 1!",
+   "start": 240.175,
+   "end": 242.142
+  },
+  {
+   "who": "pip",
+   "text": "10 is bigger than 2!",
+   "start": 242.251,
+   "end": 244.192
+  },
+  {
+   "who": "pip",
+   "text": "10 is bigger than 3!",
+   "start": 244.462,
+   "end": 246.446
+  },
+  {
+   "who": "pip",
+   "text": "10 is bigger than 4!",
+   "start": 246.83,
+   "end": 248.737
+  },
+  {
+   "who": "pip",
+   "text": "10 is bigger than 5!",
+   "start": 249.18,
+   "end": 251.283
+  },
+  {
+   "who": "pip",
+   "text": "10 is bigger than 6!",
+   "start": 251.643,
+   "end": 253.598
+  },
+  {
+   "who": "pip",
+   "text": "10 is bigger than 7!",
+   "start": 254.129,
+   "end": 256.207
+  },
+  {
+   "who": "pip",
+   "text": "10 is bigger than 8!",
+   "start": 256.685,
+   "end": 258.465
+  },
+  {
+   "who": "pip",
+   "text": "10 is bigger than 9!",
+   "start": 258.969,
+   "end": 261.171
+  },
+  {
+   "who": "pip",
+   "text": "10!",
+   "start": 261.399,
+   "end": 262.227
+  },
+  {
+   "who": "pip",
+   "text": "11",
+   "start": 262.553,
+   "end": 263.643
+  },
+  {
+   "who": "pip",
+   "text": "12",
+   "start": 265.371,
+   "end": 266.386
+  },
+  {
+   "who": "pip",
+   "text": "12!",
+   "start": 266.682,
+   "end": 267.7
+  },
+  {
+   "who": "pip",
+   "text": "2 apples and 1 more.",
+   "start": 268.234,
+   "end": 270.667
+  },
+  {
+   "who": "pip",
+   "text": "2 apples and 2 more.",
+   "start": 271.059,
+   "end": 273.045
+  },
+  {
+   "who": "pip",
+   "text": "2 apples and 3 more.",
+   "start": 273.436,
+   "end": 275.351
+  },
+  {
+   "who": "pip",
+   "text": "2 apples and 4 more.",
+   "start": 275.862,
+   "end": 277.881
+  },
+  {
+   "who": "pip",
+   "text": "2 apples and 5 more.",
+   "start": 278.437,
+   "end": 280.577
+  },
+  {
+   "who": "pip",
+   "text": "2 apples and 6 more.",
+   "start": 281.116,
+   "end": 283.16
+  },
+  {
+   "who": "pip",
+   "text": "2 apples and 7 more.",
+   "start": 283.709,
+   "end": 285.851
+  },
+  {
+   "who": "pip",
+   "text": "2 apples and 8 more.",
+   "start": 286.252,
+   "end": 288.253
+  },
+  {
+   "who": "pip",
+   "text": "2 apples.",
+   "start": 288.743,
+   "end": 290.007
+  },
+  {
+   "who": "pip",
+   "text": "2 balloons and 8 more.",
+   "start": 309.342,
+   "end": 311.365
+  },
+  {
+   "who": "pip",
+   "text": "2 chicks and 1 more.",
+   "start": 313.772,
+   "end": 315.772
+  },
+  {
+   "who": "pip",
+   "text": "2 chicks and 3 more.",
+   "start": 318.59,
+   "end": 320.522
+  },
+  {
+   "who": "pip",
+   "text": "2 cookies and 2 more.",
+   "start": 338.414,
+   "end": 340.347
+  },
+  {
+   "who": "pip",
+   "text": "2 cookies and 3 more.",
+   "start": 340.873,
+   "end": 342.932
+  },
+  {
+   "who": "pip",
+   "text": "2 cookies and 4 more.",
+   "start": 343.464,
+   "end": 345.518
+  },
+  {
+   "who": "pip",
+   "text": "2 cookies and 5 more.",
+   "start": 346.043,
+   "end": 348.291
+  },
+  {
+   "who": "pip",
+   "text": "2 cookies and 6 more.",
+   "start": 348.795,
+   "end": 350.85
+  },
+  {
+   "who": "pip",
+   "text": "2 cookies and 8 more.",
+   "start": 354.149,
+   "end": 356.254
+  },
+  {
+   "who": "pip",
+   "text": "2 cookies.",
+   "start": 356.769,
+   "end": 358.254
+  },
+  {
+   "who": "pip",
+   "text": "2 flowers and 1 more.",
+   "start": 381.32,
+   "end": 383.401
+  },
+  {
+   "who": "pip",
+   "text": "2 flowers and 3 more.",
+   "start": 386.439,
+   "end": 388.627
+  },
+  {
+   "who": "pip",
+   "text": "2 flowers and 4 more.",
+   "start": 389.156,
+   "end": 391.232
+  },
+  {
+   "who": "pip",
+   "text": "2 flowers and 5 more.",
+   "start": 391.784,
+   "end": 394.141
+  },
+  {
+   "who": "pip",
+   "text": "2 flowers and 7 more.",
+   "start": 394.638,
+   "end": 396.792
+  },
+  {
+   "who": "pip",
+   "text": "2 flowers and 8 more.",
+   "start": 397.382,
+   "end": 399.613
+  },
+  {
+   "who": "pip",
+   "text": "2 flowers.",
+   "start": 400.22,
+   "end": 401.593
+  },
+  {
+   "who": "pip",
+   "text": "2 go away.",
+   "start": 402.972,
+   "end": 404.066
+  },
+  {
+   "who": "pip",
+   "text": "2 is bigger than 1!",
+   "start": 404.306,
+   "end": 406.411
+  },
+  {
+   "who": "pip",
+   "text": "2 plus 5 makes 7!",
+   "start": 442.766,
+   "end": 445.176
+  },
+  {
+   "who": "pip",
+   "text": "2 plus 8 makes 10!",
+   "start": 451.541,
+   "end": 453.918
+  },
+  {
+   "who": "pip",
+   "text": "2 rockets and 1 more.",
+   "start": 454.433,
+   "end": 456.601
+  },
+  {
+   "who": "pip",
+   "text": "2 stars and 1 more.",
+   "start": 478.363,
+   "end": 480.528
+  },
+  {
+   "who": "pip",
+   "text": "2 stars and 6 more.",
+   "start": 492.044,
+   "end": 494.333
+  },
+  {
+   "who": "pip",
+   "text": "2 stars and 8 more.",
+   "start": 497.854,
+   "end": 499.931
+  },
+  {
+   "who": "pip",
+   "text": "3",
+   "start": 507.452,
+   "end": 508.276
+  },
+  {
+   "who": "pip",
+   "text": "3 apples and 1 more.",
+   "start": 508.778,
+   "end": 510.964
+  },
+  {
+   "who": "pip",
+   "text": "3 apples and 2 more.",
+   "start": 511.505,
+   "end": 513.524
+  },
+  {
+   "who": "pip",
+   "text": "3 apples and 5 more.",
+   "start": 519.566,
+   "end": 521.899
+  },
+  {
+   "who": "pip",
+   "text": "3 apples and 6 more.",
+   "start": 522.541,
+   "end": 524.765
+  },
+  {
+   "who": "pip",
+   "text": "3 apples and 7 more.",
+   "start": 525.425,
+   "end": 527.771
+  },
+  {
+   "who": "pip",
+   "text": "3 apples.",
+   "start": 528.351,
+   "end": 529.976
+  },
+  {
+   "who": "pip",
+   "text": "3 fish and 5 more.",
+   "start": 541.566,
+   "end": 543.985
+  },
+  {
+   "who": "pip",
+   "text": "3 fish and 6 more.",
+   "start": 544.447,
+   "end": 546.753
+  }
+ ]
+}

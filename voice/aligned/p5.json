@@ -1,0 +1,156 @@
+{
+ "id": "p5",
+ "mp3": "/home/user/teach-pip/voice/raw/p5.mp3",
+ "clips": [
+  {
+   "who": "puddle",
+   "text": "Mmm, broccoli!",
+   "start": 0.39,
+   "end": 1.394
+  },
+  {
+   "who": "puddle",
+   "text": "Mmm, carrot!",
+   "start": 1.581,
+   "end": 2.862
+  },
+  {
+   "who": "puddle",
+   "text": "Mmm, cheese!",
+   "start": 3.041,
+   "end": 4.612
+  },
+  {
+   "who": "puddle",
+   "text": "Mmm, corn!",
+   "start": 4.795,
+   "end": 6.124
+  },
+  {
+   "who": "puddle",
+   "text": "Mmm, egg!",
+   "start": 6.347,
+   "end": 7.68
+  },
+  {
+   "who": "puddle",
+   "text": "Mmm, honey!",
+   "start": 7.919,
+   "end": 9.239
+  },
+  {
+   "who": "puddle",
+   "text": "Mmm, kiwi!",
+   "start": 9.478,
+   "end": 10.704
+  },
+  {
+   "who": "puddle",
+   "text": "Mmm, milk!",
+   "start": 11.013,
+   "end": 12.17
+  },
+  {
+   "who": "puddle",
+   "text": "Mmm, mushroom!",
+   "start": 12.451,
+   "end": 13.56
+  },
+  {
+   "who": "puddle",
+   "text": "Mmm, orange!",
+   "start": 13.56,
+   "end": 15.505
+  },
+  {
+   "who": "puddle",
+   "text": "Mmm, pepper!",
+   "start": 15.725,
+   "end": 16.968
+  },
+  {
+   "who": "puddle",
+   "text": "Mmm, strawberry!",
+   "start": 17.257,
+   "end": 18.714
+  },
+  {
+   "who": "puddle",
+   "text": "Mmm, tomato!",
+   "start": 18.912,
+   "end": 20.32
+  },
+  {
+   "who": "puddle",
+   "text": "Mmm, yummy things!",
+   "start": 20.479,
+   "end": 22.425
+  },
+  {
+   "who": "puddle",
+   "text": "Puddle is here!",
+   "start": 22.74,
+   "end": 23.857
+  },
+  {
+   "who": "puddle",
+   "text": "Ready, set, go!",
+   "start": 23.997,
+   "end": 26.18
+  },
+  {
+   "who": "puddle",
+   "text": "Shh, I am hiding!",
+   "start": 26.342,
+   "end": 28.233
+  },
+  {
+   "who": "puddle",
+   "text": "Time for a snack!",
+   "start": 28.44,
+   "end": 29.656
+  },
+  {
+   "who": "puddle",
+   "text": "Waddle waddle!",
+   "start": 29.743,
+   "end": 30.804
+  },
+  {
+   "who": "puddle",
+   "text": "Waddle waddle...",
+   "start": 30.916,
+   "end": 32.04
+  },
+  {
+   "who": "puddle",
+   "text": "Will you be my friend?",
+   "start": 32.322,
+   "end": 33.733
+  },
+  {
+   "who": "puddle",
+   "text": "pizza!",
+   "start": 33.98,
+   "end": 34.922
+  },
+  {
+   "who": "puddle",
+   "text": "salad!",
+   "start": 35.107,
+   "end": 36.045
+  },
+  {
+   "who": "puddle",
+   "text": "smoothie!",
+   "start": 36.201,
+   "end": 37.2
+  },
+  {
+   "who": "puddle",
+   "text": "soup!",
+   "start": 37.381,
+   "end": 38.16
+  }
+ ]
+}

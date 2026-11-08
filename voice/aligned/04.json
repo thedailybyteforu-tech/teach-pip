@@ -1,0 +1,990 @@
+{
+ "id": "04",
+ "mp3": "/home/user/teach-pip/voice/raw/04.mp3",
+ "clips": [
+  {
+   "who": "mona",
+   "text": "A is for Apple!",
+   "start": 0,
+   "end": 1.614
+  },
+  {
+   "who": "mona",
+   "text": "A is for Apple.",
+   "start": 1.964,
+   "end": 3.23
+  },
+  {
+   "who": "mona",
+   "text": "A new color!",
+   "start": 3.279,
+   "end": 4.648
+  },
+  {
+   "who": "mona",
+   "text": "B is for Banana!",
+   "start": 5.389,
+   "end": 6.754
+  },
+  {
+   "who": "mona",
+   "text": "B is for Banana.",
+   "start": 7.117,
+   "end": 8.504
+  },
+  {
+   "who": "mona",
+   "text": "C is for Cat!",
+   "start": 8.853,
+   "end": 10.169
+  },
+  {
+   "who": "mona",
+   "text": "C is for Cat.",
+   "start": 10.399,
+   "end": 11.693
+  },
+  {
+   "who": "mona",
+   "text": "Can I play too?",
+   "start": 11.931,
+   "end": 13.111
+  },
+  {
+   "who": "mona",
+   "text": "D is for Duck!",
+   "start": 13.852,
+   "end": 15.035
+  },
+  {
+   "who": "mona",
+   "text": "D is for Duck.",
+   "start": 15.324,
+   "end": 16.545
+  },
+  {
+   "who": "mona",
+   "text": "E is for Egg!",
+   "start": 17.106,
+   "end": 18.339
+  },
+  {
+   "who": "mona",
+   "text": "E is for Egg.",
+   "start": 18.823,
+   "end": 20.151
+  },
+  {
+   "who": "mona",
+   "text": "F is for Frog!",
+   "start": 20.697,
+   "end": 21.999
+  },
+  {
+   "who": "mona",
+   "text": "F is for Frog.",
+   "start": 22.22,
+   "end": 23.525
+  },
+  {
+   "who": "mona",
+   "text": "G is for Grapes!",
+   "start": 23.822,
+   "end": 25.324
+  },
+  {
+   "who": "mona",
+   "text": "G is for Grapes.",
+   "start": 25.66,
+   "end": 27.275
+  },
+  {
+   "who": "mona",
+   "text": "Great line!",
+   "start": 27.34,
+   "end": 28.564
+  },
+  {
+   "who": "mona",
+   "text": "H is for Hippo!",
+   "start": 29.116,
+   "end": 30.479
+  },
+  {
+   "who": "mona",
+   "text": "H is for Hippo.",
+   "start": 30.783,
+   "end": 32.17
+  },
+  {
+   "who": "mona",
+   "text": "I feel happy today!",
+   "start": 32.533,
+   "end": 33.956
+  },
+  {
+   "who": "mona",
+   "text": "I is for Ice cream!",
+   "start": 34.596,
+   "end": 36.114
+  },
+  {
+   "who": "mona",
+   "text": "I is for Ice cream.",
+   "start": 36.465,
+   "end": 38.153
+  },
+  {
+   "who": "mona",
+   "text": "J is for Juice!",
+   "start": 38.701,
+   "end": 40.209
+  },
+  {
+   "who": "mona",
+   "text": "J is for Juice.",
+   "start": 40.688,
+   "end": 42.307
+  },
+  {
+   "who": "mona",
+   "text": "K is for Kiwi!",
+   "start": 42.844,
+   "end": 44.223
+  },
+  {
+   "who": "mona",
+   "text": "K is for Kiwi.",
+   "start": 44.636,
+   "end": 46.246
+  },
+  {
+   "who": "mona",
+   "text": "L is for Lion!",
+   "start": 46.814,
+   "end": 48.416
+  },
+  {
+   "who": "mona",
+   "text": "L is for Lion.",
+   "start": 48.97,
+   "end": 50.624
+  },
+  {
+   "who": "mona",
+   "text": "Let's build a fort!",
+   "start": 50.953,
+   "end": 52.254
+  },
+  {
+   "who": "mona",
+   "text": "Let's have a party!",
+   "start": 52.234,
+   "end": 53.606
+  },
+  {
+   "who": "mona",
+   "text": "Let's trace A again!",
+   "start": 53.887,
+   "end": 55.422
+  },
+  {
+   "who": "mona",
+   "text": "Let's trace A!",
+   "start": 55.549,
+   "end": 56.851
+  },
+  {
+   "who": "mona",
+   "text": "Let's trace B again!",
+   "start": 57.101,
+   "end": 58.615
+  },
+  {
+   "who": "mona",
+   "text": "Let's trace B!",
+   "start": 58.875,
+   "end": 60.151
+  },
+  {
+   "who": "mona",
+   "text": "Let's trace C again!",
+   "start": 60.474,
+   "end": 62.006
+  },
+  {
+   "who": "mona",
+   "text": "Let's trace C!",
+   "start": 62.319,
+   "end": 63.683
+  },
+  {
+   "who": "mona",
+   "text": "Let's trace D again!",
+   "start": 64.137,
+   "end": 65.712
+  },
+  {
+   "who": "mona",
+   "text": "Let's trace D!",
+   "start": 66.074,
+   "end": 67.405
+  },
+  {
+   "who": "mona",
+   "text": "Let's trace E again!",
+   "start": 67.812,
+   "end": 69.396
+  },
+  {
+   "who": "mona",
+   "text": "Let's trace E!",
+   "start": 69.696,
+   "end": 71.173
+  },
+  {
+   "who": "mona",
+   "text": "Let's trace F again!",
+   "start": 71.519,
+   "end": 73.072
+  },
+  {
+   "who": "mona",
+   "text": "Let's trace F!",
+   "start": 73.42,
+   "end": 74.858
+  },
+  {
+   "who": "mona",
+   "text": "Let's trace G again!",
+   "start": 75.156,
+   "end": 76.739
+  },
+  {
+   "who": "mona",
+   "text": "Let's trace G!",
+   "start": 77.028,
+   "end": 78.371
+  },
+  {
+   "who": "mona",
+   "text": "Let's trace H again!",
+   "start": 78.754,
+   "end": 80.455
+  },
+  {
+   "who": "mona",
+   "text": "Let's trace H!",
+   "start": 80.772,
+   "end": 82.226
+  },
+  {
+   "who": "mona",
+   "text": "Let's trace I again!",
+   "start": 82.672,
+   "end": 84.298
+  },
+  {
+   "who": "mona",
+   "text": "Let's trace I!",
+   "start": 84.623,
+   "end": 85.978
+  },
+  {
+   "who": "mona",
+   "text": "Let's trace J again!",
+   "start": 86.296,
+   "end": 87.864
+  },
+  {
+   "who": "mona",
+   "text": "Let's trace J!",
+   "start": 88.22,
+   "end": 89.636
+  },
+  {
+   "who": "mona",
+   "text": "Let's trace K again!",
+   "start": 90.076,
+   "end": 91.777
+  },
+  {
+   "who": "mona",
+   "text": "Let's trace K!",
+   "start": 92.108,
+   "end": 93.534
+  },
+  {
+   "who": "mona",
+   "text": "Let's trace L again!",
+   "start": 94.063,
+   "end": 95.655
+  },
+  {
+   "who": "mona",
+   "text": "Let's trace L!",
+   "start": 96.154,
+   "end": 97.456
+  },
+  {
+   "who": "mona",
+   "text": "Let's trace M again!",
+   "start": 97.909,
+   "end": 99.544
+  },
+  {
+   "who": "mona",
+   "text": "Let's trace M!",
+   "start": 99.912,
+   "end": 101.292
+  },
+  {
+   "who": "mona",
+   "text": "Let's trace N again!",
+   "start": 101.919,
+   "end": 103.536
+  },
+  {
+   "who": "mona",
+   "text": "Let's trace N!",
+   "start": 103.895,
+   "end": 105.335
+  },
+  {
+   "who": "mona",
+   "text": "Let's trace O again!",
+   "start": 105.887,
+   "end": 107.459
+  },
+  {
+   "who": "mona",
+   "text": "Let's trace O!",
+   "start": 107.817,
+   "end": 109.133
+  },
+  {
+   "who": "mona",
+   "text": "Let's trace P again!",
+   "start": 109.675,
+   "end": 111.116
+  },
+  {
+   "who": "mona",
+   "text": "Let's trace P!",
+   "start": 111.524,
+   "end": 112.795
+  },
+  {
+   "who": "mona",
+   "text": "Let's trace Q again!",
+   "start": 113.399,
+   "end": 115.019
+  },
+  {
+   "who": "mona",
+   "text": "Let's trace Q!",
+   "start": 115.439,
+   "end": 116.924
+  },
+  {
+   "who": "mona",
+   "text": "Let's trace R again!",
+   "start": 117.49,
+   "end": 119.218
+  },
+  {
+   "who": "mona",
+   "text": "Let's trace R!",
+   "start": 119.615,
+   "end": 121.075
+  },
+  {
+   "who": "mona",
+   "text": "Let's trace S again!",
+   "start": 121.696,
+   "end": 123.414
+  },
+  {
+   "who": "mona",
+   "text": "Let's trace S!",
+   "start": 123.891,
+   "end": 125.301
+  },
+  {
+   "who": "mona",
+   "text": "Let's trace T again!",
+   "start": 125.898,
+   "end": 127.549
+  },
+  {
+   "who": "mona",
+   "text": "Let's trace T!",
+   "start": 127.972,
+   "end": 129.325
+  },
+  {
+   "who": "mona",
+   "text": "Let's trace U again!",
+   "start": 129.98,
+   "end": 131.598
+  },
+  {
+   "who": "mona",
+   "text": "Let's trace U!",
+   "start": 132.099,
+   "end": 133.575
+  },
+  {
+   "who": "mona",
+   "text": "Let's trace V again!",
+   "start": 134.21,
+   "end": 135.862
+  },
+  {
+   "who": "mona",
+   "text": "Let's trace V!",
+   "start": 136.441,
+   "end": 137.829
+  },
+  {
+   "who": "mona",
+   "text": "Let's trace W again!",
+   "start": 138.406,
+   "end": 140.211
+  },
+  {
+   "who": "mona",
+   "text": "Let's trace W!",
+   "start": 140.716,
+   "end": 142.255
+  },
+  {
+   "who": "mona",
+   "text": "Let's trace X again!",
+   "start": 142.819,
+   "end": 144.535
+  },
+  {
+   "who": "mona",
+   "text": "Let's trace X!",
+   "start": 145.18,
+   "end": 146.687
+  },
+  {
+   "who": "mona",
+   "text": "Let's trace Y again!",
+   "start": 147.237,
+   "end": 148.929
+  },
+  {
+   "who": "mona",
+   "text": "Let's trace Y!",
+   "start": 149.506,
+   "end": 150.951
+  },
+  {
+   "who": "mona",
+   "text": "Let's trace Z again!",
+   "start": 151.494,
+   "end": 153.136
+  },
+  {
+   "who": "mona",
+   "text": "Let's trace Z!",
+   "start": 153.61,
+   "end": 155.103
+  },
+  {
+   "who": "mona",
+   "text": "M is for Moon!",
+   "start": 155.706,
+   "end": 157.354
+  },
+  {
+   "who": "mona",
+   "text": "M is for Moon.",
+   "start": 157.822,
+   "end": 159.361
+  },
+  {
+   "who": "mona",
+   "text": "Mona is here!",
+   "start": 159.677,
+   "end": 161.023
+  },
+  {
+   "who": "mona",
+   "text": "N is for Nose!",
+   "start": 161.594,
+   "end": 163.195
+  },
+  {
+   "who": "mona",
+   "text": "N is for Nose.",
+   "start": 163.595,
+   "end": 165.262
+  },
+  {
+   "who": "mona",
+   "text": "Now the next line!",
+   "start": 165.363,
+   "end": 166.764
+  },
+  {
+   "who": "mona",
+   "text": "O is for Octopus!",
+   "start": 167.116,
+   "end": 168.92
+  },
+  {
+   "who": "mona",
+   "text": "O is for Octopus.",
+   "start": 169.208,
+   "end": 171.02
+  },
+  {
+   "who": "mona",
+   "text": "P is for Penguin!",
+   "start": 171.549,
+   "end": 173.009
+  },
+  {
+   "who": "mona",
+   "text": "P is for Penguin.",
+   "start": 173.388,
+   "end": 174.97
+  },
+  {
+   "who": "mona",
+   "text": "Picture pose!",
+   "start": 175.036,
+   "end": 176.335
+  },
+  {
+   "who": "mona",
+   "text": "Q is for Queen!",
+   "start": 176.699,
+   "end": 178.264
+  },
+  {
+   "who": "mona",
+   "text": "Q is for Queen.",
+   "start": 178.523,
+   "end": 180.203
+  },
+  {
+   "who": "mona",
+   "text": "R is for Rainbow!",
+   "start": 180.755,
+   "end": 182.43
+  },
+  {
+   "who": "mona",
+   "text": "R is for Rainbow.",
+   "start": 182.683,
+   "end": 184.28
+  },
+  {
+   "who": "mona",
+   "text": "Ready, set, go!",
+   "start": 184.509,
+   "end": 185.917
+  },
+  {
+   "who": "mona",
+   "text": "S is for Sun!",
+   "start": 186.394,
+   "end": 187.98
+  },
+  {
+   "who": "mona",
+   "text": "S is for Sun.",
+   "start": 188.419,
+   "end": 189.98
+  },
+  {
+   "who": "mona",
+   "text": "Shh, I am hiding!",
+   "start": 190.394,
+   "end": 192.382
+  },
+  {
+   "who": "mona",
+   "text": "Start at the green dot and follow the line.",
+   "start": 192.599,
+   "end": 195.208
+  },
+  {
+   "who": "mona",
+   "text": "Super!",
+   "start": 195.517,
+   "end": 196.416
+  },
+  {
+   "who": "mona",
+   "text": "T is for Tiger!",
+   "start": 196.829,
+   "end": 198.377
+  },
+  {
+   "who": "mona",
+   "text": "T is for Tiger.",
+   "start": 198.858,
+   "end": 200.459
+  },
+  {
+   "who": "mona",
+   "text": "Tap two paint pots, and we will mix them.",
+   "start": 200.843,
+   "end": 203.553
+  },
+  {
+   "who": "mona",
+   "text": "Time for a snack!",
+   "start": 203.981,
+   "end": 205.347
+  },
+  {
+   "who": "mona",
+   "text": "Try two different colors.",
+   "start": 205.339,
+   "end": 207.195
+  },
+  {
+   "who": "mona",
+   "text": "U is for Umbrella!",
+   "start": 207.75,
+   "end": 209.48
+  },
+  {
+   "who": "mona",
+   "text": "U is for Umbrella.",
+   "start": 209.934,
+   "end": 211.616
+  },
+  {
+   "who": "mona",
+   "text": "V is for Violin!",
+   "start": 212.256,
+   "end": 213.913
+  },
+  {
+   "who": "mona",
+   "text": "V is for Violin.",
+   "start": 214.379,
+   "end": 216.085
+  },
+  {
+   "who": "mona",
+   "text": "W is for Whale!",
+   "start": 216.745,
+   "end": 218.515
+  },
+  {
+   "who": "mona",
+   "text": "W is for Whale.",
+   "start": 218.987,
+   "end": 220.757
+  },
+  {
+   "who": "mona",
+   "text": "What color will we make?",
+   "start": 221.11,
+   "end": 222.709
+  },
+  {
+   "who": "mona",
+   "text": "Will you be my friend?",
+   "start": 223.079,
+   "end": 224.503
+  },
+  {
+   "who": "mona",
+   "text": "X is for Xylophone!",
+   "start": 224.953,
+   "end": 226.902
+  },
+  {
+   "who": "mona",
+   "text": "X is for Xylophone.",
+   "start": 227.338,
+   "end": 229.439
+  },
+  {
+   "who": "mona",
+   "text": "Y is for Yo-yo!",
+   "start": 229.926,
+   "end": 231.839
+  },
+  {
+   "who": "mona",
+   "text": "Y is for Yo-yo.",
+   "start": 232.246,
+   "end": 233.999
+  },
+  {
+   "who": "mona",
+   "text": "You traced A!",
+   "start": 234.303,
+   "end": 237.299
+  },
+  {
+   "who": "mona",
+   "text": "You traced B!",
+   "start": 237.67,
+   "end": 239.094
+  },
+  {
+   "who": "mona",
+   "text": "You traced C!",
+   "start": 239.511,
+   "end": 240.943
+  },
+  {
+   "who": "mona",
+   "text": "You traced D!",
+   "start": 241.451,
+   "end": 242.827
+  },
+  {
+   "who": "mona",
+   "text": "You traced E!",
+   "start": 243.409,
+   "end": 244.899
+  },
+  {
+   "who": "mona",
+   "text": "You traced F!",
+   "start": 245.406,
+   "end": 246.957
+  },
+  {
+   "who": "mona",
+   "text": "You traced G!",
+   "start": 247.592,
+   "end": 249.25
+  },
+  {
+   "who": "mona",
+   "text": "You traced H!",
+   "start": 249.608,
+   "end": 251.133
+  },
+  {
+   "who": "mona",
+   "text": "You traced I!",
+   "start": 251.655,
+   "end": 253.264
+  },
+  {
+   "who": "mona",
+   "text": "You traced J!",
+   "start": 253.777,
+   "end": 255.326
+  },
+  {
+   "who": "mona",
+   "text": "You traced K!",
+   "start": 255.774,
+   "end": 257.205
+  },
+  {
+   "who": "mona",
+   "text": "You traced L!",
+   "start": 257.661,
+   "end": 259.098
+  },
+  {
+   "who": "mona",
+   "text": "You traced M!",
+   "start": 259.655,
+   "end": 261.083
+  },
+  {
+   "who": "mona",
+   "text": "You traced N!",
+   "start": 261.508,
+   "end": 263.041
+  },
+  {
+   "who": "mona",
+   "text": "You traced O!",
+   "start": 263.424,
+   "end": 264.812
+  },
+  {
+   "who": "mona",
+   "text": "You traced P!",
+   "start": 265.189,
+   "end": 266.632
+  },
+  {
+   "who": "mona",
+   "text": "You traced Q!",
+   "start": 267.034,
+   "end": 268.462
+  },
+  {
+   "who": "mona",
+   "text": "You traced R!",
+   "start": 268.948,
+   "end": 270.528
+  },
+  {
+   "who": "mona",
+   "text": "You traced S!",
+   "start": 270.973,
+   "end": 272.536
+  },
+  {
+   "who": "mona",
+   "text": "You traced T!",
+   "start": 273.106,
+   "end": 274.525
+  },
+  {
+   "who": "mona",
+   "text": "You traced U!",
+   "start": 275.046,
+   "end": 276.404
+  },
+  {
+   "who": "mona",
+   "text": "You traced V!",
+   "start": 276.991,
+   "end": 278.557
+  },
+  {
+   "who": "mona",
+   "text": "You traced W!",
+   "start": 279.097,
+   "end": 280.634
+  },
+  {
+   "who": "mona",
+   "text": "You traced X!",
+   "start": 281.097,
+   "end": 282.474
+  },
+  {
+   "who": "mona",
+   "text": "You traced Y!",
+   "start": 282.967,
+   "end": 283.101
+  },
+  {
+   "who": "mona",
+   "text": "You traced Z!",
+   "start": 283.221,
+   "end": 284.303
+  },
+  {
+   "who": "mona",
+   "text": "Z is for Zebra!",
+   "start": 284.789,
+   "end": 286.386
+  },
+  {
+   "who": "mona",
+   "text": "Z is for Zebra.",
+   "start": 286.755,
+   "end": 288.483
+  },
+  {
+   "who": "mona",
+   "text": "blue and blue is still blue!",
+   "start": 289.184,
+   "end": 291.56
+  },
+  {
+   "who": "mona",
+   "text": "blue and red make purple!",
+   "start": 292.173,
+   "end": 294.335
+  },
+  {
+   "who": "mona",
+   "text": "blue and white make light blue!",
+   "start": 295.083,
+   "end": 297.386
+  },
+  {
+   "who": "mona",
+   "text": "blue and yellow make green!",
+   "start": 298.142,
+   "end": 300.034
+  },
+  {
+   "who": "mona",
+   "text": "red and blue make purple!",
+   "start": 300.742,
+   "end": 302.531
+  },
+  {
+   "who": "mona",
+   "text": "red and red is still red!",
+   "start": 303.271,
+   "end": 305.093
+  },
+  {
+   "who": "mona",
+   "text": "red and white make pink!",
+   "start": 305.842,
+   "end": 307.726
+  },
+  {
+   "who": "mona",
+   "text": "red and yellow make orange!",
+   "start": 308.489,
+   "end": 310.41
+  },
+  {
+   "who": "mona",
+   "text": "white and blue make light blue!",
+   "start": 311.104,
+   "end": 313.159
+  },
+  {
+   "who": "mona",
+   "text": "white and red make pink!",
+   "start": 313.906,
+   "end": 315.823
+  },
+  {
+   "who": "mona",
+   "text": "white and white is still white!",
+   "start": 316.555,
+   "end": 318.789
+  },
+  {
+   "who": "mona",
+   "text": "white and yellow make light yellow!",
+   "start": 319.538,
+   "end": 321.826
+  },
+  {
+   "who": "mona",
+   "text": "yellow and blue make green!",
+   "start": 322.533,
+   "end": 324.476
+  },
+  {
+   "who": "mona",
+   "text": "yellow and red make orange!",
+   "start": 325.168,
+   "end": 327.275
+  },
+  {
+   "who": "mona",
+   "text": "yellow and white make light yellow!",
+   "start": 328.041,
+   "end": 330.347
+  },
+  {
+   "who": "mona",
+   "text": "yellow and yellow is still yellow!",
+   "start": 331.238,
+   "end": 333.44
+  }
+ ]
+}

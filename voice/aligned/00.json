@@ -6,19 +6,19 @@
    "who": "bloop",
    "text": "BLOOP!",
    "start": 0,
-   "end": 0.59
+   "end": 0.541
   },
   {
    "who": "bloop",
    "text": "Bloop is here!",
-   "start": 0.59,
-   "end": 1.66
+   "start": 0.635,
+   "end": 1.679
   },
   {
    "who": "bloop",
    "text": "Bloop is round and sky-blue too.",
-   "start": 2.08,
-   "end": 4.24
+   "start": 2.11,
+   "end": 4.254
   },
   {
    "who": "bloop",
@@ -30,294 +30,294 @@
    "who": "bloop",
    "text": "Bloop!",
    "start": 5.76,
-   "end": 6.49
+   "end": 6.449
   },
   {
    "who": "bloop",
    "text": "Can I play too?",
-   "start": 6.59,
-   "end": 7.62
+   "start": 6.634,
+   "end": 7.635
   },
   {
    "who": "bloop",
    "text": "I feel happy today!",
-   "start": 7.81,
-   "end": 9.11
+   "start": 7.818,
+   "end": 9.076
   },
   {
    "who": "bloop",
    "text": "Let's build a fort!",
-   "start": 9.2,
-   "end": 10.33
+   "start": 9.222,
+   "end": 10.286
   },
   {
    "who": "bloop",
    "text": "Let's have a party!",
-   "start": 10.4,
+   "start": 10.419,
    "end": 11.52
   },
   {
    "who": "bloop",
    "text": "Now you do!",
-   "start": 11.62,
-   "end": 12.51
+   "start": 11.607,
+   "end": 12.516
   },
   {
    "who": "bloop",
    "text": "Ready, set, go!",
-   "start": 12.6,
-   "end": 14.38
+   "start": 12.627,
+   "end": 14.353
   },
   {
    "who": "bloop",
    "text": "Shh, I am hiding!",
-   "start": 14.47,
-   "end": 16.03
+   "start": 14.517,
+   "end": 16.0
   },
   {
    "who": "bloop",
    "text": "Time for a snack!",
-   "start": 16.12,
-   "end": 17.26
+   "start": 16.156,
+   "end": 17.224
   },
   {
    "who": "bloop",
    "text": "Will you be my friend?",
-   "start": 17.4,
-   "end": 18.53
+   "start": 17.429,
+   "end": 18.529
   },
   {
    "who": "bobble",
    "text": "Bobble juggles pom-poms high.",
-   "start": 18.95,
-   "end": 21.02
+   "start": 18.987,
+   "end": 20.996
   },
   {
    "who": "bobble",
    "text": "Hmm, tricky one!",
-   "start": 21.41,
+   "start": 21.186,
    "end": 22.77
   },
   {
    "who": "bobble",
    "text": "La la la!",
-   "start": 23.05,
-   "end": 24.11
+   "start": 23.064,
+   "end": 24.117
   },
   {
    "who": "bobble",
    "text": "La la la, up to the sky!",
-   "start": 24.22,
-   "end": 26.27
+   "start": 24.237,
+   "end": 26.257
   },
   {
    "who": "bobble",
    "text": "Let's listen again!",
-   "start": 26.42,
-   "end": 27.64
+   "start": 26.435,
+   "end": 27.632
   },
   {
    "who": "bobble",
    "text": "Let's try an easier pattern.",
-   "start": 28.18,
-   "end": 29.9
+   "start": 28.194,
+   "end": 29.879
   },
   {
    "who": "bobble",
    "text": "Listen to the Woogles, then copy them!",
-   "start": 30.06,
-   "end": 32.32
+   "start": 30.079,
+   "end": 32.33
   },
   {
    "who": "bobble",
    "text": "Look at my pom-poms!",
-   "start": 32.69,
-   "end": 34.12
+   "start": 32.707,
+   "end": 34.097
   },
   {
    "who": "bobble",
    "text": "Make the sounds, one, two, three!",
-   "start": 34.19,
-   "end": 36.63
+   "start": 34.211,
+   "end": 36.627
   },
   {
    "who": "bobble",
    "text": "Next one is a bit trickier!",
-   "start": 37.08,
-   "end": 38.74
+   "start": 37.071,
+   "end": 38.712
   },
   {
    "who": "bobble",
    "text": "Not that one.",
-   "start": 39.01,
-   "end": 39.9
+   "start": 38.988,
+   "end": 39.905
   },
   {
    "who": "bobble",
    "text": "Oops!",
-   "start": 40.05,
-   "end": 40.61
+   "start": 40.029,
+   "end": 40.621
   },
   {
    "who": "bobble",
    "text": "Patterns with my pom-poms, or teach Pip the space alien!",
-   "start": 40.98,
-   "end": 44.56
+   "start": 41.007,
+   "end": 44.558
   },
   {
    "who": "bobble",
    "text": "Pick a game.",
    "start": 44.71,
-   "end": 45.56
+   "end": 45.533
   },
   {
    "who": "bobble",
    "text": "Say the colors out loud with me, then try again!",
-   "start": 45.74,
-   "end": 48.28
+   "start": 45.762,
+   "end": 48.274
   },
   {
    "who": "bobble",
    "text": "Tap each Woogle in the same order.",
-   "start": 48.54,
-   "end": 50.62
+   "start": 48.556,
+   "end": 50.592
   },
   {
    "who": "bobble",
    "text": "That is the pattern!",
-   "start": 50.69,
-   "end": 51.99
+   "start": 50.728,
+   "end": 51.986
   },
   {
    "who": "bobble",
    "text": "That's okay.",
-   "start": 52.39,
-   "end": 53.25
+   "start": 52.414,
+   "end": 53.231
   },
   {
    "who": "bobble",
    "text": "The Woogles are so proud!",
-   "start": 53.33,
-   "end": 55.19
+   "start": 53.366,
+   "end": 55.182
   },
   {
    "who": "bobble",
    "text": "Which color comes next?",
-   "start": 55.51,
-   "end": 56.93
+   "start": 55.525,
+   "end": 56.894
   },
   {
    "who": "bobble",
    "text": "Woogle, woogle, sing with me!",
-   "start": 57.04,
-   "end": 59.01
+   "start": 57.059,
+   "end": 58.975
   },
   {
    "who": "bobble",
    "text": "Yes!",
-   "start": 59.2,
-   "end": 59.85
+   "start": 59.169,
+   "end": 59.844
   },
   {
    "who": "bobble",
    "text": "You copied 10 sounds!",
-   "start": 59.86,
-   "end": 61.68
+   "start": 59.884,
+   "end": 61.652
   },
   {
    "who": "bobble",
    "text": "You copied 11 sounds!",
-   "start": 61.71,
-   "end": 63.52
+   "start": 61.743,
+   "end": 63.508
   },
   {
    "who": "bobble",
    "text": "You copied 12 sounds!",
-   "start": 63.57,
-   "end": 65.38
+   "start": 63.602,
+   "end": 65.372
   },
   {
    "who": "bobble",
    "text": "You copied 2 sounds!",
-   "start": 65.5,
-   "end": 67.04
+   "start": 65.532,
+   "end": 67.036
   },
   {
    "who": "bobble",
    "text": "You copied 3 sounds!",
-   "start": 67.05,
-   "end": 68.65
+   "start": 67.079,
+   "end": 68.638
   },
   {
    "who": "bobble",
    "text": "You copied 4 sounds!",
-   "start": 68.71,
-   "end": 70.33
+   "start": 68.74,
+   "end": 70.309
   },
   {
    "who": "bobble",
    "text": "You copied 5 sounds!",
-   "start": 70.34,
-   "end": 71.99
+   "start": 70.374,
+   "end": 71.965
   },
   {
    "who": "bobble",
    "text": "You copied 6 sounds!",
-   "start": 72.01,
-   "end": 73.64
+   "start": 72.043,
+   "end": 73.628
   },
   {
    "who": "bobble",
    "text": "You copied 7 sounds!",
-   "start": 73.67,
-   "end": 75.42
+   "start": 73.701,
+   "end": 75.397
   },
   {
    "who": "bobble",
    "text": "You copied 8 sounds!",
-   "start": 75.44,
-   "end": 77.05
+   "start": 75.478,
+   "end": 77.028
   },
   {
    "who": "bobble",
    "text": "You copied 9 sounds!",
-   "start": 77.08,
-   "end": 78.88
+   "start": 77.11,
+   "end": 78.844
   },
   {
    "who": "bobble",
    "text": "You got it!",
-   "start": 78.95,
-   "end": 80.04
+   "start": 78.985,
+   "end": 80.004
   },
   {
    "who": "bobble",
    "text": "Your turn!",
-   "start": 80.03,
-   "end": 80.97
+   "start": 80.069,
+   "end": 80.927
   },
   {
    "who": "fuzzle",
    "text": "Blehh!",
    "start": 81.09,
-   "end": 81.6
+   "end": 81.836
   },
   {
    "who": "fuzzle",
    "text": "Fuzzle is fluffy, Fuzzle is silly.",
-   "start": 82.1,
-   "end": 84.48
+   "start": 82.11,
+   "end": 84.444
   },
   {
    "who": "fuzzle",
    "text": "Tongue out, BLEHH!",
-   "start": 84.61,
-   "end": 85.95
+   "start": 84.649,
+   "end": 85.933
   },
   {
    "who": "fuzzle",
    "text": "Wiggly, wiggly!",
-   "start": 86.13,
+   "start": 86.114,
    "end": 87.28
   }
  ]

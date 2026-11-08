@@ -1,0 +1,120 @@
+{
+ "id": "m1",
+ "mp3": "/home/user/teach-pip/voice/raw/m1.mp3",
+ "clips": [
+  {
+   "who": "pip",
+   "text": "7 apples and 2 more.",
+   "start": 0,
+   "end": 2.226
+  },
+  {
+   "who": "pip",
+   "text": "7 apples and 3 more.",
+   "start": 2.824,
+   "end": 4.952
+  },
+  {
+   "who": "pip",
+   "text": "7 balloons and 1 more.",
+   "start": 5.644,
+   "end": 7.808
+  },
+  {
+   "who": "pip",
+   "text": "7 balloons and 2 more.",
+   "start": 8.387,
+   "end": 10.467
+  },
+  {
+   "who": "pip",
+   "text": "7 balloons and 3 more.",
+   "start": 11.095,
+   "end": 13.206
+  },
+  {
+   "who": "pip",
+   "text": "7 chicks and 1 more.",
+   "start": 13.729,
+   "end": 15.923
+  },
+  {
+   "who": "pip",
+   "text": "7 chicks and 2 more.",
+   "start": 16.468,
+   "end": 18.567
+  },
+  {
+   "who": "pip",
+   "text": "7 chicks and 3 more.",
+   "start": 19.114,
+   "end": 21.263
+  },
+  {
+   "who": "pip",
+   "text": "7 cookies and 1 more.",
+   "start": 21.785,
+   "end": 23.859
+  },
+  {
+   "who": "pip",
+   "text": "7 cookies and 2 more.",
+   "start": 24.398,
+   "end": 26.484
+  },
+  {
+   "who": "pip",
+   "text": "7 cookies and 3 more.",
+   "start": 27.017,
+   "end": 29.113
+  },
+  {
+   "who": "pip",
+   "text": "7 fish and 1 more.",
+   "start": 29.633,
+   "end": 31.752
+  },
+  {
+   "who": "pip",
+   "text": "7 fish and 2 more.",
+   "start": 32.316,
+   "end": 34.393
+  },
+  {
+   "who": "pip",
+   "text": "7 fish and 3 more.",
+   "start": 34.965,
+   "end": 36.974
+  },
+  {
+   "who": "pip",
+   "text": "7 flowers and 1 more.",
+   "start": 37.518,
+   "end": 39.756
+  },
+  {
+   "who": "pip",
+   "text": "7 flowers and 2 more.",
+   "start": 40.312,
+   "end": 42.464
+  },
+  {
+   "who": "pip",
+   "text": "7 flowers and 3 more.",
+   "start": 43.006,
+   "end": 45.056
+  },
+  {
+   "who": "pip",
+   "text": "7 is bigger than 1!",
+   "start": 45.506,
+   "end": 47.537
+  },
+  {
+   "who": "pip",
+   "text": "7 is bigger than 2!",
+   "start": 47.997,
+   "end": 49.68
+  }
+ ]
+}

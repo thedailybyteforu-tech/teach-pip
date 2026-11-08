@@ -1,0 +1,1506 @@
+{
+ "id": "p2",
+ "mp3": "/home/user/teach-pip/voice/raw/p2.mp3",
+ "clips": [
+  {
+   "who": "pip",
+   "text": "I'm forgetting Letters G to M!",
+   "start": 0,
+   "end": 1.986
+  },
+  {
+   "who": "pip",
+   "text": "I'm forgetting Letters N to S!",
+   "start": 2.106,
+   "end": 4.334
+  },
+  {
+   "who": "pip",
+   "text": "I'm forgetting Letters T to Z!",
+   "start": 4.381,
+   "end": 6.653
+  },
+  {
+   "who": "pip",
+   "text": "I'm forgetting Magic mixing!",
+   "start": 6.703,
+   "end": 8.604
+  },
+  {
+   "who": "pip",
+   "text": "I'm forgetting Spot the color!",
+   "start": 8.603,
+   "end": 10.53
+  },
+  {
+   "who": "pip",
+   "text": "I'm forgetting Super shapes!",
+   "start": 10.539,
+   "end": 12.382
+  },
+  {
+   "who": "pip",
+   "text": "I'm forgetting Taking away!",
+   "start": 12.395,
+   "end": 14.285
+  },
+  {
+   "who": "pip",
+   "text": "I'm ready for my very first lesson!",
+   "start": 14.553,
+   "end": 17.066
+  },
+  {
+   "who": "pip",
+   "text": "Ice cream starts with I!",
+   "start": 17.352,
+   "end": 19.333
+  },
+  {
+   "who": "pip",
+   "text": "If I make a mistake, you have to catch it!",
+   "start": 19.497,
+   "end": 22.154
+  },
+  {
+   "who": "pip",
+   "text": "Is a bat awake in the day or at night?",
+   "start": 22.458,
+   "end": 25.211
+  },
+  {
+   "who": "pip",
+   "text": "Is a bee awake in the day or at night?",
+   "start": 25.452,
+   "end": 27.912
+  },
+  {
+   "who": "pip",
+   "text": "Is a butterfly awake in the day or at night?",
+   "start": 28.219,
+   "end": 31.021
+  },
+  {
+   "who": "pip",
+   "text": "Is a hedgehog awake in the day or at night?",
+   "start": 31.305,
+   "end": 34.06
+  },
+  {
+   "who": "pip",
+   "text": "Is a raccoon awake in the day or at night?",
+   "start": 34.377,
+   "end": 37.071
+  },
+  {
+   "who": "pip",
+   "text": "Is a rooster awake in the day or at night?",
+   "start": 37.37,
+   "end": 39.961
+  },
+  {
+   "who": "pip",
+   "text": "Is a squirrel awake in the day or at night?",
+   "start": 40.282,
+   "end": 42.869
+  },
+  {
+   "who": "pip",
+   "text": "Is an owl awake in the day or at night?",
+   "start": 43.145,
+   "end": 45.633
+  },
+  {
+   "who": "pip",
+   "text": "Is it 0?",
+   "start": 45.993,
+   "end": 47.163
+  },
+  {
+   "who": "pip",
+   "text": "Is it 10?",
+   "start": 47.257,
+   "end": 48.268
+  },
+  {
+   "who": "pip",
+   "text": "Is it 11?",
+   "start": 48.426,
+   "end": 49.553
+  },
+  {
+   "who": "pip",
+   "text": "Is it 12?",
+   "start": 49.657,
+   "end": 50.757
+  },
+  {
+   "who": "pip",
+   "text": "Is it 1?",
+   "start": 50.987,
+   "end": 51.979
+  },
+  {
+   "who": "pip",
+   "text": "Is it 2?",
+   "start": 52.139,
+   "end": 53.157
+  },
+  {
+   "who": "pip",
+   "text": "Is it 3?",
+   "start": 53.274,
+   "end": 54.29
+  },
+  {
+   "who": "pip",
+   "text": "Is it 4?",
+   "start": 54.43,
+   "end": 55.442
+  },
+  {
+   "who": "pip",
+   "text": "Is it 5?",
+   "start": 55.593,
+   "end": 56.685
+  },
+  {
+   "who": "pip",
+   "text": "Is it 6?",
+   "start": 56.776,
+   "end": 57.867
+  },
+  {
+   "who": "pip",
+   "text": "Is it 7?",
+   "start": 57.912,
+   "end": 58.994
+  },
+  {
+   "who": "pip",
+   "text": "Is it 8?",
+   "start": 59.055,
+   "end": 60.047
+  },
+  {
+   "who": "pip",
+   "text": "Is it 9?",
+   "start": 60.171,
+   "end": 61.209
+  },
+  {
+   "who": "pip",
+   "text": "Is it A?",
+   "start": 61.343,
+   "end": 62.326
+  },
+  {
+   "who": "pip",
+   "text": "Is it B?",
+   "start": 62.345,
+   "end": 63.286
+  },
+  {
+   "who": "pip",
+   "text": "Is it C?",
+   "start": 63.358,
+   "end": 64.387
+  },
+  {
+   "who": "pip",
+   "text": "Is it D?",
+   "start": 64.473,
+   "end": 65.438
+  },
+  {
+   "who": "pip",
+   "text": "Is it E?",
+   "start": 65.544,
+   "end": 66.478
+  },
+  {
+   "who": "pip",
+   "text": "Is it F?",
+   "start": 66.618,
+   "end": 67.573
+  },
+  {
+   "who": "pip",
+   "text": "Is it G?",
+   "start": 67.658,
+   "end": 68.649
+  },
+  {
+   "who": "pip",
+   "text": "Is it H?",
+   "start": 68.715,
+   "end": 69.741
+  },
+  {
+   "who": "pip",
+   "text": "Is it I?",
+   "start": 69.833,
+   "end": 70.812
+  },
+  {
+   "who": "pip",
+   "text": "Is it J?",
+   "start": 70.861,
+   "end": 71.862
+  },
+  {
+   "who": "pip",
+   "text": "Is it K?",
+   "start": 71.962,
+   "end": 72.979
+  },
+  {
+   "who": "pip",
+   "text": "Is it L?",
+   "start": 73.114,
+   "end": 74.05
+  },
+  {
+   "who": "pip",
+   "text": "Is it M?",
+   "start": 74.105,
+   "end": 75.049
+  },
+  {
+   "who": "pip",
+   "text": "Is it N?",
+   "start": 75.161,
+   "end": 76.108
+  },
+  {
+   "who": "pip",
+   "text": "Is it O?",
+   "start": 76.154,
+   "end": 77.084
+  },
+  {
+   "who": "pip",
+   "text": "Is it P?",
+   "start": 77.197,
+   "end": 78.172
+  },
+  {
+   "who": "pip",
+   "text": "Is it Q?",
+   "start": 78.313,
+   "end": 79.341
+  },
+  {
+   "who": "pip",
+   "text": "Is it R?",
+   "start": 79.418,
+   "end": 80.361
+  },
+  {
+   "who": "pip",
+   "text": "Is it S?",
+   "start": 80.489,
+   "end": 81.504
+  },
+  {
+   "who": "pip",
+   "text": "Is it T?",
+   "start": 81.532,
+   "end": 82.531
+  },
+  {
+   "who": "pip",
+   "text": "Is it U?",
+   "start": 82.633,
+   "end": 83.585
+  },
+  {
+   "who": "pip",
+   "text": "Is it V?",
+   "start": 83.74,
+   "end": 84.718
+  },
+  {
+   "who": "pip",
+   "text": "Is it W?",
+   "start": 84.857,
+   "end": 85.966
+  },
+  {
+   "who": "pip",
+   "text": "Is it Y?",
+   "start": 86.044,
+   "end": 87.051
+  },
+  {
+   "who": "pip",
+   "text": "Is it Z?",
+   "start": 87.146,
+   "end": 88.132
+  },
+  {
+   "who": "pip",
+   "text": "Is it blue?",
+   "start": 88.376,
+   "end": 89.337
+  },
+  {
+   "who": "pip",
+   "text": "Is it brown?",
+   "start": 89.37,
+   "end": 90.424
+  },
+  {
+   "who": "pip",
+   "text": "Is it burrow?",
+   "start": 90.537,
+   "end": 91.588
+  },
+  {
+   "who": "pip",
+   "text": "Is it calf?",
+   "start": 91.674,
+   "end": 92.743
+  },
+  {
+   "who": "pip",
+   "text": "Is it caterpillar?",
+   "start": 92.813,
+   "end": 94.063
+  },
+  {
+   "who": "pip",
+   "text": "Is it chick?",
+   "start": 94.251,
+   "end": 95.254
+  },
+  {
+   "who": "pip",
+   "text": "Is it circle?",
+   "start": 95.449,
+   "end": 96.519
+  },
+  {
+   "who": "pip",
+   "text": "Is it day?",
+   "start": 96.652,
+   "end": 97.666
+  },
+  {
+   "who": "pip",
+   "text": "Is it desert?",
+   "start": 97.803,
+   "end": 98.854
+  },
+  {
+   "who": "pip",
+   "text": "Is it foal?",
+   "start": 99.017,
+   "end": 100.057
+  },
+  {
+   "who": "pip",
+   "text": "Is it green?",
+   "start": 100.184,
+   "end": 101.194
+  },
+  {
+   "who": "pip",
+   "text": "Is it hexagon?",
+   "start": 101.29,
+   "end": 102.545
+  },
+  {
+   "who": "pip",
+   "text": "Is it hive?",
+   "start": 102.634,
+   "end": 103.73
+  },
+  {
+   "who": "pip",
+   "text": "Is it ice?",
+   "start": 103.822,
+   "end": 104.859
+  },
+  {
+   "who": "pip",
+   "text": "Is it joey?",
+   "start": 104.957,
+   "end": 105.986
+  },
+  {
+   "who": "pip",
+   "text": "Is it jungle?",
+   "start": 106.074,
+   "end": 107.118
+  },
+  {
+   "who": "pip",
+   "text": "Is it kitten?",
+   "start": 107.257,
+   "end": 108.268
+  },
+  {
+   "who": "pip",
+   "text": "Is it lamb?",
+   "start": 108.377,
+   "end": 109.377
+  },
+  {
+   "who": "pip",
+   "text": "Is it night?",
+   "start": 109.512,
+   "end": 110.506
+  },
+  {
+   "who": "pip",
+   "text": "Is it ocean?",
+   "start": 110.605,
+   "end": 111.672
+  },
+  {
+   "who": "pip",
+   "text": "Is it orange?",
+   "start": 111.785,
+   "end": 112.918
+  },
+  {
+   "who": "pip",
+   "text": "Is it oval?",
+   "start": 112.985,
+   "end": 113.992
+  },
+  {
+   "who": "pip",
+   "text": "Is it pentagon?",
+   "start": 114.107,
+   "end": 115.316
+  },
+  {
+   "who": "pip",
+   "text": "Is it pink?",
+   "start": 115.433,
+   "end": 116.387
+  },
+  {
+   "who": "pip",
+   "text": "Is it puppy?",
+   "start": 116.505,
+   "end": 117.502
+  },
+  {
+   "who": "pip",
+   "text": "Is it purple?",
+   "start": 117.61,
+   "end": 118.625
+  },
+  {
+   "who": "pip",
+   "text": "Is it rectangle?",
+   "start": 118.793,
+   "end": 120.017
+  },
+  {
+   "who": "pip",
+   "text": "Is it red?",
+   "start": 120.106,
+   "end": 121.064
+  },
+  {
+   "who": "pip",
+   "text": "Is it square?",
+   "start": 121.161,
+   "end": 122.236
+  },
+  {
+   "who": "pip",
+   "text": "Is it star?",
+   "start": 122.346,
+   "end": 123.418
+  },
+  {
+   "who": "pip",
+   "text": "Is it tadpole?",
+   "start": 123.578,
+   "end": 124.741
+  },
+  {
+   "who": "pip",
+   "text": "Is it tree?",
+   "start": 124.826,
+   "end": 125.819
+  },
+  {
+   "who": "pip",
+   "text": "Is it triangle?",
+   "start": 125.93,
+   "end": 127.118
+  },
+  {
+   "who": "pip",
+   "text": "Is it yellow?",
+   "start": 127.259,
+   "end": 128.271
+  },
+  {
+   "who": "pip",
+   "text": "It's empty and dark.",
+   "start": 128.493,
+   "end": 129.85
+  },
+  {
+   "who": "pip",
+   "text": "It's not that one, it's 0!",
+   "start": 129.849,
+   "end": 131.814
+  },
+  {
+   "who": "pip",
+   "text": "It's not that one, it's 1!",
+   "start": 131.914,
+   "end": 133.779
+  },
+  {
+   "who": "pip",
+   "text": "It's not that one, it's 10!",
+   "start": 133.917,
+   "end": 135.767
+  },
+  {
+   "who": "pip",
+   "text": "It's not that one, it's 11!",
+   "start": 135.947,
+   "end": 137.859
+  },
+  {
+   "who": "pip",
+   "text": "It's not that one, it's 12!",
+   "start": 137.996,
+   "end": 139.868
+  },
+  {
+   "who": "pip",
+   "text": "It's not that one, it's 2!",
+   "start": 139.994,
+   "end": 141.846
+  },
+  {
+   "who": "pip",
+   "text": "It's not that one, it's 3!",
+   "start": 141.978,
+   "end": 143.847
+  },
+  {
+   "who": "pip",
+   "text": "It's not that one, it's 4!",
+   "start": 143.995,
+   "end": 145.838
+  },
+  {
+   "who": "pip",
+   "text": "It's not that one, it's 5!",
+   "start": 145.994,
+   "end": 147.9
+  },
+  {
+   "who": "pip",
+   "text": "It's not that one, it's 6!",
+   "start": 148.0,
+   "end": 149.893
+  },
+  {
+   "who": "pip",
+   "text": "It's not that one, it's 7!",
+   "start": 149.994,
+   "end": 151.863
+  },
+  {
+   "who": "pip",
+   "text": "It's not that one, it's 8!",
+   "start": 151.962,
+   "end": 153.734
+  },
+  {
+   "who": "pip",
+   "text": "It's not that one, it's 9!",
+   "start": 153.867,
+   "end": 155.758
+  },
+  {
+   "who": "pip",
+   "text": "It's not that one, it's A!",
+   "start": 155.883,
+   "end": 157.665
+  },
+  {
+   "who": "pip",
+   "text": "It's not that one, it's B!",
+   "start": 157.82,
+   "end": 159.525
+  },
+  {
+   "who": "pip",
+   "text": "It's not that one, it's C!",
+   "start": 159.672,
+   "end": 161.485
+  },
+  {
+   "who": "pip",
+   "text": "It's not that one, it's D!",
+   "start": 161.625,
+   "end": 163.383
+  },
+  {
+   "who": "pip",
+   "text": "It's not that one, it's E!",
+   "start": 163.513,
+   "end": 165.257
+  },
+  {
+   "who": "pip",
+   "text": "It's not that one, it's F!",
+   "start": 165.372,
+   "end": 167.21
+  },
+  {
+   "who": "pip",
+   "text": "It's not that one, it's G!",
+   "start": 167.306,
+   "end": 169.1
+  },
+  {
+   "who": "pip",
+   "text": "It's not that one, it's H!",
+   "start": 169.177,
+   "end": 170.981
+  },
+  {
+   "who": "pip",
+   "text": "It's not that one, it's I!",
+   "start": 171.128,
+   "end": 172.981
+  },
+  {
+   "who": "pip",
+   "text": "It's not that one, it's J!",
+   "start": 173.097,
+   "end": 174.918
+  },
+  {
+   "who": "pip",
+   "text": "It's not that one, it's K!",
+   "start": 175.034,
+   "end": 176.815
+  },
+  {
+   "who": "pip",
+   "text": "It's not that one, it's L!",
+   "start": 176.987,
+   "end": 178.798
+  },
+  {
+   "who": "pip",
+   "text": "It's not that one, it's M!",
+   "start": 178.906,
+   "end": 180.663
+  },
+  {
+   "who": "pip",
+   "text": "It's not that one, it's N!",
+   "start": 180.732,
+   "end": 182.536
+  },
+  {
+   "who": "pip",
+   "text": "It's not that one, it's O!",
+   "start": 182.635,
+   "end": 184.437
+  },
+  {
+   "who": "pip",
+   "text": "It's not that one, it's P!",
+   "start": 184.553,
+   "end": 186.308
+  },
+  {
+   "who": "pip",
+   "text": "It's not that one, it's Q!",
+   "start": 186.426,
+   "end": 188.251
+  },
+  {
+   "who": "pip",
+   "text": "It's not that one, it's R!",
+   "start": 188.36,
+   "end": 190.178
+  },
+  {
+   "who": "pip",
+   "text": "It's not that one, it's S!",
+   "start": 190.266,
+   "end": 192.105
+  },
+  {
+   "who": "pip",
+   "text": "It's not that one, it's T!",
+   "start": 192.184,
+   "end": 193.981
+  },
+  {
+   "who": "pip",
+   "text": "It's not that one, it's U!",
+   "start": 194.077,
+   "end": 195.901
+  },
+  {
+   "who": "pip",
+   "text": "It's not that one, it's V!",
+   "start": 195.992,
+   "end": 197.781
+  },
+  {
+   "who": "pip",
+   "text": "It's not that one, it's W!",
+   "start": 197.913,
+   "end": 199.883
+  },
+  {
+   "who": "pip",
+   "text": "It's not that one, it's Y!",
+   "start": 199.993,
+   "end": 201.825
+  },
+  {
+   "who": "pip",
+   "text": "It's not that one, it's Z!",
+   "start": 201.932,
+   "end": 203.74
+  },
+  {
+   "who": "pip",
+   "text": "It's not that one, it's blue!",
+   "start": 203.867,
+   "end": 205.781
+  },
+  {
+   "who": "pip",
+   "text": "It's not that one, it's brown!",
+   "start": 205.885,
+   "end": 207.774
+  },
+  {
+   "who": "pip",
+   "text": "It's not that one, it's burrow!",
+   "start": 207.912,
+   "end": 209.824
+  },
+  {
+   "who": "pip",
+   "text": "It's not that one, it's calf!",
+   "start": 209.931,
+   "end": 211.792
+  },
+  {
+   "who": "pip",
+   "text": "It's not that one, it's caterpillar!",
+   "start": 212.014,
+   "end": 214.111
+  },
+  {
+   "who": "pip",
+   "text": "It's not that one, it's chick!",
+   "start": 214.233,
+   "end": 216.083
+  },
+  {
+   "who": "pip",
+   "text": "It's not that one, it's circle!",
+   "start": 216.158,
+   "end": 218.029
+  },
+  {
+   "who": "pip",
+   "text": "It's not that one, it's day!",
+   "start": 218.185,
+   "end": 220.002
+  },
+  {
+   "who": "pip",
+   "text": "It's not that one, it's desert!",
+   "start": 220.156,
+   "end": 222.087
+  },
+  {
+   "who": "pip",
+   "text": "It's not that one, it's foal!",
+   "start": 222.17,
+   "end": 224.009
+  },
+  {
+   "who": "pip",
+   "text": "It's not that one, it's green!",
+   "start": 224.106,
+   "end": 225.954
+  },
+  {
+   "who": "pip",
+   "text": "It's not that one, it's hexagon!",
+   "start": 226.025,
+   "end": 228.128
+  },
+  {
+   "who": "pip",
+   "text": "It's not that one, it's hive!",
+   "start": 228.236,
+   "end": 230.158
+  },
+  {
+   "who": "pip",
+   "text": "It's not that one, it's ice!",
+   "start": 230.297,
+   "end": 232.172
+  },
+  {
+   "who": "pip",
+   "text": "It's not that one, it's joey!",
+   "start": 232.298,
+   "end": 234.222
+  },
+  {
+   "who": "pip",
+   "text": "It's not that one, it's jungle!",
+   "start": 234.345,
+   "end": 236.258
+  },
+  {
+   "who": "pip",
+   "text": "It's not that one, it's kitten!",
+   "start": 236.394,
+   "end": 238.212
+  },
+  {
+   "who": "pip",
+   "text": "It's not that one, it's lamb!",
+   "start": 238.345,
+   "end": 240.218
+  },
+  {
+   "who": "pip",
+   "text": "It's not that one, it's night!",
+   "start": 240.33,
+   "end": 242.118
+  },
+  {
+   "who": "pip",
+   "text": "It's not that one, it's ocean!",
+   "start": 242.264,
+   "end": 244.16
+  },
+  {
+   "who": "pip",
+   "text": "It's not that one, it's orange!",
+   "start": 244.235,
+   "end": 246.105
+  },
+  {
+   "who": "pip",
+   "text": "It's not that one, it's oval!",
+   "start": 246.232,
+   "end": 248.083
+  },
+  {
+   "who": "pip",
+   "text": "It's not that one, it's pentagon!",
+   "start": 248.218,
+   "end": 250.273
+  },
+  {
+   "who": "pip",
+   "text": "It's not that one, it's pink!",
+   "start": 250.363,
+   "end": 252.168
+  },
+  {
+   "who": "pip",
+   "text": "It's not that one, it's puppy!",
+   "start": 252.269,
+   "end": 254.119
+  },
+  {
+   "who": "pip",
+   "text": "It's not that one, it's purple!",
+   "start": 254.234,
+   "end": 256.1
+  },
+  {
+   "who": "pip",
+   "text": "It's not that one, it's rectangle!",
+   "start": 256.233,
+   "end": 258.317
+  },
+  {
+   "who": "pip",
+   "text": "It's not that one, it's red!",
+   "start": 258.429,
+   "end": 260.244
+  },
+  {
+   "who": "pip",
+   "text": "It's not that one, it's square!",
+   "start": 260.343,
+   "end": 262.301
+  },
+  {
+   "who": "pip",
+   "text": "It's not that one, it's star!",
+   "start": 262.41,
+   "end": 264.291
+  },
+  {
+   "who": "pip",
+   "text": "It's not that one, it's tadpole!",
+   "start": 264.411,
+   "end": 266.464
+  },
+  {
+   "who": "pip",
+   "text": "It's not that one, it's the glowing one!",
+   "start": 266.569,
+   "end": 268.88
+  },
+  {
+   "who": "pip",
+   "text": "It's not that one, it's tree!",
+   "start": 268.969,
+   "end": 270.821
+  },
+  {
+   "who": "pip",
+   "text": "It's not that one, it's triangle!",
+   "start": 271.018,
+   "end": 273.113
+  },
+  {
+   "who": "pip",
+   "text": "It's not that one, it's yellow!",
+   "start": 273.225,
+   "end": 275.064
+  },
+  {
+   "who": "pip",
+   "text": "J is for Juice.",
+   "start": 275.443,
+   "end": 276.972
+  },
+  {
+   "who": "pip",
+   "text": "Juice starts with J!",
+   "start": 277.092,
+   "end": 278.586
+  },
+  {
+   "who": "pip",
+   "text": "K is for Kite.",
+   "start": 278.717,
+   "end": 280.139
+  },
+  {
+   "who": "pip",
+   "text": "Kite starts with K!",
+   "start": 280.266,
+   "end": 281.811
+  },
+  {
+   "who": "pip",
+   "text": "L is for Lion.",
+   "start": 281.979,
+   "end": 283.575
+  },
+  {
+   "who": "pip",
+   "text": "Let me try...",
+   "start": 283.745,
+   "end": 284.872
+  },
+  {
+   "who": "pip",
+   "text": "Let's check again!",
+   "start": 284.901,
+   "end": 286.195
+  },
+  {
+   "who": "pip",
+   "text": "Let's learn together!",
+   "start": 286.256,
+   "end": 287.578
+  },
+  {
+   "who": "pip",
+   "text": "Letters A to F is still locked.",
+   "start": 287.666,
+   "end": 289.876
+  },
+  {
+   "who": "pip",
+   "text": "Letters A to F!",
+   "start": 289.937,
+   "end": 291.348
+  },
+  {
+   "who": "pip",
+   "text": "Letters A to F.",
+   "start": 291.441,
+   "end": 292.97
+  },
+  {
+   "who": "pip",
+   "text": "Letters A to F...",
+   "start": 292.961,
+   "end": 294.474
+  },
+  {
+   "who": "pip",
+   "text": "Letters G to M is still locked.",
+   "start": 294.585,
+   "end": 296.944
+  },
+  {
+   "who": "pip",
+   "text": "Letters G to M!",
+   "start": 296.991,
+   "end": 298.393
+  },
+  {
+   "who": "pip",
+   "text": "Letters G to M.",
+   "start": 298.584,
+   "end": 300.086
+  },
+  {
+   "who": "pip",
+   "text": "Letters G to M...",
+   "start": 300.221,
+   "end": 301.725
+  },
+  {
+   "who": "pip",
+   "text": "Letters N to S is still locked.",
+   "start": 301.751,
+   "end": 304.151
+  },
+  {
+   "who": "pip",
+   "text": "Letters N to S!",
+   "start": 304.262,
+   "end": 305.792
+  },
+  {
+   "who": "pip",
+   "text": "Letters N to S.",
+   "start": 305.884,
+   "end": 307.369
+  },
+  {
+   "who": "pip",
+   "text": "Letters N to S...",
+   "start": 307.512,
+   "end": 309.171
+  },
+  {
+   "who": "pip",
+   "text": "Letters T to Z is still locked.",
+   "start": 309.319,
+   "end": 311.699
+  },
+  {
+   "who": "pip",
+   "text": "Letters T to Z!",
+   "start": 311.745,
+   "end": 313.144
+  },
+  {
+   "who": "pip",
+   "text": "Letters T to Z.",
+   "start": 313.221,
+   "end": 314.67
+  },
+  {
+   "who": "pip",
+   "text": "Letters T to Z...",
+   "start": 314.794,
+   "end": 316.372
+  },
+  {
+   "who": "pip",
+   "text": "Like magic!",
+   "start": 316.49,
+   "end": 317.61
+  },
+  {
+   "who": "pip",
+   "text": "Lion starts with L!",
+   "start": 317.745,
+   "end": 319.368
+  },
+  {
+   "who": "pip",
+   "text": "M is for Moon.",
+   "start": 319.449,
+   "end": 320.931
+  },
+  {
+   "who": "pip",
+   "text": "Magic mixing is still locked.",
+   "start": 320.957,
+   "end": 322.889
+  },
+  {
+   "who": "pip",
+   "text": "Magic mixing!",
+   "start": 322.942,
+   "end": 324.18
+  },
+  {
+   "who": "pip",
+   "text": "Magic mixing.",
+   "start": 324.246,
+   "end": 325.484
+  },
+  {
+   "who": "pip",
+   "text": "Magic mixing...",
+   "start": 325.508,
+   "end": 326.739
+  },
+  {
+   "who": "pip",
+   "text": "Moon starts with M!",
+   "start": 326.812,
+   "end": 328.371
+  },
+  {
+   "who": "pip",
+   "text": "My brain grew!",
+   "start": 328.483,
+   "end": 329.766
+  },
+  {
+   "who": "pip",
+   "text": "My brain is hungry.",
+   "start": 329.84,
+   "end": 331.351
+  },
+  {
+   "who": "pip",
+   "text": "My spaceship crashed on your planet!",
+   "start": 331.425,
+   "end": 333.494
+  },
+  {
+   "who": "pip",
+   "text": "N is for Nose.",
+   "start": 333.656,
+   "end": 335.278
+  },
+  {
+   "who": "pip",
+   "text": "Nose starts with N!",
+   "start": 335.32,
+   "end": 336.983
+  },
+  {
+   "who": "pip",
+   "text": "Not numbers, not letters, not colors!",
+   "start": 337.022,
+   "end": 339.601
+  },
+  {
+   "who": "pip",
+   "text": "Now I know HOW to count, not just the answer!",
+   "start": 339.729,
+   "end": 342.685
+  },
+  {
+   "who": "pip",
+   "text": "Now pick your teacher badge.",
+   "start": 342.806,
+   "end": 344.488
+  },
+  {
+   "who": "pip",
+   "text": "Now, I have a secret Earth Mission for you...",
+   "start": 344.521,
+   "end": 346.893
+  },
+  {
+   "who": "pip",
+   "text": "O is for Octopus.",
+   "start": 346.985,
+   "end": 348.731
+  },
+  {
+   "who": "pip",
+   "text": "Octopus starts with O!",
+   "start": 348.826,
+   "end": 350.567
+  },
+  {
+   "who": "pip",
+   "text": "Oh hello!",
+   "start": 350.607,
+   "end": 351.645
+  },
+  {
+   "who": "pip",
+   "text": "Oh no, I made a mistake!",
+   "start": 351.82,
+   "end": 353.598
+  },
+  {
+   "who": "pip",
+   "text": "Oh!",
+   "start": 353.578,
+   "end": 354.257
+  },
+  {
+   "who": "pip",
+   "text": "One secret: sometimes I get things wrong.",
+   "start": 354.325,
+   "end": 356.993
+  },
+  {
+   "who": "pip",
+   "text": "Only count the ones that are still here.",
+   "start": 357.084,
+   "end": 359.217
+  },
+  {
+   "who": "pip",
+   "text": "Ooh, I get it now!",
+   "start": 359.291,
+   "end": 360.755
+  },
+  {
+   "who": "pip",
+   "text": "Ooh, tricky!",
+   "start": 360.785,
+   "end": 361.96
+  },
+  {
+   "who": "pip",
+   "text": "Or 0?",
+   "start": 362.003,
+   "end": 363.019
+  },
+  {
+   "who": "pip",
+   "text": "Or 10?",
+   "start": 363.034,
+   "end": 363.96
+  },
+  {
+   "who": "pip",
+   "text": "Or 11?",
+   "start": 364.043,
+   "end": 365.003
+  },
+  {
+   "who": "pip",
+   "text": "Or 12?",
+   "start": 365.1,
+   "end": 366.1
+  },
+  {
+   "who": "pip",
+   "text": "Or 1?",
+   "start": 366.176,
+   "end": 367.119
+  },
+  {
+   "who": "pip",
+   "text": "Or 2?",
+   "start": 367.132,
+   "end": 368.04
+  },
+  {
+   "who": "pip",
+   "text": "Or 3?",
+   "start": 368.153,
+   "end": 369.071
+  },
+  {
+   "who": "pip",
+   "text": "Or 4?",
+   "start": 369.125,
+   "end": 370.119
+  },
+  {
+   "who": "pip",
+   "text": "Or 5?",
+   "start": 370.204,
+   "end": 371.257
+  },
+  {
+   "who": "pip",
+   "text": "Or 6?",
+   "start": 371.305,
+   "end": 372.328
+  },
+  {
+   "who": "pip",
+   "text": "Or 7?",
+   "start": 372.376,
+   "end": 373.395
+  },
+  {
+   "who": "pip",
+   "text": "Or 8?",
+   "start": 373.459,
+   "end": 374.35
+  },
+  {
+   "who": "pip",
+   "text": "Or 9?",
+   "start": 374.406,
+   "end": 375.356
+  },
+  {
+   "who": "pip",
+   "text": "Or A?",
+   "start": 375.418,
+   "end": 376.326
+  },
+  {
+   "who": "pip",
+   "text": "Or B?",
+   "start": 376.315,
+   "end": 377.213
+  },
+  {
+   "who": "pip",
+   "text": "Or C?",
+   "start": 377.275,
+   "end": 378.206
+  },
+  {
+   "who": "pip",
+   "text": "Or D?",
+   "start": 378.261,
+   "end": 379.114
+  },
+  {
+   "who": "pip",
+   "text": "Or E?",
+   "start": 379.203,
+   "end": 380.079
+  },
+  {
+   "who": "pip",
+   "text": "Or F?",
+   "start": 380.172,
+   "end": 381.043
+  },
+  {
+   "who": "pip",
+   "text": "Or G?",
+   "start": 381.052,
+   "end": 381.986
+  },
+  {
+   "who": "pip",
+   "text": "Or H?",
+   "start": 382.075,
+   "end": 383.045
+  },
+  {
+   "who": "pip",
+   "text": "Or I?",
+   "start": 383.14,
+   "end": 384.041
+  },
+  {
+   "who": "pip",
+   "text": "Or J?",
+   "start": 384.098,
+   "end": 385.09
+  },
+  {
+   "who": "pip",
+   "text": "Or K?",
+   "start": 385.146,
+   "end": 386.092
+  },
+  {
+   "who": "pip",
+   "text": "Or L?",
+   "start": 386.164,
+   "end": 387.056
+  },
+  {
+   "who": "pip",
+   "text": "Or M?",
+   "start": 387.127,
+   "end": 388.014
+  },
+  {
+   "who": "pip",
+   "text": "Or N?",
+   "start": 388.09,
+   "end": 389.013
+  },
+  {
+   "who": "pip",
+   "text": "Or O?",
+   "start": 389.115,
+   "end": 390.062
+  },
+  {
+   "who": "pip",
+   "text": "Or P?",
+   "start": 390.172,
+   "end": 391.094
+  },
+  {
+   "who": "pip",
+   "text": "Or Q?",
+   "start": 391.212,
+   "end": 392.205
+  },
+  {
+   "who": "pip",
+   "text": "Or R?",
+   "start": 392.33,
+   "end": 393.259
+  },
+  {
+   "who": "pip",
+   "text": "Or S?",
+   "start": 393.326,
+   "end": 394.255
+  },
+  {
+   "who": "pip",
+   "text": "Or T?",
+   "start": 394.285,
+   "end": 395.21
+  },
+  {
+   "who": "pip",
+   "text": "Or U?",
+   "start": 395.284,
+   "end": 396.234
+  },
+  {
+   "who": "pip",
+   "text": "Or V?",
+   "start": 396.277,
+   "end": 397.202
+  },
+  {
+   "who": "pip",
+   "text": "Or W?",
+   "start": 397.252,
+   "end": 398.08
+  }
+ ]
+}
