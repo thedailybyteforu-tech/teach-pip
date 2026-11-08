@@ -43,7 +43,6 @@ Behind a multiplication gate (🔒 on the home screen):
 ## Run it
 
 ```bash
-cd pip-kids-app
 npm install
 npx expo start        # scan the QR code with Expo Go on iPhone or Android
 ```
