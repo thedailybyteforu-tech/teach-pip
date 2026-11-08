@@ -1,0 +1,294 @@
+{
+ "id": "03",
+ "mp3": "/home/user/teach-pip/voice/raw/03.mp3",
+ "clips": [
+  {
+   "who": "kiki",
+   "text": "A coin is heavy metal, so down it goes!",
+   "start": 0.01,
+   "end": 3.34
+  },
+  {
+   "who": "kiki",
+   "text": "A dry sponge is full of air holes, so it floats.",
+   "start": 3.76,
+   "end": 7.88
+  },
+  {
+   "who": "kiki",
+   "text": "A key is made of metal.",
+   "start": 8.21,
+   "end": 10.14
+  },
+  {
+   "who": "kiki",
+   "text": "A leaf is light and flat, so the water holds it up.",
+   "start": 10.64,
+   "end": 14.05
+  },
+  {
+   "who": "kiki",
+   "text": "A metal spoon is heavy for its size, so it sinks.",
+   "start": 14.32,
+   "end": 18.15
+  },
+  {
+   "who": "kiki",
+   "text": "A rock is heavy for its size, so it sinks to the bottom.",
+   "start": 18.49,
+   "end": 22.57
+  },
+  {
+   "who": "kiki",
+   "text": "Apples have tiny pockets of air inside, so they float!",
+   "start": 23.11,
+   "end": 27.82
+  },
+  {
+   "who": "kiki",
+   "text": "Can I play too?",
+   "start": 28.32,
+   "end": 29.65
+  },
+  {
+   "who": "kiki",
+   "text": "Here is a coin.",
+   "start": 29.85,
+   "end": 31.08
+  },
+  {
+   "who": "kiki",
+   "text": "Here is a key.",
+   "start": 31.08,
+   "end": 32.29
+  },
+  {
+   "who": "kiki",
+   "text": "Here is a leaf.",
+   "start": 32.3,
+   "end": 33.39
+  },
+  {
+   "who": "kiki",
+   "text": "Here is a rock.",
+   "start": 33.51,
+   "end": 34.74
+  },
+  {
+   "who": "kiki",
+   "text": "Here is a rubber duck.",
+   "start": 34.79,
+   "end": 36.43
+  },
+  {
+   "who": "kiki",
+   "text": "Here is a sponge.",
+   "start": 36.56,
+   "end": 37.79
+  },
+  {
+   "who": "kiki",
+   "text": "Here is a spoon.",
+   "start": 37.92,
+   "end": 39.1
+  },
+  {
+   "who": "kiki",
+   "text": "Here is an apple.",
+   "start": 39.28,
+   "end": 40.67
+  },
+  {
+   "who": "kiki",
+   "text": "I always ask WHY.",
+   "start": 40.91,
+   "end": 42.78
+  },
+  {
+   "who": "kiki",
+   "text": "I feel happy today!",
+   "start": 43.11,
+   "end": 44.78
+  },
+  {
+   "who": "kiki",
+   "text": "It floats.",
+   "start": 45.12,
+   "end": 46.27
+  },
+  {
+   "who": "kiki",
+   "text": "It is full of air, and air is light, so the duck floats!",
+   "start": 46.27,
+   "end": 50.3
+  },
+  {
+   "who": "kiki",
+   "text": "It is small but heavy, so it sinks.",
+   "start": 50.66,
+   "end": 53.47
+  },
+  {
+   "who": "kiki",
+   "text": "It sinks.",
+   "start": 53.88,
+   "end": 54.77
+  },
+  {
+   "who": "kiki",
+   "text": "Kee-kee!",
+   "start": 54.81,
+   "end": 55.78
+  },
+  {
+   "who": "kiki",
+   "text": "Kiki is here!",
+   "start": 55.73,
+   "end": 56.68
+  },
+  {
+   "who": "kiki",
+   "text": "Let's build a fort!",
+   "start": 56.86,
+   "end": 58.25
+  },
+  {
+   "who": "kiki",
+   "text": "Let's find out with an experiment!",
+   "start": 58.64,
+   "end": 60.87
+  },
+  {
+   "who": "kiki",
+   "text": "Let's have a party!",
+   "start": 60.93,
+   "end": 62.33
+  },
+  {
+   "who": "kiki",
+   "text": "Ooh, surprise!",
+   "start": 62.48,
+   "end": 63.98
+  },
+  {
+   "who": "kiki",
+   "text": "Pick one!",
+   "start": 63.92,
+   "end": 64.79
+  },
+  {
+   "who": "kiki",
+   "text": "Ready, set, go!",
+   "start": 64.89,
+   "end": 66.72
+  },
+  {
+   "who": "kiki",
+   "text": "Shh, I am hiding!",
+   "start": 66.98,
+   "end": 68.8
+  },
+  {
+   "who": "kiki",
+   "text": "Time for a snack!",
+   "start": 68.84,
+   "end": 70.16
+  },
+  {
+   "who": "kiki",
+   "text": "What do you think?",
+   "start": 70.44,
+   "end": 71.48
+  },
+  {
+   "who": "kiki",
+   "text": "Why?",
+   "start": 71.77,
+   "end": 72.45
+  },
+  {
+   "who": "kiki",
+   "text": "Will it sink or float?",
+   "start": 72.8,
+   "end": 74.56
+  },
+  {
+   "who": "kiki",
+   "text": "Will you be my friend?",
+   "start": 74.94,
+   "end": 76.38
+  },
+  {
+   "who": "kiki",
+   "text": "You guessed it!",
+   "start": 76.69,
+   "end": 77.88
+  },
+  {
+   "who": "rio",
+   "text": "Can I play too?",
+   "start": 78.17,
+   "end": 79.42
+  },
+  {
+   "who": "rio",
+   "text": "I feel happy today!",
+   "start": 79.79,
+   "end": 81.29
+  },
+  {
+   "who": "rio",
+   "text": "Let's build a fort!",
+   "start": 81.57,
+   "end": 82.91
+  },
+  {
+   "who": "rio",
+   "text": "Let's have a party!",
+   "start": 82.91,
+   "end": 84.14
+  },
+  {
+   "who": "rio",
+   "text": "Look at my rainbow!",
+   "start": 84.44,
+   "end": 85.55
+  },
+  {
+   "who": "rio",
+   "text": "Ready, set, go!",
+   "start": 85.79,
+   "end": 87.58
+  },
+  {
+   "who": "rio",
+   "text": "Rio is here!",
+   "start": 87.59,
+   "end": 88.6
+  },
+  {
+   "who": "rio",
+   "text": "Shh, I am hiding!",
+   "start": 88.9,
+   "end": 90.53
+  },
+  {
+   "who": "rio",
+   "text": "Time for a snack!",
+   "start": 90.48,
+   "end": 91.71
+  },
+  {
+   "who": "rio",
+   "text": "Tweet tweet!",
+   "start": 91.82,
+   "end": 92.95
+  },
+  {
+   "who": "rio",
+   "text": "Will you be my friend?",
+   "start": 93.21,
+   "end": 94.56
+  }
+ ]
+}

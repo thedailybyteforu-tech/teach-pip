@@ -1,0 +1,164 @@
+A is for Apple!
+A is for Apple.
+A new color!
+B is for Banana!
+B is for Banana.
+C is for Cat!
+C is for Cat.
+Can I play too?
+D is for Duck!
+D is for Duck.
+E is for Egg!
+E is for Egg.
+F is for Frog!
+F is for Frog.
+G is for Grapes!
+G is for Grapes.
+Great line!
+H is for Hippo!
+H is for Hippo.
+I feel happy today!
+I is for Ice cream!
+I is for Ice cream.
+J is for Juice!
+J is for Juice.
+K is for Kiwi!
+K is for Kiwi.
+L is for Lion!
+L is for Lion.
+Let's build a fort!
+Let's have a party!
+Let's trace A again!
+Let's trace A!
+Let's trace B again!
+Let's trace B!
+Let's trace C again!
+Let's trace C!
+Let's trace D again!
+Let's trace D!
+Let's trace E again!
+Let's trace E!
+Let's trace F again!
+Let's trace F!
+Let's trace G again!
+Let's trace G!
+Let's trace H again!
+Let's trace H!
+Let's trace I again!
+Let's trace I!
+Let's trace J again!
+Let's trace J!
+Let's trace K again!
+Let's trace K!
+Let's trace L again!
+Let's trace L!
+Let's trace M again!
+Let's trace M!
+Let's trace N again!
+Let's trace N!
+Let's trace O again!
+Let's trace O!
+Let's trace P again!
+Let's trace P!
+Let's trace Q again!
+Let's trace Q!
+Let's trace R again!
+Let's trace R!
+Let's trace S again!
+Let's trace S!
+Let's trace T again!
+Let's trace T!
+Let's trace U again!
+Let's trace U!
+Let's trace V again!
+Let's trace V!
+Let's trace W again!
+Let's trace W!
+Let's trace X again!
+Let's trace X!
+Let's trace Y again!
+Let's trace Y!
+Let's trace Z again!
+Let's trace Z!
+M is for Moon!
+M is for Moon.
+Mona is here!
+N is for Nose!
+N is for Nose.
+Now the next line!
+O is for Octopus!
+O is for Octopus.
+P is for Penguin!
+P is for Penguin.
+Picture pose!
+Q is for Queen!
+Q is for Queen.
+R is for Rainbow!
+R is for Rainbow.
+Ready, set, go!
+S is for Sun!
+S is for Sun.
+Shh, I am hiding!
+Start at the green dot and follow the line.
+Super!
+T is for Tiger!
+T is for Tiger.
+Tap two paint pots, and we will mix them.
+Time for a snack!
+Try two different colors.
+U is for Umbrella!
+U is for Umbrella.
+V is for Violin!
+V is for Violin.
+W is for Whale!
+W is for Whale.
+What color will we make?
+Will you be my friend?
+X is for Xylophone!
+X is for Xylophone.
+Y is for Yo-yo!
+Y is for Yo-yo.
+You traced A!
+You traced B!
+You traced C!
+You traced D!
+You traced E!
+You traced F!
+You traced G!
+You traced H!
+You traced I!
+You traced J!
+You traced K!
+You traced L!
+You traced M!
+You traced N!
+You traced O!
+You traced P!
+You traced Q!
+You traced R!
+You traced S!
+You traced T!
+You traced U!
+You traced V!
+You traced W!
+You traced X!
+You traced Y!
+You traced Z!
+Z is for Zebra!
+Z is for Zebra.
+blue and blue is still blue!
+blue and red make purple!
+blue and white make light blue!
+blue and yellow make green!
+red and blue make purple!
+red and red is still red!
+red and white make pink!
+red and yellow make orange!
+white and blue make light blue!
+white and red make pink!
+white and white is still white!
+white and yellow make light yellow!
+yellow and blue make green!
+yellow and red make orange!
+yellow and white make light yellow!
+yellow and yellow is still yellow!

@@ -1,5 +1,5 @@
 import type { Concept, Option } from '../types';
-import { buildQuestion, pick } from '../lib/random';
+import { An, an, buildQuestion, pick } from '../lib/random';
 
 const HOMES = [
   { e: '🐟', a: 'fish', h: 'ocean', he: '🌊' },
@@ -16,12 +16,12 @@ function animalHomes() {
   const home = (x: (typeof HOMES)[number]): Option => ({ id: x.h, label: x.h, visual: { kind: 'big', text: x.he } });
   const others = HOMES.filter((x) => x.h !== t.h);
   return buildQuestion({
-    prompt: `Where does a ${t.a} live?`,
+    prompt: `Where does ${an(t.a)} ${t.a} live?`,
     visual: { kind: 'big', text: t.e },
     correct: home(t),
     wrong: home(pick(others)),
     extras: others.map(home),
-    fact: `A ${t.a} lives in the ${t.h}!`,
+    fact: `${An(t.a)} ${t.a} lives in the ${t.h}!`,
   });
 }
 
@@ -67,20 +67,20 @@ function dayOrNight() {
   const day: Option = { id: 'day', label: 'day', visual: { kind: 'big', text: '☀️' } };
   const night: Option = { id: 'night', label: 'night', visual: { kind: 'big', text: '🌙' } };
   return buildQuestion({
-    prompt: `Is a ${t.a} awake in the day or at night?`,
+    prompt: `Is ${an(t.a)} ${t.a} awake in the day or at night?`,
     visual: { kind: 'big', text: t.e },
     correct: t.night ? night : day,
     wrong: t.night ? day : night,
     extras: [],
     count: 2,
     fact: t.night
-      ? `A ${t.a} is awake at night and sleeps in the day!`
-      : `A ${t.a} is busy in the day and sleeps at night!`,
+      ? `${An(t.a)} ${t.a} is awake at night and sleeps in the day!`
+      : `${An(t.a)} ${t.a} is busy in the day and sleeps at night!`,
   });
 }
 
 export const natureConcepts: Concept[] = [
   { id: 'nature-homes', subject: 'nature', title: 'Animal homes', emoji: '🏡', make: animalHomes },
   { id: 'nature-babies', subject: 'nature', title: 'Baby animals', emoji: '🐣', make: babyAnimals },
-  { id: 'nature-night', subject: 'nature', title: 'Day or night?', emoji: '🦉', make: dayOrNight },
+  { id: 'nature-night', subject: 'nature', title: 'Day and night animals', emoji: '🦉', make: dayOrNight },
 ];

@@ -1,5 +1,9 @@
 import type { Option, Question, Visual } from '../types';
 
+/** "a" or "an" for a word, so Pip never says "a owl". */
+export const an = (word: string) => (/^[aeiou]/i.test(word) ? 'an' : 'a');
+export const An = (word: string) => (/^[aeiou]/i.test(word) ? 'An' : 'A');
+
 export const randInt = (lo: number, hi: number) => lo + Math.floor(Math.random() * (hi - lo + 1));
 
 export function pick<T>(arr: readonly T[]): T {

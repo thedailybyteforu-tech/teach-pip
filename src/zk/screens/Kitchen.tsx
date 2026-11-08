@@ -50,12 +50,12 @@ export function Kitchen({ onBack }: { onBack: () => void }) {
   const [inside, setInside] = useState<[string, string][]>([]);
   const [stirs, setStirs] = useState(0);
   const [eater, setEater] = useState<BuddyId | null>(null);
-  const [talking, speak] = useTalk();
+  const [talking, speak] = useTalk('peely');
   const [line, setLine] = useState('');
   const spin = useRef(new Animated.Value(0)).current;
-  const talk = (l: string) => {
+  const talk = (l: string, who?: BuddyId) => {
     setLine(l);
-    speak(l);
+    speak(l, who);
   };
 
   useEffect(() => talk("Peel out! Welcome to my kitchen! What shall we make? Pick a bowl, a blender, a pot or a pizza!"), []); // eslint-disable-line react-hooks/exhaustive-deps
@@ -99,7 +99,7 @@ export function Kitchen({ onBack }: { onBack: () => void }) {
     feel.good();
     setEater(id);
     setStep('eaten');
-    talk(reaction(id, t.dish, inside[0]?.[1] ?? 'yummy things'));
+    talk(reaction(id, t.dish, inside[0]?.[1] ?? 'yummy things'), id);
     markDone('cook', (zk) => ({ ...zk, dishes: zk.dishes + 1 }));
   };
 

@@ -84,7 +84,7 @@ function SingAlong() {
       timers.current.push(
         setTimeout(() => {
           setLine(i);
-          say(l.text);
+          say(l.text, l.who === 'all' ? 'bobble' : WOOGLES[l.who].id);
           if (l.who === 'all') WOOGLES.forEach((_, k) => bounce(k));
           else bounce(l.who);
         }, at),
@@ -137,7 +137,7 @@ function CopyMe() {
   const { vals, bounce } = useBounces();
 
   useEffect(() => {
-    say('Listen to the Woogles, then copy them! Tap each Woogle in the same order.');
+    say('Listen to the Woogles, then copy them! Tap each Woogle in the same order.', 'bobble');
     return () => timers.current.forEach(clearTimeout);
   }, []);
 
@@ -149,7 +149,7 @@ function CopyMe() {
         setTimeout(() => {
           setActive([w]);
           bounce(w);
-          say(WOOGLES[w].sound);
+          say(WOOGLES[w].sound, WOOGLES[w].id);
         }, 600 + i * 1100),
       );
       timers.current.push(setTimeout(() => setActive([]), 600 + i * 1100 + 700));
@@ -157,7 +157,7 @@ function CopyMe() {
     timers.current.push(
       setTimeout(() => {
         setPhase('turn');
-        say('Your turn!');
+        say('Your turn!', 'bobble');
       }, 600 + s.length * 1100),
     );
   };
@@ -172,12 +172,12 @@ function CopyMe() {
   const tap = (i: number) => {
     if (phase !== 'turn') return;
     bounce(i);
-    say(WOOGLES[i].sound);
+    say(WOOGLES[i].sound, WOOGLES[i].id);
     if (i !== seq[pos]) {
       feel.oops();
       setPhase('oops');
       setLen(Math.max(2, len - 1));
-      timers.current.push(setTimeout(() => say("Oops! That's okay. Let's listen again!"), 800));
+      timers.current.push(setTimeout(() => say("Oops! That's okay. Let's listen again!", 'bobble'), 800));
       return;
     }
     feel.tap();
@@ -186,7 +186,7 @@ function CopyMe() {
       setPhase('won');
       setLen(len + 1);
       markDone('song', (zk) => ({ ...zk, songBest: Math.max(zk.songBest, seq.length) }));
-      timers.current.push(setTimeout(() => say(`You copied ${seq.length} sounds! The Woogles are so proud!`), 700));
+      timers.current.push(setTimeout(() => say(`You copied ${seq.length} sounds! The Woogles are so proud!`, 'bobble'), 700));
     } else setPos(pos + 1);
   };
 

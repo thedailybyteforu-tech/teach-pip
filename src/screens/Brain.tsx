@@ -71,7 +71,7 @@ export function Brain({ onBack, onConcept }: { onBack: () => void; onConcept: (i
     say(
       learned === 0
         ? "This is my brain! It's empty and dark. Teach me something and watch it light up!"
-        : `This is my brain! You taught me ${learned} things. Bright lights are things I remember. Dim lights are things I'm forgetting!`,
+        : `This is my brain! You taught me ${learned} ${learned === 1 ? 'thing' : 'things'}. Bright lights are things I remember. Dim lights are things I'm forgetting!`,
     );
   }, [learned]);
 

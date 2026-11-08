@@ -20,7 +20,7 @@ export function Science({ onBack }: { onBack: () => void }) {
 }
 
 function Menu({ onBack, onPick }: { onBack: () => void; onPick: (e: Exp) => void }) {
-  const [talking, speak] = useTalk();
+  const [talking, speak] = useTalk('kiki');
   const line = "Kee-kee! I always ask WHY. Let's find out with an experiment! Pick one!";
   useEffect(() => speak(line), [speak]);
   const items: { id: Exp; title: string; emoji: string; host: 'kiki' | 'mona' | 'brocco'; color: string }[] = [
@@ -76,7 +76,7 @@ function SinkFloat({ onBack }: { onBack: () => void }) {
   const [i, setI] = useState(0);
   const [guess, setGuess] = useState<null | boolean>(null);
   const [shown, setShown] = useState(false);
-  const [talking, speak] = useTalk();
+  const [talking, speak] = useTalk('kiki');
   const [line, setLine] = useState('');
   const y = useRef(new Animated.Value(0)).current;
   const t = order[i];
@@ -91,7 +91,7 @@ function SinkFloat({ onBack }: { onBack: () => void }) {
     y.setValue(0);
     setGuess(null);
     setShown(false);
-    talk(`Here is a ${t.name}. Will it sink or float? What do you think?`);
+    talk(`Here is ${/^[aeiou]/.test(t.name) ? 'an' : 'a'} ${t.name}. Will it sink or float? What do you think?`);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [i]);
 
@@ -154,7 +154,7 @@ function MixLab({ onBack }: { onBack: () => void }) {
   const [picked, setPicked] = useState<string[]>([]);
   const [result, setResult] = useState<[string, string] | null>(null);
   const [found, setFound] = useState<string[]>([]);
-  const [talking, speak] = useTalk();
+  const [talking, speak] = useTalk('mona');
   const [line, setLine] = useState('');
   const talk = (l: string) => {
     setLine(l);
@@ -226,7 +226,7 @@ function Grow({ onBack }: { onBack: () => void }) {
   const { markDone } = useStore();
   const [water, setWater] = useState(0);
   const [sun, setSun] = useState(0);
-  const [talking, speak] = useTalk();
+  const [talking, speak] = useTalk('brocco');
   const [line, setLine] = useState('');
   const pop = useRef(new Animated.Value(1)).current;
   const stage = Math.min(4, Math.min(water, sun));

@@ -41,9 +41,9 @@ function introLine(r: Round): string {
 function spokenIntro(r: Round): string {
   const line = introLine(r);
   if (r.mode !== 'teach' || r.q.options.some((o) => o.hideLabel)) return line;
+  // One short question per choice, so each can be recorded once and reused in any order.
   const words = r.q.options.map(optionWord);
-  const last = words.pop();
-  return `${line} Is it ${words.join(', ')} or ${last}?`;
+  return `${line} ${words.map((w, i) => (i === 0 ? `Is it ${w}?` : `Or ${w}?`)).join(' ')}`;
 }
 
 export function Teach({

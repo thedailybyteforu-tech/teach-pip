@@ -1,5 +1,5 @@
 import type { Concept, Option, ShapeName } from '../types';
-import { buildQuestion, pick, shuffle } from '../lib/random';
+import { An, an, buildQuestion, pick, shuffle } from '../lib/random';
 
 const NAMES: Record<ShapeName, string> = {
   circle: 'circle',
@@ -55,7 +55,7 @@ function findShape(set: ShapeName[]) {
       correct: byId(target),
       wrong: byId(wrongId),
       extras: opts,
-      fact: `That's a ${NAMES[target]}! I'll remember its shape.`,
+      fact: `That's ${an(NAMES[target])} ${NAMES[target]}! I'll remember its shape.`,
     });
   };
 }
@@ -70,7 +70,7 @@ function countSides() {
     correct: num(n),
     wrong: num(n + pick([1, -1])),
     extras: [2, 3, 4, 5, 6, 7].map(num),
-    fact: `A ${NAMES[shape]} has ${n} sides! I counted them.`,
+    fact: `${An(NAMES[shape])} ${NAMES[shape]} has ${n} sides! I counted them.`,
   });
 }
 

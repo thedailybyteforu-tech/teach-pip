@@ -55,7 +55,7 @@ export function Playhouse({ onBack }: { onBack: () => void }) {
   const counted = useRef(false);
 
   useEffect(() => {
-    say("Roar! Welcome to the Playhouse! Pick friends and toys, move them anywhere, and make up a story. Tap a friend to hear them talk!");
+    say("Roar! Welcome to the Playhouse! Pick friends and toys, move them anywhere, and make up a story. Tap a friend to hear them talk!", 'roarbow');
   }, []);
 
   const touch = () => {
@@ -71,7 +71,7 @@ export function Playhouse({ onBack }: { onBack: () => void }) {
     const k = nextKey.current++;
     setItems((it) => [...it, { key: k, kind, id, x: size.w / 2 - 50 + (Math.random() * 60 - 30), y: size.h * 0.4 + (Math.random() * 40 - 20) }]);
     if (kind === 'buddy') {
-      say(`${CAST[id as BuddyId].name} is here! ${CAST[id as BuddyId].line}`);
+      say(`${CAST[id as BuddyId].name} is here! ${CAST[id as BuddyId].line}`, id as BuddyId);
       setTalkingKey(k);
       setTimeout(() => setTalkingKey(null), 1600);
     }
@@ -84,7 +84,7 @@ export function Playhouse({ onBack }: { onBack: () => void }) {
       return;
     }
     const c = CAST[p.id as BuddyId];
-    say(Math.random() < 0.5 ? c.line : `${c.name} says: ${pick(PLAY_LINES)}`);
+    say(Math.random() < 0.5 ? c.line : pick(PLAY_LINES), p.id as BuddyId);
     setTalkingKey(p.key);
     setTimeout(() => setTalkingKey((t) => (t === p.key ? null : t)), 1800);
   };

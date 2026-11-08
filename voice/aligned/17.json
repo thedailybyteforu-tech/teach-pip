@@ -1,0 +1,42 @@
+{
+ "id": "17",
+ "mp3": "/home/user/teach-pip/voice/raw/17.mp3",
+ "clips": [
+  {
+   "who": "snoozle",
+   "text": "A big yawn: Ahhh, hummm.",
+   "start": 0,
+   "end": 4.24
+  },
+  {
+   "who": "snoozle",
+   "text": "Ahhh, hummm.",
+   "start": 5.75,
+   "end": 7.03
+  },
+  {
+   "who": "snoozle",
+   "text": "Ahhh...",
+   "start": 9.69,
+   "end": 9.93
+  },
+  {
+   "who": "snoozle",
+   "text": "Night night, slow.",
+   "start": 10.47,
+   "end": 12.61
+  },
+  {
+   "who": "snoozle",
+   "text": "Snoozle is sleepy, eyes so low.",
+   "start": 13.38,
+   "end": 16.88
+  },
+  {
+   "who": "snoozle",
+   "text": "hummm.",
+   "start": 17.53,
+   "end": 18.56
+  }
+ ]
+}

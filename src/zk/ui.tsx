@@ -1,6 +1,6 @@
 import React, { useCallback, useEffect, useRef, useState } from 'react';
 import { Pressable, StyleSheet, Text, View, type StyleProp, type ViewStyle } from 'react-native';
-import { feel, say } from '../lib/voice';
+import { feel, say, type VoiceId } from '../lib/voice';
 import { Buddy, CAST, type BuddyId } from './characters';
 
 /** ZoomikoKids palette: bright daytime Sprinkle Valley, the opposite of Pip's night sky. */
@@ -64,18 +64,18 @@ export function ZHeader({ title, onBack, right }: { title: string; onBack: () =>
  * A character who talks: says a line out loud and opens its mouth while it does.
  * Returns [talking, speak].
  */
-export function useTalk(): [boolean, (line: string) => void] {
+export function useTalk(who?: VoiceId): [boolean, (line: string, speaker?: VoiceId) => void] {
   const [talking, setTalking] = useState(false);
   const t = useRef<ReturnType<typeof setTimeout> | null>(null);
   useEffect(() => () => {
     if (t.current) clearTimeout(t.current);
   }, []);
-  const speak = useCallback((line: string) => {
-    say(line);
+  const speak = useCallback((line: string, speaker?: VoiceId) => {
+    say(line, speaker ?? who);
     setTalking(true);
     if (t.current) clearTimeout(t.current);
     t.current = setTimeout(() => setTalking(false), Math.min(4000, 500 + line.length * 55));
-  }, []);
+  }, [who]);
   return [talking, speak];
 }
 

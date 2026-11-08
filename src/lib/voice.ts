@@ -1,22 +1,58 @@
 import * as Speech from 'expo-speech';
 import * as Haptics from 'expo-haptics';
+import { createAudioPlayer, type AudioPlayer } from 'expo-audio';
 import { Platform } from 'react-native';
+import { CLIPS, SPRITES } from '../voice/manifest';
+import { cleanSpeech, clipKey, sentences } from './sentences';
+
+/** Who is speaking. Each character has its own recorded voice. */
+export type VoiceId =
+  | 'pip'
+  | 'zoomi'
+  | 'roarbow'
+  | 'peely'
+  | 'mona'
+  | 'kiki'
+  | 'puddle'
+  | 'grumbo'
+  | 'bloop'
+  | 'fuzzle'
+  | 'bobble'
+  | 'snoozle'
+  | 'nibbles'
+  | 'pinky'
+  | 'rio'
+  | 'brocco';
 
 let voiceOn = true;
+let defaultVoice: VoiceId = 'zoomi';
+/** Bumped on every new line, so an older line stops as soon as a new one starts. */
+let token = 0;
+let timer: ReturnType<typeof setTimeout> | null = null;
+const players = new Map<number, AudioPlayer>();
+let playing: AudioPlayer | null = null;
 
 export function setVoiceEnabled(on: boolean) {
   voiceOn = on;
-  if (!on) Speech.stop().catch(() => {});
+  if (!on) hush();
 }
 
-// Emoji and pictographs read badly through text-to-speech, so drop them.
-const EMOJI = /[\u{1F000}-\u{1FAFF}\u{2600}-\u{27BF}\u{2B00}-\u{2BFF}\u{FE0F}\u{200D}\u{20E3}]/gu;
+/** The voice used when a screen doesn't name a speaker (Pip in Pip's game, Zoomi in the hub). */
+export function setDefaultVoice(v: VoiceId) {
+  defaultVoice = v;
+}
 
-/**
- * Pick the most natural-sounding English voice the device has. Phones and browsers ship
- * several voices; the default is often the oldest, most robotic one, while the "enhanced",
- * "neural" or "natural" voices sound close to a real person.
- */
+function player(sprite: number): AudioPlayer {
+  let p = players.get(sprite);
+  if (!p) {
+    p = createAudioPlayer(SPRITES[sprite]);
+    players.set(sprite, p);
+  }
+  return p;
+}
+
+/* ---------- Fallback: the device's own text-to-speech ---------- */
+
 let chosenVoice: string | undefined;
 
 const GOOD_NAMES = [
@@ -36,8 +72,7 @@ function score(v: Speech.Voice): number {
   GOOD_NAMES.forEach((g, i) => {
     if (name.includes(g)) s += i < 5 ? 35 : 15;
   });
-  if (name.includes('network')) s += 10; // Android's cloud voices are the most natural ones
-  // Novelty voices sound like robots or monsters: never use them for Pip.
+  if (name.includes('network')) s += 10;
   if (/(whisper|zarvox|trinoids|bad news|bells|boing|bubbles|cellos|jester|organ|superstar|albert|fred|junior|ralph|grandpa|grandma|rocko|eddy|flo|reed|sandy|shelley)/.test(name)) s -= 100;
   return s;
 }
@@ -46,7 +81,6 @@ async function pickVoice(attempt = 0): Promise<void> {
   try {
     const voices = await Speech.getAvailableVoicesAsync();
     if (!voices.length && attempt < 5) {
-      // Browsers load their voice list a moment after the page starts.
       setTimeout(() => pickVoice(attempt + 1), 400);
       return;
     }
@@ -58,22 +92,64 @@ async function pickVoice(attempt = 0): Promise<void> {
 }
 pickVoice();
 
-/**
- * Pip's voice: warm, a touch higher than normal and a little slow, so pre-readers can follow.
- * A gentle pitch lift keeps it natural; pushing pitch further makes every engine sound robotic.
- */
-export function say(text: string) {
-  if (!voiceOn) return;
-  const clean = text.replace(EMOJI, ' ').replace(/\s+/g, ' ').trim();
-  if (!clean) return;
-  Speech.stop()
+function speakDevice(text: string) {
+  Speech.speak(text, { pitch: 1.12, rate: 0.92, language: 'en-US', ...(chosenVoice ? { voice: chosenVoice } : {}) });
+}
+
+/* ---------- Recorded voices ---------- */
+
+function playClips(clips: [number, number, number][], my: number, i = 0) {
+  if (my !== token || i >= clips.length) {
+    playing = null;
+    return;
+  }
+  const [sprite, start, end] = clips[i];
+  const p = player(sprite);
+  playing = p;
+  p.seekTo(start)
     .catch(() => {})
-    .finally(() =>
-      Speech.speak(clean, { pitch: 1.12, rate: 0.92, language: 'en-US', ...(chosenVoice ? { voice: chosenVoice } : {}) }),
-    );
+    .finally(() => {
+      if (my !== token) return;
+      p.play();
+      timer = setTimeout(() => {
+        p.pause();
+        playClips(clips, my, i + 1);
+      }, Math.max(150, (end - start) * 1000));
+    });
+}
+
+/**
+ * Say a line in a character's voice. If every sentence of it has been recorded, the recording
+ * plays; otherwise the whole line falls back to the device voice, so a line never switches
+ * voices halfway through.
+ */
+export function say(text: string, who: VoiceId = defaultVoice) {
+  if (!voiceOn) return;
+  hush();
+  const my = token;
+  const clean = cleanSpeech(text);
+  if (!clean) return;
+  const parts = sentences(clean);
+  const clips = parts.map((s) => CLIPS[clipKey(who, s)]);
+  if (clips.length && clips.every(Boolean)) {
+    playClips(clips as [number, number, number][], my);
+    return;
+  }
+  speakDevice(clean);
 }
 
 export function hush() {
+  token++;
+  if (timer) clearTimeout(timer);
+  timer = null;
+  if (playing) {
+    try {
+      playing.pause();
+    } catch {
+      // The player may already be released.
+    }
+    playing = null;
+  }
   Speech.stop().catch(() => {});
 }
 

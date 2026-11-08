@@ -1,5 +1,5 @@
 import type { Concept, Option } from '../types';
-import { buildQuestion, pick } from '../lib/random';
+import { An, an, buildQuestion, pick } from '../lib/random';
 
 export const PALETTE: Record<string, string> = {
   red: '#FF3B3B',
@@ -61,12 +61,12 @@ const THINGS = [
 function colorOfThing() {
   const t = pick(THINGS);
   return buildQuestion({
-    prompt: `What color is a ${t.w}?`,
+    prompt: `What color is ${an(t.w)} ${t.w}?`,
     visual: { kind: 'big', text: t.e },
     correct: swatch(t.c),
     wrong: swatch(CONFUSE[t.c]),
     extras: NAMED.map((c) => swatch(c)),
-    fact: `A ${t.w} is ${t.c}!`,
+    fact: `${An(t.w)} ${t.w} is ${t.c}!`,
   });
 }
 

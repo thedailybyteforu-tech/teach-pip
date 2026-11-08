@@ -11,7 +11,7 @@ import { Host, Sky, useTalk, Z, ZHeader, zt } from '../ui';
 
 export function Stem({ onBack, onPip, startPattern }: { onBack: () => void; onPip: () => void; startPattern?: boolean }) {
   const [game, setGame] = useState<'menu' | 'pattern'>(startPattern ? 'pattern' : 'menu');
-  const [talking, speak] = useTalk();
+  const [talking, speak] = useTalk('bobble');
   const line = 'La la la! Pick a game. Patterns with my pom-poms, or teach Pip the space alien!';
   useEffect(() => {
     if (game === 'menu') speak(line);
@@ -63,7 +63,7 @@ function Patterns({ onBack }: { onBack: () => void }) {
   const [streak, setStreak] = useState(0);
   const [misses, setMisses] = useState(0);
   const [solved, setSolved] = useState(false);
-  const [talking, speak] = useTalk();
+  const [talking, speak] = useTalk('bobble');
   const [line, setLine] = useState('');
   const pop = useRef(new Animated.Value(0)).current;
   const talk = (l: string) => {

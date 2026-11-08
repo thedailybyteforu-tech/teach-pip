@@ -3,7 +3,7 @@ import { ActivityIndicator, StyleSheet, View } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
 import { StoreProvider, useStore } from './src/state/store';
-import { hush } from './src/lib/voice';
+import { hush, setDefaultVoice } from './src/lib/voice';
 import { mostFaded } from './src/engine/memory';
 import { C } from './src/theme';
 import type { ActivityKind, SubjectId } from './src/types';
@@ -49,6 +49,7 @@ function Main() {
   const { data, overLimit, addUsage } = useStore();
   const [route, setRoute] = useState<Route>({ name: 'hub' });
   const isPip = PIP_ROUTES.has(route.name);
+  setDefaultVoice(isPip ? 'pip' : 'zoomi');
 
   // Count play time (not time spent in the grown-ups area).
   useEffect(() => {

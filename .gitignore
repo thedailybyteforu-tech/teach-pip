@@ -39,3 +39,10 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+# Voice pipeline working files (large)
+voice/raw/
+voice/logs/
+voice/align-log.txt
+*.raw
+__pycache__/

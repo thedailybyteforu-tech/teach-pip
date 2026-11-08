@@ -1,0 +1,324 @@
+{
+ "id": "00",
+ "mp3": "/home/user/teach-pip/voice/raw/00.mp3",
+ "clips": [
+  {
+   "who": "bloop",
+   "text": "BLOOP!",
+   "start": 0,
+   "end": 0.59
+  },
+  {
+   "who": "bloop",
+   "text": "Bloop is here!",
+   "start": 0.59,
+   "end": 1.66
+  },
+  {
+   "who": "bloop",
+   "text": "Bloop is round and sky-blue too.",
+   "start": 2.08,
+   "end": 4.24
+  },
+  {
+   "who": "bloop",
+   "text": "Bloop says BLOOP!",
+   "start": 4.37,
+   "end": 5.76
+  },
+  {
+   "who": "bloop",
+   "text": "Bloop!",
+   "start": 5.76,
+   "end": 6.49
+  },
+  {
+   "who": "bloop",
+   "text": "Can I play too?",
+   "start": 6.59,
+   "end": 7.62
+  },
+  {
+   "who": "bloop",
+   "text": "I feel happy today!",
+   "start": 7.81,
+   "end": 9.11
+  },
+  {
+   "who": "bloop",
+   "text": "Let's build a fort!",
+   "start": 9.2,
+   "end": 10.33
+  },
+  {
+   "who": "bloop",
+   "text": "Let's have a party!",
+   "start": 10.4,
+   "end": 11.52
+  },
+  {
+   "who": "bloop",
+   "text": "Now you do!",
+   "start": 11.62,
+   "end": 12.51
+  },
+  {
+   "who": "bloop",
+   "text": "Ready, set, go!",
+   "start": 12.6,
+   "end": 14.38
+  },
+  {
+   "who": "bloop",
+   "text": "Shh, I am hiding!",
+   "start": 14.47,
+   "end": 16.03
+  },
+  {
+   "who": "bloop",
+   "text": "Time for a snack!",
+   "start": 16.12,
+   "end": 17.26
+  },
+  {
+   "who": "bloop",
+   "text": "Will you be my friend?",
+   "start": 17.4,
+   "end": 18.53
+  },
+  {
+   "who": "bobble",
+   "text": "Bobble juggles pom-poms high.",
+   "start": 18.95,
+   "end": 21.02
+  },
+  {
+   "who": "bobble",
+   "text": "Hmm, tricky one!",
+   "start": 21.41,
+   "end": 22.77
+  },
+  {
+   "who": "bobble",
+   "text": "La la la!",
+   "start": 23.05,
+   "end": 24.11
+  },
+  {
+   "who": "bobble",
+   "text": "La la la, up to the sky!",
+   "start": 24.22,
+   "end": 26.27
+  },
+  {
+   "who": "bobble",
+   "text": "Let's listen again!",
+   "start": 26.42,
+   "end": 27.64
+  },
+  {
+   "who": "bobble",
+   "text": "Let's try an easier pattern.",
+   "start": 28.18,
+   "end": 29.9
+  },
+  {
+   "who": "bobble",
+   "text": "Listen to the Woogles, then copy them!",
+   "start": 30.06,
+   "end": 32.32
+  },
+  {
+   "who": "bobble",
+   "text": "Look at my pom-poms!",
+   "start": 32.69,
+   "end": 34.12
+  },
+  {
+   "who": "bobble",
+   "text": "Make the sounds, one, two, three!",
+   "start": 34.19,
+   "end": 36.63
+  },
+  {
+   "who": "bobble",
+   "text": "Next one is a bit trickier!",
+   "start": 37.08,
+   "end": 38.74
+  },
+  {
+   "who": "bobble",
+   "text": "Not that one.",
+   "start": 39.01,
+   "end": 39.9
+  },
+  {
+   "who": "bobble",
+   "text": "Oops!",
+   "start": 40.05,
+   "end": 40.61
+  },
+  {
+   "who": "bobble",
+   "text": "Patterns with my pom-poms, or teach Pip the space alien!",
+   "start": 40.98,
+   "end": 44.56
+  },
+  {
+   "who": "bobble",
+   "text": "Pick a game.",
+   "start": 44.71,
+   "end": 45.56
+  },
+  {
+   "who": "bobble",
+   "text": "Say the colors out loud with me, then try again!",
+   "start": 45.74,
+   "end": 48.28
+  },
+  {
+   "who": "bobble",
+   "text": "Tap each Woogle in the same order.",
+   "start": 48.54,
+   "end": 50.62
+  },
+  {
+   "who": "bobble",
+   "text": "That is the pattern!",
+   "start": 50.69,
+   "end": 51.99
+  },
+  {
+   "who": "bobble",
+   "text": "That's okay.",
+   "start": 52.39,
+   "end": 53.25
+  },
+  {
+   "who": "bobble",
+   "text": "The Woogles are so proud!",
+   "start": 53.33,
+   "end": 55.19
+  },
+  {
+   "who": "bobble",
+   "text": "Which color comes next?",
+   "start": 55.51,
+   "end": 56.93
+  },
+  {
+   "who": "bobble",
+   "text": "Woogle, woogle, sing with me!",
+   "start": 57.04,
+   "end": 59.01
+  },
+  {
+   "who": "bobble",
+   "text": "Yes!",
+   "start": 59.2,
+   "end": 59.85
+  },
+  {
+   "who": "bobble",
+   "text": "You copied 10 sounds!",
+   "start": 59.86,
+   "end": 61.68
+  },
+  {
+   "who": "bobble",
+   "text": "You copied 11 sounds!",
+   "start": 61.71,
+   "end": 63.52
+  },
+  {
+   "who": "bobble",
+   "text": "You copied 12 sounds!",
+   "start": 63.57,
+   "end": 65.38
+  },
+  {
+   "who": "bobble",
+   "text": "You copied 2 sounds!",
+   "start": 65.5,
+   "end": 67.04
+  },
+  {
+   "who": "bobble",
+   "text": "You copied 3 sounds!",
+   "start": 67.05,
+   "end": 68.65
+  },
+  {
+   "who": "bobble",
+   "text": "You copied 4 sounds!",
+   "start": 68.71,
+   "end": 70.33
+  },
+  {
+   "who": "bobble",
+   "text": "You copied 5 sounds!",
+   "start": 70.34,
+   "end": 71.99
+  },
+  {
+   "who": "bobble",
+   "text": "You copied 6 sounds!",
+   "start": 72.01,
+   "end": 73.64
+  },
+  {
+   "who": "bobble",
+   "text": "You copied 7 sounds!",
+   "start": 73.67,
+   "end": 75.42
+  },
+  {
+   "who": "bobble",
+   "text": "You copied 8 sounds!",
+   "start": 75.44,
+   "end": 77.05
+  },
+  {
+   "who": "bobble",
+   "text": "You copied 9 sounds!",
+   "start": 77.08,
+   "end": 78.88
+  },
+  {
+   "who": "bobble",
+   "text": "You got it!",
+   "start": 78.95,
+   "end": 80.04
+  },
+  {
+   "who": "bobble",
+   "text": "Your turn!",
+   "start": 80.03,
+   "end": 80.97
+  },
+  {
+   "who": "fuzzle",
+   "text": "Blehh!",
+   "start": 81.09,
+   "end": 81.6
+  },
+  {
+   "who": "fuzzle",
+   "text": "Fuzzle is fluffy, Fuzzle is silly.",
+   "start": 82.1,
+   "end": 84.48
+  },
+  {
+   "who": "fuzzle",
+   "text": "Tongue out, BLEHH!",
+   "start": 84.61,
+   "end": 85.95
+  },
+  {
+   "who": "fuzzle",
+   "text": "Wiggly, wiggly!",
+   "start": 86.13,
+   "end": 87.28
+  }
+ ]
+}
