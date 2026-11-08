@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo } from 'react';
-import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { Image, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { today, useStore } from '../../state/store';
 import { feel } from '../../lib/voice';
 import { pick } from '../../lib/random';
@@ -45,9 +45,7 @@ export function Hub({ onGo, onGrownups }: { onGo: (p: HubPlace) => void; onGrown
     <Sky>
       <ScrollView contentContainerStyle={styles.body}>
         <View style={styles.top}>
-          <Text style={styles.logo}>
-            Zoomiko<Text style={{ color: Z.coral }}>Kids</Text>
-          </Text>
+          <Image source={require('../../../assets/logo.png')} style={styles.logo} accessibilityLabel="ZoomikoKids" />
           <Pressable accessibilityRole="button" accessibilityLabel="Grown-ups" onPress={onGrownups} style={styles.lock} hitSlop={8}>
             <Text style={{ fontSize: 20 }}>🔒</Text>
           </Pressable>
@@ -102,7 +100,7 @@ export function Hub({ onGo, onGrownups }: { onGo: (p: HubPlace) => void; onGrown
 const styles = StyleSheet.create({
   body: { padding: 16, gap: 14, maxWidth: 560, width: '100%', alignSelf: 'center', paddingBottom: 40 },
   top: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' },
-  logo: { fontSize: 28, fontWeight: '900', color: Z.teal, letterSpacing: 0.5 },
+  logo: { width: 92, height: 92 },
   lock: { width: 44, height: 44, borderRadius: 22, backgroundColor: '#fff', alignItems: 'center', justifyContent: 'center' },
   hero: { flexDirection: 'row', alignItems: 'center', gap: 4 },
   bubble: { flex: 1, backgroundColor: '#fff', borderRadius: 22, padding: 14 },
