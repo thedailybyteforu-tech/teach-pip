@@ -55,7 +55,7 @@ interface Stroke {
   d: string;
 }
 
-function Draw({ onTouch }: { onTouch: () => void }) {
+export function Draw({ onTouch }: { onTouch: () => void }) {
   const [strokes, setStrokes] = useState<Stroke[]>([]);
   const [color, setColor] = useState(INKS[0]);
   const [width, setWidth] = useState(WIDTHS[1]);
@@ -165,7 +165,7 @@ function WoodShape({ kind }: { kind: number }) {
   }
 }
 
-function Shapes({ onTouch }: { onTouch: () => void }) {
+export function Shapes({ onTouch }: { onTouch: () => void }) {
   const [round, setRound] = useState(0);
   const set = [0, 1, 2, 3, 4, 5, 0, 1, 2, 3];
   return (

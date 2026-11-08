@@ -28,7 +28,7 @@ import { Stem } from './src/zk/screens/Stem';
 import { Playhouse } from './src/zk/screens/Playhouse';
 import { Kitchen } from './src/zk/screens/Kitchen';
 import { Songs } from './src/zk/screens/Songs';
-import { Calm } from './src/zk/screens/Calm';
+import { Playroom } from './src/zk/screens/Playroom';
 
 type Route =
   | { name: 'hub' }
@@ -107,7 +107,7 @@ function Main() {
         screen = <Songs onBack={hub} />;
         break;
       case 'calm':
-        screen = <Calm onBack={hub} />;
+        screen = <Playroom onBack={hub} />;
         break;
       case 'grownups':
         screen = <Grownups onBack={hub} />;

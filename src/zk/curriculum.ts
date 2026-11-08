@@ -15,7 +15,7 @@ export const ACTIVITIES: Record<ActivityKind, { title: string; area: string; hos
   song: { title: 'Song Time', area: 'Music & memory', host: 'bloop', emoji: '🎵', color: '#4FC3F7' },
   cook: { title: 'Cook with Peely', area: 'Healthy food & creativity', host: 'peely', emoji: '🍳', color: '#FFD84D' },
   play: { title: 'Pretend play', area: 'Social & emotional', host: 'roarbow', emoji: '🏠', color: '#F4B942' },
-  calm: { title: 'Calm Room', area: 'Calm & self-regulation', host: 'snoozle', emoji: '🌿', color: '#C9B79C' },
+  calm: { title: 'Playroom', area: 'Calm & self-regulation', host: 'snoozle', emoji: '🌿', color: '#C9B79C' },
 };
 
 const dayNumber = (date: string) => Math.floor(new Date(`${date}T12:00:00`).getTime() / 86400000);

@@ -82,11 +82,11 @@ export function Hub({ onGo, onGrownups }: { onGo: (p: HubPlace) => void; onGrown
           ))}
         </View>
 
-        <Pressable accessibilityRole="button" onPress={() => go('calm')} style={({ pressed }) => [styles.calm, pressed && { transform: [{ scale: 0.98 }] }]}>
+        <Pressable accessibilityRole="button" onPress={() => go('calm')} accessibilityLabel="Playroom" style={({ pressed }) => [styles.calm, pressed && { transform: [{ scale: 0.98 }] }]}>
           <Buddy id="snoozle" size={64} still />
           <View style={{ flex: 1 }}>
-            <Text style={[styles.tileTitle, { color: Z.calmInk }]}>Calm Room</Text>
-            <Text style={[styles.tileSub, { color: Z.calmInk }]}>Quiet drawing and wooden shapes</Text>
+            <Text style={[styles.tileTitle, { color: Z.calmInk }]}>Playroom</Text>
+            <Text style={[styles.tileSub, { color: Z.calmInk }]}>Quiet toys: marble run, music, busy board, garden, town</Text>
           </View>
         </Pressable>
 
