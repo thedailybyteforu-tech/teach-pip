@@ -1,0 +1,176 @@
+import AsyncStorage from '@react-native-async-storage/async-storage';
+import React, { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState } from 'react';
+import type { AppData, Stats } from '../types';
+import { reinforce, stageFor } from '../engine/memory';
+import { setVoiceEnabled } from '../lib/voice';
+
+const KEY = 'pip-kids-app/v1';
+
+export const today = (d = new Date()) =>
+  `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+
+const yesterday = () => {
+  const d = new Date();
+  d.setDate(d.getDate() - 1);
+  return today(d);
+};
+
+export const fresh = (): AppData => ({
+  version: 1,
+  onboarded: false,
+  avatar: '🦊',
+  xp: 0,
+  memory: {},
+  stats: { rounds: 0, teachFirstTry: 0, teachTotal: 0, catches: 0, misses: 0, falseAlarms: 0 },
+  settings: { voice: true, dailyLimitMin: 20 },
+  usage: { date: today(), seconds: 0 },
+  streak: { last: '', count: 0 },
+});
+
+export interface RoundResult {
+  conceptId: string;
+  ok: boolean;
+}
+
+export interface SessionSummary {
+  stars: number;
+  total: number;
+  xpGained: number;
+  stageBefore: number;
+  stageAfter: number;
+}
+
+interface Store {
+  data: AppData;
+  update: (fn: (d: AppData) => AppData) => void;
+  bumpStats: (delta: Partial<Stats>) => void;
+  completeSession: (results: RoundResult[]) => SessionSummary;
+  addUsage: (seconds: number) => void;
+  overLimit: boolean;
+  reset: () => void;
+}
+
+const Ctx = createContext<Store | null>(null);
+
+export function StoreProvider({ children, fallback }: { children: React.ReactNode; fallback: React.ReactNode }) {
+  const [data, setData] = useState<AppData | null>(null);
+  const dataRef = useRef<AppData | null>(null);
+  dataRef.current = data;
+
+  useEffect(() => {
+    AsyncStorage.getItem(KEY)
+      .then((raw) => {
+        if (!raw) return fresh();
+        const parsed = JSON.parse(raw) as Partial<AppData>;
+        const base = fresh();
+        return {
+          ...base,
+          ...parsed,
+          stats: { ...base.stats, ...parsed.stats },
+          settings: { ...base.settings, ...parsed.settings },
+        } as AppData;
+      })
+      .catch(() => fresh())
+      .then(setData);
+  }, []);
+
+  // Persist (lightly debounced) whenever data changes.
+  useEffect(() => {
+    if (!data) return;
+    setVoiceEnabled(data.settings.voice);
+    const t = setTimeout(() => {
+      AsyncStorage.setItem(KEY, JSON.stringify(data)).catch(() => {});
+    }, 300);
+    return () => clearTimeout(t);
+  }, [data]);
+
+  const update = useCallback((fn: (d: AppData) => AppData) => {
+    setData((d) => (d ? fn(d) : d));
+  }, []);
+
+  const bumpStats = useCallback(
+    (delta: Partial<Stats>) =>
+      update((d) => {
+        const stats = { ...d.stats };
+        (Object.keys(delta) as (keyof Stats)[]).forEach((k) => {
+          stats[k] += delta[k] ?? 0;
+        });
+        return { ...d, stats };
+      }),
+    [update],
+  );
+
+  const completeSession = useCallback(
+    (results: RoundResult[]): SessionSummary => {
+      const d = dataRef.current!;
+      const now = Date.now();
+      const stars = results.filter((r) => r.ok).length;
+      const xpGained = Math.max(1, stars);
+      const stageBefore = stageFor(d.xp);
+      const stageAfter = stageFor(d.xp + xpGained);
+
+      const byConcept = new Map<string, { ok: number; n: number }>();
+      for (const r of results) {
+        const e = byConcept.get(r.conceptId) ?? { ok: 0, n: 0 };
+        e.n += 1;
+        if (r.ok) e.ok += 1;
+        byConcept.set(r.conceptId, e);
+      }
+
+      update((cur) => {
+        const memory = { ...cur.memory };
+        byConcept.forEach((e, id) => {
+          memory[id] = reinforce(memory[id], e.ok / e.n, now);
+        });
+        const t = today();
+        const streak =
+          cur.streak.last === t
+            ? cur.streak
+            : { last: t, count: cur.streak.last === yesterday() ? cur.streak.count + 1 : 1 };
+        return { ...cur, memory, xp: cur.xp + xpGained, streak };
+      });
+
+      return { stars, total: results.length, xpGained, stageBefore, stageAfter };
+    },
+    [update],
+  );
+
+  const addUsage = useCallback(
+    (seconds: number) =>
+      update((d) => {
+        const t = today();
+        const base = d.usage.date === t ? d.usage.seconds : 0;
+        return { ...d, usage: { date: t, seconds: base + seconds } };
+      }),
+    [update],
+  );
+
+  const reset = useCallback(() => {
+    const keep = dataRef.current?.settings;
+    setData({ ...fresh(), settings: keep ?? fresh().settings });
+  }, []);
+
+  const value = useMemo<Store | null>(() => {
+    if (!data) return null;
+    const limit = data.settings.dailyLimitMin;
+    const used = data.usage.date === today() ? data.usage.seconds : 0;
+    return {
+      data,
+      update,
+      bumpStats,
+      completeSession,
+      addUsage,
+      reset,
+      overLimit: limit != null && used >= limit * 60,
+    };
+  }, [data, update, bumpStats, completeSession, addUsage, reset]);
+
+  if (!value) return <>{fallback}</>;
+  return <Ctx.Provider value={value}>{children}</Ctx.Provider>;
+}
+
+export function useStore(): Store {
+  const s = useContext(Ctx);
+  if (!s) throw new Error('useStore must be used inside StoreProvider');
+  return s;
+}

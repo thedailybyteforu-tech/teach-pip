@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Teach Pip",
+    "slug": "teach-pip",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.teachpip.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#160F35",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.teachpip.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "backgroundColor": "#160F35"
+  }
+}
