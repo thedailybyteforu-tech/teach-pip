@@ -10,18 +10,14 @@ import { BusyBoard } from '../playroom/BusyBoard';
 import { Garden } from '../playroom/Garden';
 import { Town } from '../playroom/Town';
 import { Draw, Shapes } from './Calm';
-
-type Toy = 'marble' | 'music' | 'busy' | 'garden' | 'town' | 'draw' | 'shapes';
-
-const TOYS: { id: Toy; title: string; host: BuddyId; tint: string }[] = [
-  { id: 'marble', title: 'Marble Run', host: 'bobble', tint: '#E6EEF0' },
-  { id: 'music', title: 'Music Maker', host: 'bloop', tint: '#EAE3F2' },
-  { id: 'busy', title: 'Busy Board', host: 'peely', tint: '#F4EAD5' },
-  { id: 'garden', title: 'Garden', host: 'brocco', tint: '#E3EDDC' },
-  { id: 'town', title: 'Tiny Town', host: 'zoomi', tint: '#E1ECE3' },
-  { id: 'draw', title: 'Draw', host: 'mona', tint: '#F5E6DE' },
-  { id: 'shapes', title: 'Wooden Shapes', host: 'snoozle', tint: '#EFE6D6' },
-];
+import { BlockBuilder } from '../playroom/BlockBuilder';
+import { WeatherWindow } from '../playroom/WeatherWindow';
+import { ShapeSorter } from '../playroom/ShapeSorter';
+import { BeadNecklace } from '../playroom/BeadNecklace';
+import { NightSky } from '../playroom/NightSky';
+import { SandTray } from '../playroom/SandTray';
+import { TOYS, type Toy } from '../playroom/toys';
+import { setSfxEnabled } from '../../lib/sfx';
 
 /**
  * Snoozle's Playroom: a Montessori-inspired, low-stimulation space of open-ended toys.
@@ -34,12 +30,17 @@ export function Playroom({ onBack }: { onBack: () => void }) {
   const counted = useRef(false);
   useEffect(() => hush(), []);
 
+  const [quiet, setQuiet] = useState(false);
   const open = (t: Toy) => {
     setToy(t);
-    if (!counted.current) {
-      counted.current = true;
-      markDone('calm');
-    }
+    // Counted once per time a toy is opened, for the grown-ups' summary (never shown to the child).
+    markDone('calm', (zk) => ({ ...zk, toys: { ...zk.toys, [t]: (zk.toys[t] ?? 0) + 1 } }));
+    counted.current = true;
+  };
+  const surprise = () => open(TOYS[Math.floor(Math.random() * TOYS.length)].id);
+  const mute = () => {
+    setQuiet(!quiet);
+    setSfxEnabled(quiet);
   };
 
   const current = TOYS.find((t) => t.id === toy);
@@ -51,13 +52,16 @@ export function Playroom({ onBack }: { onBack: () => void }) {
           <Text style={styles.backText}>←</Text>
         </Pressable>
         <Text style={styles.title}>{current ? current.title : 'Playroom'}</Text>
-        <View style={{ width: 44 }}>
-          <Buddy id={current?.host ?? 'snoozle'} size={44} still />
-        </View>
+        <Pressable accessibilityRole="button" accessibilityLabel={quiet ? 'Sounds off' : 'Sounds on'} onPress={mute} style={styles.mute} hitSlop={8}>
+          <Text style={{ fontSize: 20 }}>{quiet ? '🔇' : '🔈'}</Text>
+        </Pressable>
       </View>
       {toy === null && (
         <ScrollView contentContainerStyle={styles.grid}>
           <Text style={styles.intro}>Quiet toys. No rules, no scores. Play however you like.</Text>
+          <Pressable accessibilityRole="button" onPress={surprise} style={styles.surprise}>
+            <Text style={styles.surpriseText}>🎁 Surprise me</Text>
+          </Pressable>
           {TOYS.map((t) => (
             <Pressable
               key={t.id}
@@ -79,6 +83,12 @@ export function Playroom({ onBack }: { onBack: () => void }) {
       {toy === 'town' && <Town />}
       {toy === 'draw' && <Draw onTouch={() => {}} />}
       {toy === 'shapes' && <Shapes onTouch={() => {}} />}
+      {toy === 'blocks' && <BlockBuilder />}
+      {toy === 'weather' && <WeatherWindow />}
+      {toy === 'sorter' && <ShapeSorter />}
+      {toy === 'beads' && <BeadNecklace />}
+      {toy === 'sky' && <NightSky />}
+      {toy === 'sand' && <SandTray />}
     </View>
   );
 }
@@ -91,6 +101,9 @@ const styles = StyleSheet.create({
   title: { color: P.ink, fontSize: 20, fontWeight: '700' },
   grid: { flexDirection: 'row', flexWrap: 'wrap', gap: 12, padding: 14, paddingBottom: 30, maxWidth: 560, alignSelf: 'center', width: '100%' },
   intro: { width: '100%', color: P.ink, opacity: 0.7, textAlign: 'center', marginBottom: 4 },
+  mute: { width: 44, height: 44, borderRadius: 22, backgroundColor: P.paper, alignItems: 'center', justifyContent: 'center' },
+  surprise: { width: '100%', alignItems: 'center', paddingVertical: 12, borderRadius: 18, backgroundColor: P.butter },
+  surpriseText: { color: P.ink, fontWeight: '800', fontSize: 16 },
   tile: { width: '47%', flexGrow: 1, borderRadius: 22, alignItems: 'center', paddingVertical: 14, gap: 4 },
   tileText: { color: P.ink, fontWeight: '700', fontSize: 16 },
 });

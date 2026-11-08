@@ -35,6 +35,7 @@ export const freshZk = (): ZkProgress => ({
   traced: {},
   experiments: {},
   dishes: 0,
+  toys: {},
   patternLevel: 1,
   songBest: 0,
   path: { date: today(), done: [] },

@@ -112,6 +112,8 @@ export interface ZkProgress {
   traced: Record<string, number>;
   experiments: Record<string, number>;
   dishes: number;
+  /** Times each Playroom toy was opened, by toy id. */
+  toys: Record<string, number>;
   patternLevel: number;
   songBest: number;
   /** Today's learning path: which activity kinds are done. */

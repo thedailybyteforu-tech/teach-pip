@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Pressable, ScrollView, StyleSheet, Switch, Text, View } from 'react-native';
 import { SUBJECTS } from '../content';
 import type { AgeBand } from '../types';
+import { TOYS as PLAYROOM_TOYS } from '../zk/playroom/toys';
 import { retention } from '../engine/memory';
 import { today, useStore } from '../state/store';
 import { hush } from '../lib/voice';
@@ -119,6 +120,22 @@ export function Grownups({ onBack }: { onBack: () => void }) {
             creative arts, social-emotional play and self-regulation. The app has not been reviewed or endorsed by an
             education body.
           </Text>
+        </View>
+
+        <View style={styles.card}>
+          <Text style={styles.cardTitle}>🌿 Playroom</Text>
+          <Text style={T.body}>
+            The Playroom has no scores or levels for your child. Here is what they have been playing, and the skill each toy
+            quietly builds.
+          </Text>
+          {PLAYROOM_TOYS.map((t) => (
+            <View key={t.id} style={styles.conceptRow}>
+              <Text style={[T.small, { flex: 1, color: data.zk.toys[t.id] ? C.sub : C.dim }]}>
+                {t.title} · {t.skill}
+              </Text>
+              <Text style={[T.small, { width: 34, textAlign: 'right' }]}>{data.zk.toys[t.id] ? `×${data.zk.toys[t.id]}` : '–'}</Text>
+            </View>
+          ))}
         </View>
 
         <View style={styles.card}>
