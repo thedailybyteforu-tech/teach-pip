@@ -84,6 +84,22 @@ export interface Settings {
   dailyLimitMin: number | null;
 }
 
+/** One fixed mistake, retold in Pip's letter home. */
+export interface FixedMistake {
+  said: string;
+  fact: string;
+}
+
+/** What happened on one day of play: the raw material for Pip's letter home. */
+export interface DayLog {
+  date: string;
+  concepts: string[];
+  catches: number;
+  fixed: FixedMistake[];
+  shown: number;
+  missions: string[];
+}
+
 export interface AppData {
   version: 1;
   onboarded: boolean;
@@ -94,4 +110,8 @@ export interface AppData {
   settings: Settings;
   usage: { date: string; seconds: number };
   streak: { last: string; count: number };
+  /** Real-world missions completed, newest first. */
+  missions: { date: string; text: string; emoji: string }[];
+  /** Recent days, newest first. */
+  diary: DayLog[];
 }

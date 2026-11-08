@@ -43,7 +43,7 @@ function counting(lo: number, hi: number) {
       correct: num(n),
       wrong: num(offByOne(n, 1)),
       extras: near(n, 1, 12),
-      fact: `I count ${n}! There are ${n} ${name(t, n)}.`,
+      fact: `I count ${n}! There ${n === 1 ? 'is' : 'are'} ${n} ${name(t, n)}.`,
     });
   };
 }

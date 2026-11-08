@@ -25,6 +25,15 @@ for (const c of ALL_CONCEPTS) {
     if (q.options.some((o) => /^-/.test(o.id))) fail(`${c.id}: negative option ${ids}`);
   }
   const s = buildSession(c.id, {});
+  const countable = s[0].q.visual?.kind === 'emoji' || s[0].q.visual?.kind === 'sum';
+  if (countable !== s.some((r) => r.mode === 'show')) fail(`${c.id}: show round mismatch`);
+  for (let k = 0; k < 200; k++) {
+    for (const r of buildSession(c.id, {})) {
+      const v = r.q.visual;
+      const n = v?.kind === 'emoji' ? v.items.length : v?.kind === 'sum' ? (v.op === '+' ? v.a.length + v.b.length : v.a.length - v.b.length) : 0;
+      if (r.mode === 'show' && n < 3) fail(`${c.id}: show round with only ${n} to count`);
+    }
+  }
   if (!s.some((r) => r.mode === 'check' && r.pipPick !== r.q.correctId)) fail(`${c.id}: no Pip mistake in session`);
 }
 

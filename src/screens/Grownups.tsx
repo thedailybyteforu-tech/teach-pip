@@ -77,7 +77,8 @@ export function Grownups({ onBack }: { onBack: () => void }) {
         <View style={styles.card}>
           <Text style={styles.cardTitle}>Today</Text>
           <Text style={T.body}>
-            {usedMin} min played · 🔥 {data.streak.count}-day streak · {s.rounds} questions answered in total
+            {usedMin} min played · 🔥 {data.streak.count}-day streak · {s.rounds} questions answered in total · 🌍{' '}
+            {data.missions.length} Earth Missions done
           </Text>
         </View>
 
@@ -167,7 +168,12 @@ export function Grownups({ onBack }: { onBack: () => void }) {
             errors — counting one twice, mixing up b and d, thinking blue + yellow stays blue. Spotting them builds deep
             understanding.{'\n'}• <Text style={styles.b}>Spaced repetition.</Text> Pip "forgets" on a real forgetting
             curve, so your child re-teaches just as memory fades.{'\n'}• <Text style={styles.b}>Mixed practice.</Text>{' '}
-            Lessons slip in quick reviews from other subjects.{'\n'}• No ads, no purchases, no accounts, no data leaves
+            Lessons slip in quick reviews from other subjects.{'\n'}• <Text style={styles.b}>Showing how.</Text> In
+            "Show me how!" rounds your child counts each object for Pip, teaching the method, not just the answer.
+            {'\n'}• <Text style={styles.b}>Earth Missions.</Text> After a lesson Pip sends your child off the screen to
+            find the idea in real life: three spoons, something round, something red.{'\n'}•{' '}
+            <Text style={styles.b}>Pip's Letters.</Text> Each day Pip writes home about what your child taught it and
+            which mistakes they caught. Read it together.{'\n'}• No ads, no purchases, no accounts, no data leaves
             this device.
           </Text>
         </View>

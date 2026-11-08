@@ -1,6 +1,6 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import React, { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState } from 'react';
-import type { AppData, Stats } from '../types';
+import type { AppData, DayLog, Stats } from '../types';
 import { reinforce, stageFor } from '../engine/memory';
 import { setVoiceEnabled } from '../lib/voice';
 
@@ -25,7 +25,19 @@ export const fresh = (): AppData => ({
   settings: { voice: true, dailyLimitMin: 20 },
   usage: { date: today(), seconds: 0 },
   streak: { last: '', count: 0 },
+  missions: [],
+  diary: [],
 });
+
+const DIARY_DAYS = 14;
+
+/** Apply a change to today's diary entry, creating it if needed. */
+function withToday(d: AppData, fn: (day: DayLog) => DayLog): AppData {
+  const t = today();
+  const existing = d.diary.find((x) => x.date === t);
+  const day = fn(existing ?? { date: t, concepts: [], catches: 0, fixed: [], shown: 0, missions: [] });
+  return { ...d, diary: [day, ...d.diary.filter((x) => x.date !== t)].slice(0, DIARY_DAYS) };
+}
 
 export interface RoundResult {
   conceptId: string;
@@ -46,6 +58,8 @@ interface Store {
   bumpStats: (delta: Partial<Stats>) => void;
   completeSession: (results: RoundResult[]) => SessionSummary;
   addUsage: (seconds: number) => void;
+  logDay: (fn: (day: DayLog) => DayLog) => void;
+  completeMission: (text: string, emoji: string) => void;
   overLimit: boolean;
   reset: () => void;
 }
@@ -127,7 +141,11 @@ export function StoreProvider({ children, fallback }: { children: React.ReactNod
           cur.streak.last === t
             ? cur.streak
             : { last: t, count: cur.streak.last === yesterday() ? cur.streak.count + 1 : 1 };
-        return { ...cur, memory, xp: cur.xp + xpGained, streak };
+        const next = { ...cur, memory, xp: cur.xp + xpGained, streak };
+        return withToday(next, (day) => ({
+          ...day,
+          concepts: [...day.concepts, ...[...byConcept.keys()].filter((id) => !day.concepts.includes(id))],
+        }));
       });
 
       return { stars, total: results.length, xpGained, stageBefore, stageAfter };
@@ -142,6 +160,19 @@ export function StoreProvider({ children, fallback }: { children: React.ReactNod
         const base = d.usage.date === t ? d.usage.seconds : 0;
         return { ...d, usage: { date: t, seconds: base + seconds } };
       }),
+    [update],
+  );
+
+  const logDay = useCallback((fn: (day: DayLog) => DayLog) => update((d) => withToday(d, fn)), [update]);
+
+  const completeMission = useCallback(
+    (text: string, emoji: string) =>
+      update((d) =>
+        withToday({ ...d, xp: d.xp + 2, missions: [{ date: today(), text, emoji }, ...d.missions].slice(0, 200) }, (day) => ({
+          ...day,
+          missions: [...day.missions, text],
+        })),
+      ),
     [update],
   );
 
@@ -160,10 +191,12 @@ export function StoreProvider({ children, fallback }: { children: React.ReactNod
       bumpStats,
       completeSession,
       addUsage,
+      logDay,
+      completeMission,
       reset,
       overLimit: limit != null && used >= limit * 60,
     };
-  }, [data, update, bumpStats, completeSession, addUsage, reset]);
+  }, [data, update, bumpStats, completeSession, addUsage, logDay, completeMission, reset]);
 
   if (!value) return <>{fallback}</>;
   return <Ctx.Provider value={value}>{children}</Ctx.Provider>;

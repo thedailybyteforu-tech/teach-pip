@@ -5,8 +5,12 @@ import { mostFaded } from './memory';
 /**
  * teach: Pip asks, the child answers (the child is the teacher).
  * check: Pip answers on its own — sometimes wrongly — and the child must judge it.
+ * show:  Pip wants the method, not the answer: the child taps each object to count it for Pip.
  */
-export type RoundMode = 'teach' | 'check';
+export type RoundMode = 'teach' | 'check' | 'show';
+
+/** A question can be shown (counted out) when its picture is a set of objects. */
+export const isCountable = (q: Question) => q.visual?.kind === 'emoji' || q.visual?.kind === 'sum';
 
 export interface Round {
   conceptId: string;
@@ -29,8 +33,17 @@ function makeQuestion(conceptId: string, avoidPrompt?: string): Question {
   return q;
 }
 
+/** Objects to count in a picture: a "Show me how!" round needs a few, or there's nothing to show. */
+function countableItems(q: Question): number {
+  const v = q.visual;
+  if (v?.kind === 'emoji') return v.items.length;
+  if (v?.kind === 'sum') return v.op === '+' ? v.a.length + v.b.length : v.a.length - v.b.length;
+  return 0;
+}
+
 function round(conceptId: string, mode: RoundMode, review: boolean, avoid?: string): Round {
-  const q = makeQuestion(conceptId, avoid);
+  let q = makeQuestion(conceptId, avoid);
+  for (let i = 0; mode === 'show' && countableItems(q) < 3 && i < 80; i++) q = makeQuestion(conceptId, avoid);
   const pipPick = mode === 'check' && Math.random() < PIP_MISTAKE_RATE ? q.wrongId : q.correctId;
   return { conceptId, mode, q, pipPick, review };
 }
@@ -40,6 +53,9 @@ export function buildSession(conceptId: string, memory: Record<string, ConceptMe
   const modes: RoundMode[] = isNew
     ? ['teach', 'teach', 'check', 'check', 'teach', 'check']
     : ['teach', 'check', 'check', 'teach', 'check', 'check'];
+
+  // Counting concepts get a "Show me how!" round in place of the second teach round.
+  if (isCountable(makeQuestion(conceptId))) modes[isNew ? 1 : 3] = 'show';
 
   const rounds: Round[] = [];
   for (const mode of modes) {

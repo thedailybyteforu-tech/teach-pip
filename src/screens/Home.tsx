@@ -22,11 +22,13 @@ export function Home({
   onTeach,
   onConcept,
   onBrain,
+  onLetters,
   onGrownups,
 }: {
   onTeach: () => void;
   onConcept: (id: string) => void;
   onBrain: () => void;
+  onLetters: () => void;
   onGrownups: () => void;
 }) {
   const { data } = useStore();
@@ -100,7 +102,10 @@ export function Home({
       {faded && <View style={{ height: 14 }} />}
       <BigButton label="Teach Pip" emoji="🚀" size="xl" onPress={onTeach} style={styles.wide} />
       <View style={{ height: 14 }} />
-      <BigButton label="Pip's Brain" emoji="🧠" color={C.card} shade={C.bg} textColor={C.text} onPress={onBrain} style={styles.wide} />
+      <View style={styles.row}>
+        <BigButton label="Brain" emoji="🧠" color={C.card} shade={C.bg} textColor={C.text} onPress={onBrain} style={{ flex: 1 }} />
+        <BigButton label="Letters" emoji="📮" color={C.card} shade={C.bg} textColor={C.text} onPress={onLetters} style={{ flex: 1 }} />
+      </View>
     </ScrollView>
   );
 }
@@ -114,4 +119,5 @@ const styles = StyleSheet.create({
   stage: { width: '100%', maxWidth: 360, alignItems: 'center', gap: 6, marginBottom: 20, marginTop: 2 },
   stageName: { color: C.gold, fontWeight: '900', fontSize: 20 },
   wide: { width: '100%', maxWidth: 440 },
+  row: { flexDirection: 'row', gap: 12, width: '100%', maxWidth: 440 },
 });

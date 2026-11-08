@@ -13,13 +13,18 @@ import { Teach } from './src/screens/Teach';
 import { Brain } from './src/screens/Brain';
 import { Grownups } from './src/screens/Grownups';
 import { Sleep } from './src/screens/Sleep';
+import { Mission } from './src/screens/Mission';
+import { Letters } from './src/screens/Letters';
+import type { SubjectId } from './src/types';
 
 type Route =
   | { name: 'home' }
   | { name: 'planets' }
   | { name: 'teach'; conceptId: string; key: number }
   | { name: 'brain' }
-  | { name: 'grownups' };
+  | { name: 'grownups' }
+  | { name: 'mission'; subject: SubjectId }
+  | { name: 'letters' };
 
 const TICK_SECONDS = 15;
 
@@ -44,7 +49,7 @@ function Main() {
   if (!data.onboarded) return <Onboarding />;
 
   // A lesson in progress always gets to finish; the limit applies between lessons.
-  if (overLimit && route.name !== 'grownups' && route.name !== 'teach') {
+  if (overLimit && route.name !== 'grownups' && route.name !== 'teach' && route.name !== 'mission') {
     return <Sleep onGrownups={() => go({ name: 'grownups' })} />;
   }
 
@@ -52,7 +57,19 @@ function Main() {
     case 'planets':
       return <Planets onBack={home} onConcept={teach} />;
     case 'teach':
-      return <Teach key={route.key} conceptId={route.conceptId} onExit={home} onBrain={() => go({ name: 'brain' })} />;
+      return (
+        <Teach
+          key={route.key}
+          conceptId={route.conceptId}
+          onExit={home}
+          onBrain={() => go({ name: 'brain' })}
+          onMission={(subject) => go({ name: 'mission', subject })}
+        />
+      );
+    case 'mission':
+      return <Mission subject={route.subject} onDone={home} />;
+    case 'letters':
+      return <Letters onBack={home} />;
     case 'brain':
       return <Brain onBack={home} onConcept={teach} />;
     case 'grownups':
@@ -63,6 +80,7 @@ function Main() {
           onTeach={() => go({ name: 'planets' })}
           onConcept={teach}
           onBrain={() => go({ name: 'brain' })}
+          onLetters={() => go({ name: 'letters' })}
           onGrownups={() => go({ name: 'grownups' })}
         />
       );

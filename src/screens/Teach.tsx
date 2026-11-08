@@ -11,9 +11,13 @@ import { Pip, type Mood } from '../components/Pip';
 import { BigButton, Bubble, Confetti, IconButton, T } from '../components/ui';
 import { OptionCard, type CardState } from '../components/OptionCard';
 import { VisualView } from '../components/VisualView';
-import type { Option } from '../types';
+import { CountVisual } from '../components/CountVisual';
+import { makeMission } from '../content/missions';
+import type { Option, SubjectId } from '../types';
 
-type Phase = 'ask' | 'pipGuess' | 'fix' | 'learned';
+type Phase = 'ask' | 'pipGuess' | 'fix' | 'showing' | 'learned';
+
+const startPhase = (r: Round): Phase => (r.mode === 'teach' ? 'ask' : r.mode === 'show' ? 'showing' : 'pipGuess');
 
 const YAY = ['Yay!', 'Wow, thank you!', 'Ooh, I get it now!', 'You are a great teacher!', 'Brain sparkle!'];
 const HMM = [
@@ -27,6 +31,7 @@ const optionWord = (o: Option) => o.speak ?? o.label;
 function introLine(r: Round): string {
   const pre = r.review ? "Oh! Wait, I'm forgetting this one... " : '';
   if (r.mode === 'teach') return `${pre}Teacher! ${r.q.prompt}`;
+  if (r.mode === 'show') return `${r.q.prompt} Can you show me HOW to count them? Tap each one and I'll count with you!`;
   const pipOpt = r.q.options.find((o) => o.id === r.pipPick)!;
   const guess = pipOpt.hideLabel ? 'this one!' : `${optionWord(pipOpt)}!`;
   return `${pre}${r.q.prompt} Let me try... I think it's ${guess} Am I right?`;
@@ -41,7 +46,17 @@ function spokenIntro(r: Round): string {
   return `${line} Is it ${words.join(', ')} or ${last}?`;
 }
 
-export function Teach({ conceptId, onExit, onBrain }: { conceptId: string; onExit: () => void; onBrain: () => void }) {
+export function Teach({
+  conceptId,
+  onExit,
+  onBrain,
+  onMission,
+}: {
+  conceptId: string;
+  onExit: () => void;
+  onBrain: () => void;
+  onMission: (subject: SubjectId) => void;
+}) {
   const store = useStore();
   const { data } = store;
   const { width } = useWindowDimensions();
@@ -52,21 +67,22 @@ export function Teach({ conceptId, onExit, onBrain }: { conceptId: string; onExi
   const [i, setI] = useState(0);
   const r = rounds[i];
 
-  const [phase, setPhase] = useState<Phase>(r.mode === 'teach' ? 'ask' : 'pipGuess');
+  const [phase, setPhase] = useState<Phase>(startPhase(r));
   const [disabled, setDisabled] = useState<string[]>([]);
   const [mood, setMood] = useState<Mood>('thinking');
   const [line, setLine] = useState(() => introLine(r));
   const [firstTry, setFirstTry] = useState(true);
   const [results, setResults] = useState<RoundResult[]>([]);
   const [summary, setSummary] = useState<SessionSummary | null>(null);
+  const [mission, setMission] = useState<ReturnType<typeof makeMission> | null>(null);
 
   // Start of each round.
   useEffect(() => {
     const round = rounds[i];
-    setPhase(round.mode === 'teach' ? 'ask' : 'pipGuess');
+    setPhase(startPhase(round));
     setDisabled([]);
     setFirstTry(true);
-    setMood(round.mode === 'teach' ? 'thinking' : 'proud');
+    setMood(round.mode === 'teach' ? 'thinking' : round.mode === 'show' ? 'wow' : 'proud');
     setLine(introLine(round));
     say(spokenIntro(round));
   }, [i, rounds]);
@@ -96,6 +112,8 @@ export function Teach({ conceptId, onExit, onBrain }: { conceptId: string; onExi
         speakLine(`${pick(YAY)} ${r.q.fact}`, 'proud');
       } else {
         speakLine(`Thank you for fixing my mistake, teacher! ${r.q.fact}`, 'proud');
+        const said = r.q.options.find((o) => o.id === r.pipPick)!;
+        store.logDay((day) => ({ ...day, fixed: [...day.fixed, { said: optionWord(said), fact: r.q.fact }].slice(-6) }));
       }
       finishRound(firstTry);
     } else {
@@ -115,6 +133,7 @@ export function Teach({ conceptId, onExit, onBrain }: { conceptId: string; onExi
     } else if (!saysRight && !pipRight) {
       feel.good();
       store.bumpStats({ catches: 1 });
+      store.logDay((day) => ({ ...day, catches: day.catches + 1 }));
       setDisabled([r.pipPick]);
       speakLine('Oh no, I made a mistake! Good catch! Which one is it then, teacher?', 'confused');
       setPhase('fix');
@@ -132,6 +151,22 @@ export function Teach({ conceptId, onExit, onBrain }: { conceptId: string; onExi
     }
   };
 
+  const onCounted = (n: number) => {
+    setLine(Array.from({ length: n }, (_, k) => `${k + 1}`).join('... ') + '...');
+    setMood('wow');
+    say(String(n));
+  };
+
+  const onShown = (total: number) => {
+    feel.good();
+    store.logDay((day) => ({ ...day, shown: day.shown + 1 }));
+    // Let the last number be heard before Pip sums up.
+    setTimeout(() => {
+      speakLine(`${total}! Now I know HOW to count, not just the answer! ${r.q.fact}`, 'proud');
+      finishRound(true);
+    }, 650);
+  };
+
   const next = () => {
     if (i + 1 < rounds.length) {
       setI(i + 1);
@@ -139,11 +174,12 @@ export function Teach({ conceptId, onExit, onBrain }: { conceptId: string; onExi
     }
     const s = store.completeSession(results);
     setSummary(s);
+    setMission(makeMission(concept.subject));
     const evolved = s.stageAfter > s.stageBefore;
     say(
       evolved
         ? `Whoa! Something is happening... I evolved! I'm ${STAGES[s.stageAfter].name} now! Thank you, teacher!`
-        : `My brain grew! I learned ${concept.title}. You're the best teacher in the galaxy!`,
+        : `My brain grew! I learned ${concept.title}. You're the best teacher in the galaxy! Now, I have a secret Earth Mission for you...`,
     );
   };
 
@@ -197,6 +233,23 @@ export function Teach({ conceptId, onExit, onBrain }: { conceptId: string; onExi
             Pip's brain got +{summary.xpGained} sparks!
           </Text>
           <View style={{ height: 18 }} />
+          {mission && (
+            <View style={styles.mission}>
+              <Text style={styles.missionTitle}>🌍 Earth Mission!</Text>
+              <Text style={[T.body, { textAlign: 'center' }]}>
+                Pip can't leave the spaceship. Can you find something real for Pip?
+              </Text>
+              <BigButton
+                label="Open the mission"
+                emoji={mission.emoji}
+                color={C.pip}
+                shade={C.pipDark}
+                onPress={() => onMission(concept.subject)}
+                style={{ marginTop: 12, alignSelf: 'stretch' }}
+              />
+            </View>
+          )}
+          <View style={{ height: 14 }} />
           <BigButton label="See Pip's brain" emoji="🧠" onPress={onBrain} style={styles.wide} />
           <View style={{ height: 14 }} />
           <BigButton label="Back to the ship" emoji="🚀" onPress={onExit} color={C.card} shade={C.bg} textColor={C.text} style={styles.wide} />
@@ -215,19 +268,30 @@ export function Teach({ conceptId, onExit, onBrain }: { conceptId: string; onExi
           <View style={{ flex: 1, marginLeft: 6 }}>
             {r.review && <Text style={styles.review}>🌒 Pip is forgetting this!</Text>}
             <Text style={[styles.mode, { color: subject.color }]}>
-              {r.mode === 'teach' ? '🍎 Teach Pip' : '🔍 Check Pip'}
+              {r.mode === 'teach' ? '🍎 Teach Pip' : r.mode === 'show' ? '👆 Show Pip how' : '🔍 Check Pip'}
             </Text>
           </View>
         </View>
         <Bubble text={line} onReplay={() => say(line)} />
 
         {r.q.visual && (
-          <View style={styles.visual}>
-            <VisualView v={r.q.visual} />
+          <View style={[styles.visual, r.mode === 'show' && styles.visualShow]}>
+            {r.mode === 'show' ? (
+              <CountVisual
+                key={i}
+                v={r.q.visual}
+                disabled={phase !== 'showing'}
+                onCount={onCounted}
+                onGone={() => speakLine('That one went away! Only count the ones that are still here.', 'thinking')}
+                onDone={onShown}
+              />
+            ) : (
+              <VisualView v={r.q.visual} />
+            )}
           </View>
         )}
 
-        <View style={[styles.options, { marginTop: r.q.visual ? 12 : 28 }]}>
+        <View style={[styles.options, { marginTop: r.q.visual ? 12 : 28 }, phase === 'showing' && { display: 'none' }]}>
           {r.q.options.map((o) => (
             <OptionCard
               key={o.id}
@@ -248,8 +312,14 @@ export function Teach({ conceptId, onExit, onBrain }: { conceptId: string; onExi
             </View>
           )}
           {phase === 'learned' && <BigButton label={i + 1 < rounds.length ? 'Next' : 'Finish'} emoji="▶️" onPress={next} style={styles.wide} />}
-          {(phase === 'ask' || phase === 'fix') && (
-            <Text style={styles.hint}>{phase === 'fix' ? 'Tap the right answer to fix Pip!' : 'Tap the answer to teach Pip!'}</Text>
+          {(phase === 'ask' || phase === 'fix' || phase === 'showing') && (
+            <Text style={styles.hint}>
+              {phase === 'fix'
+                ? 'Tap the right answer to fix Pip!'
+                : phase === 'showing'
+                  ? 'Tap each one to count it for Pip!'
+                  : 'Tap the answer to teach Pip!'}
+            </Text>
           )}
         </View>
       </ScrollView>
@@ -288,6 +358,19 @@ const styles = StyleSheet.create({
   judge: { flexDirection: 'row', width: '100%' },
   hint: { color: C.dim, fontSize: 15, fontWeight: '700', marginTop: 8 },
   wide: { width: '100%', maxWidth: 420 },
+  visualShow: { borderWidth: 3, borderColor: C.gold, borderStyle: 'dashed', paddingVertical: 20 },
+  mission: {
+    width: '100%',
+    maxWidth: 420,
+    backgroundColor: C.bg2,
+    borderRadius: 24,
+    borderWidth: 2,
+    borderColor: C.pip,
+    padding: 16,
+    alignItems: 'center',
+    marginTop: 14,
+  },
+  missionTitle: { color: C.pip, fontSize: 22, fontWeight: '900', marginBottom: 4 },
   summary: { alignItems: 'center', padding: 24, paddingTop: 40 },
   evolve: { color: C.gold, fontSize: 24, fontWeight: '900', marginBottom: 6 },
   stars: { fontSize: 26, color: C.gold, marginVertical: 12, textAlign: 'center' },
