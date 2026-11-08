@@ -1,7 +1,8 @@
 import React, { useEffect, useRef } from 'react';
-import { Animated, Pressable } from 'react-native';
+import { Animated, Image, Pressable } from 'react-native';
 import Svg, { Circle, Ellipse, G, Path, Rect } from 'react-native-svg';
 import { ND } from '../theme';
+import { ART } from './art';
 
 /**
  * The ZoomikoKids cast, drawn from the series' character sheets (colours are the sheets' own).
@@ -474,7 +475,37 @@ export function Buddy({
     onPress?.();
   };
 
-  const svg = (
+  // While a character talks, the 3D picture gives a soft squash-and-stretch, since it has one pose.
+  const talk = useRef(new Animated.Value(0)).current;
+  useEffect(() => {
+    if (!talking) {
+      talk.setValue(0);
+      return;
+    }
+    const a = Animated.loop(
+      Animated.sequence([
+        Animated.timing(talk, { toValue: 1, duration: 170, useNativeDriver: ND }),
+        Animated.timing(talk, { toValue: 0, duration: 170, useNativeDriver: ND }),
+      ]),
+    );
+    a.start();
+    return () => a.stop();
+  }, [talking, talk]);
+
+  const art = ART[id];
+  const svg = art ? (
+    <Animated.View
+      style={{
+        width: size,
+        height: size,
+        alignItems: 'center',
+        justifyContent: 'flex-end',
+        transform: [{ scaleY: talk.interpolate({ inputRange: [0, 1], outputRange: [1, 1.045] }) }, { scaleX: talk.interpolate({ inputRange: [0, 1], outputRange: [1, 0.975] }) }],
+      }}
+    >
+      <Image source={art} style={{ width: size, height: size * 1.25 }} resizeMode="contain" accessibilityLabel={CAST[id].name} />
+    </Animated.View>
+  ) : (
     <Svg width={size} height={size} viewBox="0 0 200 200">
       {draw(id, talking)}
     </Svg>

@@ -102,7 +102,7 @@ const styles = StyleSheet.create({
   top: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' },
   logo: { width: 92, height: 92 },
   lock: { width: 44, height: 44, borderRadius: 22, backgroundColor: '#fff', alignItems: 'center', justifyContent: 'center' },
-  hero: { flexDirection: 'row', alignItems: 'center', gap: 4 },
+  hero: { flexDirection: 'row', alignItems: 'center', gap: 4, marginTop: 34 },
   bubble: { flex: 1, backgroundColor: '#fff', borderRadius: 22, padding: 14 },
   bubbleText: { color: Z.ink, fontWeight: '800', fontSize: 17, lineHeight: 23 },
   pathCard: { backgroundColor: Z.sun, borderRadius: 28, padding: 16, borderBottomWidth: 6, borderBottomColor: Z.sunDark, gap: 10 },
