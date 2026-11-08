@@ -24,12 +24,14 @@ export function Home({
   onBrain,
   onLetters,
   onGrownups,
+  onExit,
 }: {
   onTeach: () => void;
   onConcept: (id: string) => void;
   onBrain: () => void;
   onLetters: () => void;
   onGrownups: () => void;
+  onExit: () => void;
 }) {
   const { data } = useStore();
   const stage = stageFor(data.xp);
@@ -65,8 +67,11 @@ export function Home({
   return (
     <ScrollView contentContainerStyle={styles.wrap}>
       <View style={styles.top}>
-        <View style={styles.chip}>
-          <Text style={styles.chipText}>{data.avatar} Teacher</Text>
+        <View style={{ flexDirection: 'row', alignItems: 'center', gap: 8 }}>
+          <IconButton emoji="🏠" label="Back to ZoomikoKids" onPress={onExit} />
+          <View style={styles.chip}>
+            <Text style={styles.chipText}>{data.avatar} Teacher</Text>
+          </View>
         </View>
         <View style={{ flexDirection: 'row', alignItems: 'center', gap: 8 }}>
           <View style={styles.chip}>

@@ -1,6 +1,6 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import React, { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState } from 'react';
-import type { AppData, DayLog, Stats } from '../types';
+import type { ActivityKind, AppData, DayLog, Stats, ZkProgress } from '../types';
 import { reinforce, stageFor } from '../engine/memory';
 import { setVoiceEnabled } from '../lib/voice';
 
@@ -27,6 +27,18 @@ export const fresh = (): AppData => ({
   streak: { last: '', count: 0 },
   missions: [],
   diary: [],
+  zk: freshZk(),
+});
+
+export const freshZk = (): ZkProgress => ({
+  age: 'middle',
+  traced: {},
+  experiments: {},
+  dishes: 0,
+  patternLevel: 1,
+  songBest: 0,
+  path: { date: today(), done: [] },
+  counts: {},
 });
 
 const DIARY_DAYS = 14;
@@ -60,6 +72,8 @@ interface Store {
   addUsage: (seconds: number) => void;
   logDay: (fn: (day: DayLog) => DayLog) => void;
   completeMission: (text: string, emoji: string) => void;
+  /** Record a finished ZoomikoKids activity (and tick it off today's learning path). */
+  markDone: (kind: ActivityKind, change?: (zk: ZkProgress) => ZkProgress) => void;
   overLimit: boolean;
   reset: () => void;
 }
@@ -82,6 +96,7 @@ export function StoreProvider({ children, fallback }: { children: React.ReactNod
           ...parsed,
           stats: { ...base.stats, ...parsed.stats },
           settings: { ...base.settings, ...parsed.settings },
+          zk: { ...base.zk, ...parsed.zk },
         } as AppData;
       })
       .catch(() => fresh())
@@ -141,7 +156,14 @@ export function StoreProvider({ children, fallback }: { children: React.ReactNod
           cur.streak.last === t
             ? cur.streak
             : { last: t, count: cur.streak.last === yesterday() ? cur.streak.count + 1 : 1 };
-        const next = { ...cur, memory, xp: cur.xp + xpGained, streak };
+        const t0 = today();
+        const pathDone = cur.zk.path.date === t0 ? cur.zk.path.done : [];
+        const zk = {
+          ...cur.zk,
+          path: { date: t0, done: pathDone.includes('teach') ? pathDone : [...pathDone, 'teach' as const] },
+          counts: { ...cur.zk.counts, teach: (cur.zk.counts.teach ?? 0) + 1 },
+        };
+        const next = { ...cur, memory, xp: cur.xp + xpGained, streak, zk };
         return withToday(next, (day) => ({
           ...day,
           concepts: [...day.concepts, ...[...byConcept.keys()].filter((id) => !day.concepts.includes(id))],
@@ -176,6 +198,22 @@ export function StoreProvider({ children, fallback }: { children: React.ReactNod
     [update],
   );
 
+  const markDone = useCallback(
+    (kind: ActivityKind, change?: (zk: ZkProgress) => ZkProgress) =>
+      update((d) => {
+        const t = today();
+        let zk = change ? change(d.zk) : d.zk;
+        const done = zk.path.date === t ? zk.path.done : [];
+        zk = {
+          ...zk,
+          path: { date: t, done: done.includes(kind) ? done : [...done, kind] },
+          counts: { ...zk.counts, [kind]: (zk.counts[kind] ?? 0) + 1 },
+        };
+        return { ...d, zk };
+      }),
+    [update],
+  );
+
   const reset = useCallback(() => {
     const keep = dataRef.current?.settings;
     setData({ ...fresh(), settings: keep ?? fresh().settings });
@@ -193,10 +231,11 @@ export function StoreProvider({ children, fallback }: { children: React.ReactNod
       addUsage,
       logDay,
       completeMission,
+      markDone,
       reset,
       overLimit: limit != null && used >= limit * 60,
     };
-  }, [data, update, bumpStats, completeSession, addUsage, logDay, completeMission, reset]);
+  }, [data, update, bumpStats, completeSession, addUsage, logDay, completeMission, markDone, reset]);
 
   if (!value) return <>{fallback}</>;
   return <Ctx.Provider value={value}>{children}</Ctx.Provider>;

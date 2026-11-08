@@ -1,6 +1,42 @@
-# 👽 Teach Pip — the alien who learns from YOU
+# 🌈 ZoomikoKids Play
 
-A learning app for kids aged 3–7, for **iOS and Android** (Expo / React Native).
+A safe, ad-free learning and play app for kids aged 2–7, starring the **ZoomikoKids** characters.
+One app for **iOS and Android** (Expo / React Native).
+
+## What's inside
+
+| Area | Host | What kids do |
+|---|---|---|
+| ⭐ **Learning Path** | Zoomi | A new 4-stop path every day: literacy, maths, science or music, and creative or social play. It adapts to age, and to what Pip is forgetting. |
+| ✏️ **ABC Tracing** | Mona | Trace all 26 letters with a finger, stroke by stroke in writing order, with numbered start dots. Younger children get a wider tracing lane. |
+| 🔬 **Science Lab** | Kiki, Mona, Brocco | Mini experiments: **Sink or Float** (predict, then watch), **Color Mixing** (find all 6 mixes), **Grow a Plant** (balance water and sunshine). |
+| 🧩 **STEM Games** | Bobble | **Pattern Party** levels up after two right answers in a row and eases off after two misses. Plus **Teach Pip** (below). |
+| 🏠 **Playhouse** | Roarbow | Open-ended pretend play: pick a room, bring in any ZoomikoKids friends and toys, move them anywhere, and tap a friend to hear them talk. No goals, no score. |
+| 🍳 **Kitchen** | Peely & Grumbo | Open-ended cooking: bowl, blender, pot or pizza, any ingredients, stir, then serve to a friend who reacts. |
+| 🎵 **Song Time** | The Woogles | A sing-along where each Woogle opens its big mouth on its line, and a **Copy Me** sound-memory game that gets longer as kids succeed. |
+| 🌿 **Calm Room** | Snoozle | A Montessori-inspired, low-stimulation room: free drawing with natural colours and wooden shapes to arrange. No voice, no sounds, no rewards, no timers. |
+| 👽 **Teach Pip** | Pip | The child teaches a baby alien, catches its mistakes, re-teaches what it forgets, goes on Earth Missions and reads Pip's letters home. |
+
+Safe by design: no ads, no in-app purchases, no accounts, no network. Progress stays on the device.
+A grown-ups area (behind a multiplication question) has the child's age setting, daily time limit,
+voice on/off and progress.
+
+**About "academic backing":** activities are organised by the broad areas used in early-years
+frameworks (literacy, maths, science, creative arts, social-emotional, self-regulation) and use
+well-studied techniques (spaced repetition, learning by teaching, error detection). The app has
+**not** been reviewed or endorsed by an education body. Get that review before claiming academic
+backing in a store listing.
+
+## Characters
+
+Drawn as simple 2D app versions from the ZoomikoKids character sheets, using the sheets' colours:
+Zoomi, Roarbow, Peely, Mona, Kiki, Puddle, Grumbo, the Woogles (Bloop, Fuzzle, Bobble, Snoozle),
+Nibbles, Pinky, Rio and Brocco. All live in `src/zk/characters.tsx`. To use your real 3D renders
+instead, swap a character's drawing for an image.
+
+---
+
+# 👽 Teach Pip (inside the app)
 
 Every other kids' app makes the child the student. **Teach Pip turns it around: the child is the teacher.**
 
@@ -68,7 +104,7 @@ npx eas-cli@latest submit --platform ios
 ```
 
 Before submitting, replace the placeholder icons in `assets/` and update the bundle IDs in `app.json`
-(`com.teachpip.app`). Apple's Kids Category and Google's Designed for Families programmes require
+(`com.zoomikokids.play`). Apple's Kids Category and Google's Designed for Families programmes require
 no third-party ads or analytics. This app has none.
 
 ## Code map
@@ -81,7 +117,8 @@ src/engine/session.ts   builds a lesson: teach/check rounds, Pip's mistakes, int
 src/state/store.tsx     persisted app state (AsyncStorage)
 src/components/Pip.tsx  Pip itself: SVG, 7 moods, 4 evolution stages, blinking, floating
 src/content/missions.ts real-world Earth Missions for each planet
-src/screens/            Onboarding, Home, Planets, Teach, Brain, Mission, Letters, Grownups, Sleep
+src/screens/            Teach Pip screens: Onboarding, Home, Planets, Teach, Brain, Mission, Letters; Grownups, Sleep
+src/zk/                 ZoomikoKids hub: characters, tracing letters, curriculum, screens/
 ```
 
 ### Add a new concept

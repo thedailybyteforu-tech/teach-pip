@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Pressable, ScrollView, StyleSheet, Switch, Text, View } from 'react-native';
 import { SUBJECTS } from '../content';
+import type { AgeBand } from '../types';
 import { retention } from '../engine/memory';
 import { today, useStore } from '../state/store';
 import { hush } from '../lib/voice';
@@ -9,6 +10,11 @@ import { C, R } from '../theme';
 import { BigButton, IconButton, ProgressBar, T } from '../components/ui';
 
 const LIMITS: (number | null)[] = [10, 20, 30, 45, null];
+const AGES: [AgeBand, string][] = [
+  ['little', 'Ages 2–3'],
+  ['middle', 'Ages 3–5'],
+  ['big', 'Ages 5–7'],
+];
 
 /** A multiplication question keeps little ones out but takes a grown-up two seconds. */
 function Gate({ onPass, onBack }: { onPass: () => void; onBack: () => void }) {
@@ -79,6 +85,39 @@ export function Grownups({ onBack }: { onBack: () => void }) {
           <Text style={T.body}>
             {usedMin} min played · 🔥 {data.streak.count}-day streak · {s.rounds} questions answered in total · 🌍{' '}
             {data.missions.length} Earth Missions done
+          </Text>
+        </View>
+
+        <View style={styles.card}>
+          <Text style={styles.cardTitle}>👶 Child's age</Text>
+          <Text style={T.body}>Sets tracing help, pattern difficulty, song length and the daily path.</Text>
+          <View style={styles.limits}>
+            {AGES.map(([k, label]) => (
+              <Pressable
+                key={k}
+                onPress={() => update((d) => ({ ...d, zk: { ...d.zk, age: k } }))}
+                style={[styles.limit, data.zk.age === k && styles.limitOn]}
+              >
+                <Text style={styles.limitText}>{label}</Text>
+              </Pressable>
+            ))}
+          </View>
+        </View>
+
+        <View style={styles.card}>
+          <Text style={styles.cardTitle}>🌈 ZoomikoKids progress</Text>
+          <Text style={T.body}>
+            ✏️ Letters traced: {Object.keys(data.zk.traced).length} of 26{'\n'}
+            🔬 Experiments run: {Object.values(data.zk.experiments).reduce((a, b) => a + b, 0)}{'\n'}
+            🔴 Pattern level: {data.zk.patternLevel} of 6{'\n'}
+            🎵 Longest sound sequence copied: {data.zk.songBest}{'\n'}
+            🍳 Dishes cooked: {data.zk.dishes}{'\n'}
+            ⭐ Today's learning path: {data.zk.path.date === today() ? data.zk.path.done.length : 0} activities done
+          </Text>
+          <Text style={[T.small, { marginTop: 8 }]}>
+            Activities are organised by the broad areas used in early-years frameworks: literacy, maths, science,
+            creative arts, social-emotional play and self-regulation. The app has not been reviewed or endorsed by an
+            education body.
           </Text>
         </View>
 

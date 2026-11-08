@@ -100,6 +100,26 @@ export interface DayLog {
   missions: string[];
 }
 
+export type AgeBand = 'little' | 'middle' | 'big';
+
+/** Kinds of activity in the ZoomikoKids hub, used by the daily learning path. */
+export type ActivityKind = 'trace' | 'science' | 'pattern' | 'teach' | 'song' | 'cook' | 'play' | 'calm';
+
+/** Progress in the ZoomikoKids hub. */
+export interface ZkProgress {
+  age: AgeBand;
+  /** Letters traced, and how many times. */
+  traced: Record<string, number>;
+  experiments: Record<string, number>;
+  dishes: number;
+  patternLevel: number;
+  songBest: number;
+  /** Today's learning path: which activity kinds are done. */
+  path: { date: string; done: ActivityKind[] };
+  /** Activity counts per kind, for balancing the daily path. */
+  counts: Partial<Record<ActivityKind, number>>;
+}
+
 export interface AppData {
   version: 1;
   onboarded: boolean;
@@ -114,4 +134,5 @@ export interface AppData {
   missions: { date: string; text: string; emoji: string }[];
   /** Recent days, newest first. */
   diary: DayLog[];
+  zk: ZkProgress;
 }
