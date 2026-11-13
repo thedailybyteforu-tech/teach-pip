@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "Nose to Nose",
+    "slug": "nose-to-nose",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#FFF7EC",
+    "ios": { "supportsTablet": true, "bundleIdentifier": "com.nosetonose.app" },
+    "android": {
+      "package": "com.nosetonose.app",
+      "adaptiveIcon": { "backgroundColor": "#FFF7EC", "foregroundImage": "./assets/icon-fg.png" }
+    },
+    "web": { "favicon": "./assets/favicon.png" }
+  }
+}
