@@ -9,11 +9,13 @@ import { Describe } from './src/games/Describe';
 import { Launch } from './src/games/Launch';
 import { Draw } from './src/games/Draw';
 import { Talk } from './src/games/Talk';
+import { Hide } from './src/games/Hide';
 
-type Route = 'home' | 'describe' | 'launch' | 'draw' | 'talk';
+type Route = 'home' | 'describe' | 'hide' | 'launch' | 'draw' | 'talk';
 
 const GAMES: { id: Exclude<Route, 'home'>; emoji: string; title: string; sub: string; color: string }[] = [
   { id: 'describe', emoji: '🗣️', title: 'Describe It', sub: 'One describes, one finds. Then swap!', color: '#FFE3D9' },
+  { id: 'hide', emoji: '🙈', title: 'Hide and Seek', sub: 'Hide it, then say warmer or colder', color: '#DFF0D2' },
   { id: 'launch', emoji: '🚀', title: 'Launch Together', sub: 'Both hold on... 3, 2, 1!', color: '#FFF0C2' },
   { id: 'draw', emoji: '🖍️', title: 'Draw Together', sub: 'One page, two artists', color: '#D6F1EF' },
   { id: 'talk', emoji: '💬', title: 'Talk Time', sub: 'Pick in secret, then tell why', color: '#E8E0FA' },
@@ -32,7 +34,7 @@ function Home({ go }: { go: (r: Route) => void }) {
   const { data } = useStore();
   const [why, setWhy] = useState(false);
   const [idea] = useState(() => pick(POCKET));
-  const moments = data.describe + data.launches + data.drawings + data.talks;
+  const moments = data.describe + data.launches + data.drawings + data.talks + data.hides;
   return (
     <ScrollView contentContainerStyle={styles.home}>
       <Text style={styles.logo}>
@@ -81,6 +83,7 @@ function Home({ go }: { go: (r: Route) => void }) {
           <Text style={styles.noteText}>
             Most kids' apps are built for a child alone. This one cannot be played alone: every game needs both of you, talking.
             {'\n\n'}• Describe It is a "barrier game", a classic way to grow describing and listening skills.
+            {'\n'}• Hide and Seek makes the hider give clues in words: warmer, colder.
             {'\n'}• Launch Together practises waiting, eye contact and doing something at the same moment.
             {'\n'}• Draw Together and Talk Time are just reasons to chat.
             {'\n\n'}There are no scores against each other, no ads, no purchases and no accounts. Nothing leaves this device. A few minutes is plenty.
@@ -97,6 +100,7 @@ function Main() {
   if (route === 'describe') return <Describe onExit={home} />;
   if (route === 'launch') return <Launch onExit={home} />;
   if (route === 'draw') return <Draw onExit={home} />;
+  if (route === 'hide') return <Hide onExit={home} />;
   if (route === 'talk') return <Talk onExit={home} />;
   return <Home go={setRoute} />;
 }

@@ -10,15 +10,16 @@ export interface Data {
   launches: number;
   drawings: number;
   talks: number;
+  hides: number;
 }
-const fresh: Data = { days: [], describe: 0, launches: 0, drawings: 0, talks: 0 };
+const fresh: Data = { days: [], describe: 0, launches: 0, drawings: 0, talks: 0, hides: 0 };
 
 export const today = () => {
   const d = new Date();
   return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
 };
 
-type Counter = 'describe' | 'launches' | 'drawings' | 'talks';
+type Counter = 'describe' | 'launches' | 'drawings' | 'talks' | 'hides';
 const Ctx = createContext<{ data: Data; bump: (k: Counter) => void }>({ data: fresh, bump: () => {} });
 
 export function StoreProvider({ children }: { children: React.ReactNode }) {

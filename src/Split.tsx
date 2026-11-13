@@ -36,11 +36,11 @@ export function Tag({ side, note }: { side: Side; note?: string }) {
 }
 
 const styles = StyleSheet.create({
-  half: { flex: 1, alignItems: 'center', justifyContent: 'center', padding: 12 },
+  half: { flex: 1, alignItems: 'center', justifyContent: 'center', padding: 8, overflow: 'hidden' },
   bar: { height: 44, backgroundColor: C.ink, flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', paddingHorizontal: 8 },
   exit: { width: 36, height: 36, borderRadius: 18, backgroundColor: 'rgba(255,255,255,0.16)', alignItems: 'center', justifyContent: 'center' },
   exitText: { color: '#fff', fontSize: 16, fontWeight: '800' },
   title: { color: '#fff', fontWeight: '800', fontSize: 15, letterSpacing: 0.4 },
-  tag: { paddingHorizontal: 12, paddingVertical: 5, borderRadius: 14, alignSelf: 'center', marginBottom: 8 },
+  tag: { paddingHorizontal: 12, paddingVertical: 5, borderRadius: 14, alignSelf: 'center', marginBottom: 4 },
   tagText: { color: '#fff', fontWeight: '800', fontSize: 13 },
 });
